@@ -1,0 +1,17 @@
+# Ignore Obsidian cache files
+.obsidian/cache/*
+
+# Ignore Obsidian workspace files
+*.obsidian/workspace
+
+# Ignore any backup files
+*.bak
+
+# Ignore any temporary files
+*~
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows thumbnail files
+Thumbs.db
