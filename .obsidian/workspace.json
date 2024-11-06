@@ -16,21 +16,9 @@
                 "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "208ed1ab807e52c5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5370754c2176c0dc",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
+              },
+              "icon": "lucide-file",
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -53,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -68,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -76,15 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -108,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Class1：An Introduction of Embbeded systems"
             }
           },
           {
@@ -120,7 +115,9 @@
                 "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Class1：An Introduction of Embbeded systems"
             }
           },
           {
@@ -131,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -141,7 +140,9 @@
               "type": "outline",
               "state": {
                 "file": "Class1/Class1：An Introduction of Embbeded systems.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -158,8 +159,7 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "a0b19e99d3798182",
