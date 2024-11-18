@@ -14,7 +14,7 @@
 Class 1: An Introduction to Embedded Systems
 :::
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
-<!-- slide bg="[[image.jpg]]" -->
+<!-- slide bg="[[yylab_bg.png]]"-->
 
 ---
 ## Why Embedded Systems?
