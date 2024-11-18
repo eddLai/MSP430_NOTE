@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "2aaf41cdc8f54b9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "737c31ca7435ce5f",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
