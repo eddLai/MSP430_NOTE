@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a08083229cd7b67b",
+            "id": "e852c27a647d42d4",
             "type": "leaf",
             "state": {
-              "type": "reveal-preview-view",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Class1/Class1 lec slide english-version.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "Class1 lec slide english-version"
             }
           }
         ]
@@ -159,7 +163,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "a08083229cd7b67b",
+  "active": "e852c27a647d42d4",
   "lastOpenFiles": [
     "Class1/Class1：An Introduction of Embbeded systems.md"
   ]
