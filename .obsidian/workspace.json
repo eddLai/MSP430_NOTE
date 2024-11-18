@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -179,7 +180,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "67291265d6a386b9",
+  "active": "e852c27a647d42d4",
   "lastOpenFiles": [
     "yylab_bg.png",
     "Class1/Class1：An Introduction of Embbeded systems.md"
