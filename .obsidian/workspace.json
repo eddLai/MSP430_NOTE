@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class1/Class1 lec slide english-version.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class1 lec slide english-version"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9a8d176f1d53249d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "60ad1a33632e8f8c",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "Overview"
             }
           }
         ]
@@ -93,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -182,6 +165,7 @@
   },
   "active": "e852c27a647d42d4",
   "lastOpenFiles": [
+    "Class1/Class1 lec slide english-version.md",
     "yylab_bg.png",
     "Class1/Class1：An Introduction of Embbeded systems.md"
   ]
