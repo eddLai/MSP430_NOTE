@@ -12,6 +12,18 @@
 - Class 7：
 - Class 8：
 
+程式語言可以教
+- MSP430
+	- 嵌入式系統、環境建置+Arduino C LED閃爍
+	- Arduino C, 555Timer
+	- Embbeded C, 555Timer
+	- 通訊協定：RS232+UART，寫入USB
+- Github
+	- 專案管理，版本控制+多人協作
+- AWS
+	- 雲端運算、機器學習
+	- C wrapper for python API
+
 ---
 
 1.
