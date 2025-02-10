@@ -6,7 +6,7 @@
 	- [[CCS]]
 - Class 2：七段顯示器 (Embbed C+Arduino)、UART Arduino應用
 - Class 3：UART (Embbed C+Ti API介紹)
-- Class 4：
+- Class 4：用
 - Class 5：
 - Class 6：
 - Class 7：
