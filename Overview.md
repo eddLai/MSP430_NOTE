@@ -10,7 +10,7 @@
 - Class 5：
 - Class 6：
 - Class 7：
-- Class 8：
+- Class 8：C wrapper for python API
 
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
