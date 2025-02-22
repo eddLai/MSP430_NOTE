@@ -155,7 +155,8 @@ framework = arduino
 \
 <i class="fas fa-circle-notch fa-spin fa-2x"></i>
 交大電機DSP課寫機械碼，我們難度50%就好\
-不然過四年就是從頭輸到尾
+不然過四年就是從頭輸到尾\
+建議各位以後的課程要先預習否則會做不完
 
 ---
 附件：
