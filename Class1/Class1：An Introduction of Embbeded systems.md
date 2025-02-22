@@ -32,7 +32,8 @@ Class1：An Introduction of Embbeded systems
 </grid>
 
 <grid drag="50 10" drop="40 70">
-賴宏達、劉智翔
+TA: 賴宏達\
+eddlai.be10@nycu.edu.tw
 <!-- element style="font-size: 40px;align: right; text-align: right"-->
 </grid>
 <!-- element class="fragment fade-up" -->
