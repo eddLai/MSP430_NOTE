@@ -167,3 +167,48 @@ framework = arduino
 - [MSP430G2553 LaunchPad™ Development Kit (MSP-EXP430G2ET) User's Guide (Rev. A)](https://www.ti.com/lit/pdf/slau772)
 - [MSP430g2553 datasheet](https://www.ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1740213125627)
 - [MSP430G2553 User Guide](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1740236247753&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSP430G2553)
+
+---
+Attachments1:
+LED blinking in Arduino
+```Arduino C
+#include <Arduino.h>
+
+#define LED 
+
+//find pins_energia.h for more LED definitions
+  
+//  initialization and it runs once when you press reset:
+void setup() {                
+  // initialize the digital pin as an output.
+  pinMode();     
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  // turn the LED on and off depends on voltage level
+  // 加分題：每次等1, 2, ... ~10秒，累積時間越來越長
+}
+```
+
+---
+Attachments 2:
+LED blinking in CSS
+```C
+#include <msp430.h>				
+
+void main(void)
+{
+	WDTCTL = ;		// stop watchdog timer，
+	//watchdog用於確認系統響應正常，密碼or控制位
+	P1DIR = ;		// configure P1.0 as output
+
+	;		// 分配一個變量，記得volatile to prevent optimization
+
+	while(1)
+	{
+			// toggle P1.0
+			// delay 使用迴圈
+	}
+}
+```
