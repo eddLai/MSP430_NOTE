@@ -151,6 +151,7 @@ framework = arduino
 4. 完成[[LED blinking.c]]
 5. 提供debug log：遇到的問題+解決方法圖
 
+(下課前沒寫出來就扣分)\
 多使用chatgpt，但是嵌入式的code需要自己找出特化的定義
 \
 <i class="fas fa-circle-notch fa-spin fa-2x"></i>

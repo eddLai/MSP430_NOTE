@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class1：An Introduction of Embbeded systems"
+              "title": "Overview"
             }
           }
         ]
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
+                "file": "Overview.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class1：An Introduction of Embbeded systems"
+              "title": "Backlinks for Overview"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
+                "file": "Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class1：An Introduction of Embbeded systems"
+              "title": "Outline of Overview"
             }
           }
         ],
@@ -187,8 +187,8 @@
   },
   "active": "e852c27a647d42d4",
   "lastOpenFiles": [
-    "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
+    "Overview.md",
     "Class1/LED blinkin.md",
     "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf",
     "NTKLab_white bg.png",
