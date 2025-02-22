@@ -111,7 +111,7 @@ OR運算后 = 0000 0011
 ---
 ## 中斷服務例程（ISR）
 除了事件通知，也是用作系統運作的優化(多工、優先級處理)
-<!-- element style="font-size: 40px;text-align: left;"-->
+
 例如: 使用ISR讓UART發送不需要放在主循環中
 將發送和接收邏輯被封裝在ISR中，這是驅動程序的一部分，但它是由硬件中斷驅動的，不是由主循環驅動的。
 <!-- element style="font-size: 25px;text-align: left;"-->
