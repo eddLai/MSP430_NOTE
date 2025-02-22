@@ -96,3 +96,16 @@ From YY：
 - [Lesson 9: UART – Simply Embedded](http://www.simplyembedded.org/tutorials/msp430-uart/)
 - [MSP430 Fundamentals Workshop (ti.com)](https://software-dl.ti.com/ccs/esd/training/workshop/ccsv9/ccs_msp430_fundamentals_workshop.html#requirements)
 - [（十）msp430：7段显示器与MSP-EXP430G2 TI Launchpad连接 – 趣讨教 (qutaojiao.com)](https://www.qutaojiao.com/18851.html)
+
+---
+Subject: Reminder: Bring Your Laptop for Next Tuesday’s Programming Class
+
+Dear Students,
+
+Next Tuesday, our Programming Language class will involve live coding. The class will be held at the Circuit Laboratory next to the General Physics Laboratory (located between the Biomedical Engineering Building 1F and the Experimental Building B1).
+
+Please make sure to bring your laptop for the session. Additionally, reviewing the slides in advance may help you complete the exercises before the class ends.
+
+Best regards,
+賴宏達
+Teaching Assistant
