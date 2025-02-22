@@ -67,7 +67,6 @@ eddlai.be10@nycu.edu.tw
 - 永久安全容絲%% 免受電器故障影響 %%
 - 引導程序的256位密碼保護
 - 內建RTC用於時間追蹤以及睡眠喚醒
-<!-- element style="font-family:標楷體; font-size: 40px;"-->
 
 <grid drag="80 20" drop="bottom" bg="gray">
 「MSP430 在 3V 系统中以 1MIPS 工作状态下只消耗电流约 250μA，而且它可以从 0.8μA 的 待机状态下在 1μs（F2xx 系列）内唤醒进入全速运行模式。」
