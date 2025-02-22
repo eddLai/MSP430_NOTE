@@ -153,8 +153,10 @@ framework = arduino
 3. 下載CSS開發環境
 4. 完成[[LED blinking.c]]
 <i class="fas fa-circle-notch fa-spin fa-2x"></i>
-\交大電機寫DSP寫機械碼，我們難度50%就好
-過四年就是從頭輸到尾
+
+\
+交大電機DSP課寫機械碼，我們難度50%就好\
+不然過四年就是從頭輸到尾
 
 ---
 附件：
