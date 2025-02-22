@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,7 +185,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6a9f29f2eb9d31ac",
+  "active": "e852c27a647d42d4",
   "lastOpenFiles": [
     "Class1/LED blinkin.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",

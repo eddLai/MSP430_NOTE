@@ -159,6 +159,6 @@ framework = arduino
 
 ---
 附件：
-
-A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF / MSP-FET / eZ-FET)
+- A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF / MSP-FET / eZ-FET)
+- 
 
