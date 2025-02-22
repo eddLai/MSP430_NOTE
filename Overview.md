@@ -6,11 +6,11 @@
 	- [[CCS]]
 - Class 2：七段顯示器 (Embbed C+Arduino)、UART Arduino應用
 - Class 3：UART (Embbed C+Ti API介紹)
-- Class 4：用MCU做
+- Class 4：打出弦波
 - Class 5：
 - Class 6：
-- Class 7：
-- Class 8：C wrapper for python API
+- Class 7：使用API
+- Class 8：做自己的API C wrapper for python API
 
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
