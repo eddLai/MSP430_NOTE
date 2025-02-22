@@ -128,8 +128,8 @@ OR運算后 = 0000 0011
 2. 下載完成後，建立專案
 
 ---
-檔案架構
-<!-- element style="font-size: 70px;text-align: left;"-->
+# 檔案架構
+
 
 - .ini檔案：PlatformIO項目配置檔案，提供IDE編譯方式
 ```
@@ -146,7 +146,6 @@ framework = arduino
 
 ---
 # 本日任務
-<i class="fas fa-circle-notch fa-spin fa-2x"></i>
 
 1. 設定platformIO
 2. 完成Arduino framework的[[LED blinkin]]
@@ -154,6 +153,7 @@ framework = arduino
 4. 完成[[LED blinking.c]]
 
 \
+<i class="fas fa-circle-notch fa-spin fa-2x"></i>
 交大電機DSP課寫機械碼，我們難度50%就好\
 不然過四年就是從頭輸到尾
 
