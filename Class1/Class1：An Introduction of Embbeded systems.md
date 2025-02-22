@@ -145,14 +145,13 @@ framework = arduino
 操作：Build、Upload、Monitor、Clean
 
 ---
-本日任務
-<!-- element style="font-size: 70px;text-align: left;"-->
+# 本日任務
+<i class="fas fa-circle-notch fa-spin fa-2x"></i>
 
 1. 設定platformIO
 2. 完成Arduino framework的[[LED blinkin]]
 3. 下載CSS開發環境
 4. 完成[[LED blinking.c]]
-<i class="fas fa-circle-notch fa-spin fa-2x"></i>
 
 \
 交大電機DSP課寫機械碼，我們難度50%就好\
