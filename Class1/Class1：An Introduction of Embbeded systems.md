@@ -26,9 +26,9 @@ bg: "[[NTKLab_white bg.png]]"
 		border: 1px solid red;
 	}
 </style>
-<grid drag="60 10" drop="-3 40">
+<grid drag="70 10" drop="-3 40">
 Class1：An Introduction of Embbeded systems
-<!-- element style="background-color: black; font-size: 70px;align: left; text-align: left;color: white"-->
+<!-- element style="background-color: black; font-size: 60px;align: left; text-align: left;color: white"-->
 </grid>
 
 <grid drag="50 10" drop="40 70">
