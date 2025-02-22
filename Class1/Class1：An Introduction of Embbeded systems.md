@@ -11,7 +11,6 @@
 		border: 1px solid red;
 	}
 </style>
----
 <!-- element class="fragment fade-up" -->
 ::: block<!-- element style="background-color: black; font-family:Time new roman; font-size: 80px;"-->
 Class1：An Introduction of Embbeded systems
