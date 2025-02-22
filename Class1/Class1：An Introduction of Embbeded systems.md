@@ -160,6 +160,6 @@ framework = arduino
 ---
 附件：
 - A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF / MSP-FET / eZ-FET)
-- [ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1740213125627](https://www.ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1740213125627)
+- [MSP430 datasheet](https://www.ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1740213125627)
 - [MSP430G2553 User Guide](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1740236247753&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSP430G2553)
 
