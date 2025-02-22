@@ -34,12 +34,8 @@ Class1：An Introduction of Embbeded systems
 <grid drag="50 10" drop="40 70">
 TA: 賴宏達\
 eddlai.be10@nycu.edu.tw
-<!-- element style="background-color: black;font-size: 40px;align: right; text-align: right"-->
+<!-- element style="background-color: black;font-size: 40px;align: right; text-align: right;color: white"-->
 </grid>
-<!-- element class="fragment fade-up" -->
-::: block<!-- element style="background-color: black; font-family:Time new roman; font-size: 80px;"-->
-Class1：An Introduction of Embbeded systems
-:::
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
