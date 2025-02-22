@@ -56,7 +56,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -93,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -180,8 +180,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "698219ecfbf1f927",
+  "active": "67291265d6a386b9",
   "lastOpenFiles": [
+    "NTKLab_white bg.png",
+    "NTKLab_white bg_cover_resize.png",
     "Overview.md",
     "Class1/Class1 lec slide english-version.md",
     "yylab_bg.png",
