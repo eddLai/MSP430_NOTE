@@ -150,7 +150,7 @@ framework = arduino
 3. 下載CSS開發環境
 4. 完成[[LED blinking.c]]
 
-多使用chatgpt，但是嵌入式的code需要自己找出
+多使用chatgpt，但是嵌入式的code需要自己找出特化的定義
 \
 <i class="fas fa-circle-notch fa-spin fa-2x"></i>
 交大電機DSP課就在機械碼，我們難度50%就好\
