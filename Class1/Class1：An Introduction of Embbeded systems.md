@@ -39,7 +39,7 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-## Why Embedded system ?
+# Why Embedded system ?
 <div style="font-family:標楷體; text-align: left;">
 嵌入式平台可以做什麼?<br>
 舉例：(==記得準備期末專題==)<br>
@@ -59,7 +59,7 @@ eddlai.be10@nycu.edu.tw
 <!-- element class="with-border" -->
 
 ---
-### Why MSP430?
+# Why MSP430?
 %% 適合醫材 %%
 - 超低功耗
 - 降低EMI的影響%% 電磁干擾 %%
@@ -86,7 +86,7 @@ eddlai.be10@nycu.edu.tw
 CSS環境編譯器會幫忙確保最低功耗，好處之一。
 
 ---
-## Whtat's Embedded C
+# Whtat's Embedded C
 標準C語言是寫給高運算能力的電腦用的，也就是說有操作系統，例如：Mac, Window, Linux
 但如果要在單晶片上使用就需要各種優化。
 一些特殊的語法，例如：
