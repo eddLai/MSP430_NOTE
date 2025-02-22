@@ -55,7 +55,7 @@ eddlai.be10@nycu.edu.tw
 + 機器手臂
 + 自走車
 + 溜索 %%
-(很多專案都是開源的) %% 解釋開源 %%
+(很多專案都是開源的，解釋opensource)
 <!-- element class="with-border" -->
 
 ---
