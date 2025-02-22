@@ -28,13 +28,13 @@ bg: "[[NTKLab_white bg.png]]"
 </style>
 <grid drag="60 10" drop="-3 40">
 Class1：An Introduction of Embbeded systems
-<!-- element style="font-size: 70px;align: left; text-align: left;color: white"-->
+<!-- element style="background-color: black; font-size: 70px;align: left; text-align: left;color: white"-->
 </grid>
 
 <grid drag="50 10" drop="40 70">
 TA: 賴宏達\
 eddlai.be10@nycu.edu.tw
-<!-- element style="font-size: 40px;align: right; text-align: right"-->
+<!-- element style="background-color: black;font-size: 40px;align: right; text-align: right"-->
 </grid>
 <!-- element class="fragment fade-up" -->
 ::: block<!-- element style="background-color: black; font-family:Time new roman; font-size: 80px;"-->
