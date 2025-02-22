@@ -104,7 +104,7 @@ Dear Students,
 
 Next Tuesday, our Programming Language class will involve live coding. The class will be held at the Circuit Laboratory next to the General Physics Laboratory (located between the Biomedical Engineering Building 1F and the Experimental Building B1).
 
-Please make sure to bring your laptop for the session. It is better to use a personal computer since using an unfamiliar computer may significantly slow down the setup process Additionally, reviewing the slides in advance may help you complete the exercises before the class ends.
+Please make sure to bring your laptop for the session. It is better to use a personal computer since using an computer you are not familiar with may significantly slow down the setup process Additionally, reviewing the slides in advance may help you complete the exercises before the class ends.
 
 Best regards,
 賴宏達
