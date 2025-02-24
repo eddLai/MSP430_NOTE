@@ -4,8 +4,8 @@
 	- [[Class1：An Introduction of Embbeded systems]]
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
-- Class 2：七段顯示器 (Embbed C+Arduino)、UART Arduino應用
-- Class 3：Array leetcode題目
+- Class 2：控制
+- Class 3：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
 - Class 4：打出弦波
 - Class 5：UART (Embbed C+Ti API介紹)
 - Class 6：
