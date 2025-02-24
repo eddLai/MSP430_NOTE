@@ -1,5 +1,6 @@
 [CCS Note Content | CCS 教學系列目錄. 入門系列文章 | by Hsueh-Ju Wu 吳學儒 | TI Code Composer Studio | Medium](https://medium.com/ti-tms320f2837xd/ccs-note-content-ccs-%E6%95%99%E5%AD%B8%E7%B3%BB%E5%88%97%E7%9B%AE%E9%8C%84-590100673feb)
 ## 大綱
+- debug tree
 - Class 1介紹：閃燈 (Embbed C+Arduino)
 	- [[Class1：An Introduction of Embbeded systems]]
 	- [[Class1 lec slide english-version]]
@@ -12,6 +13,7 @@
 - Class 7抽象化：做自己的API C wrapper for python API
 - Class 8資料結構：
 - Class 8物件導向
+- 
 
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
