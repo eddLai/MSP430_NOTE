@@ -1,11 +1,11 @@
 [CCS Note Content | CCS 教學系列目錄. 入門系列文章 | by Hsueh-Ju Wu 吳學儒 | TI Code Composer Studio | Medium](https://medium.com/ti-tms320f2837xd/ccs-note-content-ccs-%E6%95%99%E5%AD%B8%E7%B3%BB%E5%88%97%E7%9B%AE%E9%8C%84-590100673feb)
 ## 大綱
-- Class 1：閃燈 (Embbed C+Arduino)
+- Class 1介紹：閃燈 (Embbed C+Arduino)
 	- [[Class1：An Introduction of Embbeded systems]]
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
-- Class 2：控制特定的寄存器，bitbang，自傳UART
-- Class 3：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
+- Class 2加減：控制特定的寄存器，bitbang，自傳UART
+- Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
 - Class 4：打出弦波
 - Class 5：UART (Embbed C+Ti API介紹)
 - Class 6：
