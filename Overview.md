@@ -1,5 +1,7 @@
 [CCS Note Content | CCS 教學系列目錄. 入門系列文章 | by Hsueh-Ju Wu 吳學儒 | TI Code Composer Studio | Medium](https://medium.com/ti-tms320f2837xd/ccs-note-content-ccs-%E6%95%99%E5%AD%B8%E7%B3%BB%E5%88%97%E7%9B%AE%E9%8C%84-590100673feb)
 ## 大綱
+進度表格：https://docs.google.com/spreadsheets/d/1Q5lRjRBiwN_YJWAx8VdnXJqRml5ew77iE20tfGScxh0/edit?usp=sharing
+
 - debug tree
 - Class 1介紹：閃燈 (Embbed C+Arduino)
 	- [[Class1：An Introduction of Embbeded systems]]
