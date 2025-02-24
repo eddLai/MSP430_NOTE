@@ -13,7 +13,6 @@
 - Class 7抽象化：做自己的API C wrapper for python API
 - Class 8資料結構：
 - Class 8物件導向
-- 
 
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
