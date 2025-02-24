@@ -10,7 +10,8 @@
 - Class 5函式化：UART (Embbed C+Ti API介紹)
 - Class 6抽象化：使用API
 - Class 7抽象化：做自己的API C wrapper for python API
-- Class 8：
+- Class 8資料結構：
+- 
 
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
