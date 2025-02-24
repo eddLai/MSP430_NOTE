@@ -8,9 +8,9 @@
 - Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
 - Class 4函式化：打出弦波
 - Class 5函式化：UART (Embbed C+Ti API介紹)
-- Class 6：
-- Class 7抽象化：使用API
-- Class 8抽象化：做自己的API C wrapper for python API
+- Class 6抽象化：使用API
+- Class 7抽象化：做自己的API C wrapper for python API
+- Class 8：
 
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
