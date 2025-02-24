@@ -6,6 +6,7 @@
       {
         "id": "29d44ccbee8980ef",
         "type": "tabs",
+        "dimension": 19.983818770226538,
         "children": [
           {
             "id": "e852c27a647d42d4",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "aa07e4d96244161e",
         "type": "tabs",
+        "dimension": 80.01618122977347,
         "children": [
           {
             "id": "b980acda8f75654d",
@@ -186,8 +188,8 @@
   },
   "active": "e852c27a647d42d4",
   "lastOpenFiles": [
-    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Overview.md",
+    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
     "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf",
