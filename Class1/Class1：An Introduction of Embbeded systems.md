@@ -39,7 +39,7 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-## 
+
 一桌4~5人，
 
 
