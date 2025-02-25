@@ -157,7 +157,7 @@ framework = arduino
 3. 下載Code Composer Studio開發環境
 4. 完成[[LED blinking.c]]
 5. 提供debug log：遇到的問題+解決方法圖(做完的可以先走，但是要報告一下這個)
-
+>wifi: Asus2.4G\
 \
 多使用chatgpt，但是嵌入式的code需要自己找出特化的定義
 \
