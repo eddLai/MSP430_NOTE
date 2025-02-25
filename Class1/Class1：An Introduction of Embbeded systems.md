@@ -39,6 +39,11 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
+## 
+一桌4~5人，
+
+
+---
 # Why Embedded system ?
 <div style="font-family:標楷體; text-align: left;">
 嵌入式平台可以做什麼?<br>
