@@ -41,7 +41,8 @@ eddlai.be10@nycu.edu.tw
 ---
 
 一桌4~5人，
-
+wifi: Asus2.4G\
+密碼nycu87557573
 
 ---
 # Why Embedded system ?
