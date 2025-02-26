@@ -9,9 +9,9 @@
 	- [[CCS]]
 	- [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
-	- 隨機變化的二補數，所以要用code寫，然後pr
+	- 隨機變化的二補數，所以要用code寫，然後print出一樣的結果
 	- HW：
-		- 重要的是框架設計圖
+		- 重要的是框架設計圖+遇到的bug
 		- 計算這個UART的最高速度，用bitbang的方法?
 - Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
 - Class 4函式化：打出PWM
