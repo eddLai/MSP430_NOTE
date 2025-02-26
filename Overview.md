@@ -14,7 +14,7 @@
 		- Two's components
 		- One's Complement
 		- IEEE-754 float
-	- 10:45課堂中蒐集bug，一次回答+教怎麼做debug tree
+	- 10:45課堂中蒐集bug，一次回答+教怎麼做debug tree+公布一些簡單的code
 	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
 		- 計算這個UART的最高速度，用bitbang的方法?
