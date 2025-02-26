@@ -4,10 +4,11 @@
 
 - debug tree
 - Class 1介紹：閃燈 (Embbed C+Arduino)
-	- [[Class1：An Introduction of Embbeded systems]]，上課直接發Ee
+	- [[Class1：An Introduction of Embbeded systems]]，上課直接發Energia做測試+MSP430 hint
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
-	- [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
+	- Mac[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
+	- 
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
 	- 隨機變化的二補數，所以要用code寫計算，然後print出一樣的結果(不給漂亮的圖)
 	- 課堂中蒐集
