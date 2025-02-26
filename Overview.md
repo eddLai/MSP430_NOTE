@@ -11,9 +11,9 @@
 	- 
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
 	- 隨機變化的二補數，所以要用code寫計算，然後print出一樣的結果(不給漂亮的圖)
-		- 
-		- 正負號
-		- 
+		- Two's components
+		- One's Complement
+		- IEEE-754 float
 	- 10:45課堂中蒐集bug，一次回答+教怎麼做debug tree
 	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
