@@ -18,6 +18,8 @@
 	- 10:45課堂中蒐集bug，一次回答+教怎麼做debug tree+公布一些簡單的code
 	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
+		- (上面沒做完的)
+		- 板子之間溝通
 		- %% 計算這個UART的最高速度，用bitbang的方法? %%
 - Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
 	- 材料：按鈕+七段顯示器
