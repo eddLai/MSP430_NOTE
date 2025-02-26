@@ -9,6 +9,7 @@
 	- [[CCS]]
 	- [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
+	- 隨機變化的二補數，所以要用code寫，然後pr
 	- HW：
 		- 重要的是框架設計圖
 		- 計算這個UART的最高速度，用bitbang的方法?
