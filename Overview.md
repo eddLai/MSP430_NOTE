@@ -10,7 +10,7 @@
 	- Mac 環境：[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 	- 
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
-	- 隨機變化的一組補碼字串，要寫code進行計算，然後print出一樣的結果(不給漂亮的圖)
+	- 螢幕上顯示一組結果+透過UART隨機變化的一組補碼字串，要寫code進行計算，然後print出一樣的結果(不給漂亮的圖)
 		- Two's components
 		- One's Complement
 		- IEEE-754 float
