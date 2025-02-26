@@ -7,6 +7,7 @@
 	- [[Class1：An Introduction of Embbeded systems]]
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
+	- [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
 	- HW：
 		- 重要的是框架設計圖
