@@ -10,6 +10,7 @@
 	- Mac 環境：[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 	- 
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
+	- 材料：USB_TTL轉換板
 	- 螢幕上顯示一組數字+透過UART送出隨機變化的一組補碼字串，要寫code進行計算，然後print出一樣的結果(不給漂亮的圖)
 		- Two's components
 		- One's Complement
@@ -17,8 +18,9 @@
 	- 10:45課堂中蒐集bug，一次回答+教怎麼做debug tree+公布一些簡單的code
 	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
-		- 計算這個UART的最高速度，用bitbang的方法?
+		- %% 計算這個UART的最高速度，用bitbang的方法? %%
 - Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
+	- 按鈕+
 - Class 4函式化：打出PWM
 - Class 5函式化：UART (Embbed C+Ti API介紹)
 - Class 6抽象化：使用API，DSP庫，ADC
