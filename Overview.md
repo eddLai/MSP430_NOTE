@@ -10,7 +10,7 @@
 	- [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
 	- 隨機變化的二補數，所以要用code寫計算，然後print出一樣的結果(不給漂亮的圖)
-	- HW：買一堆UART轉TTL(現有一個，要再多買6個)
+	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
 		- 計算這個UART的最高速度，用bitbang的方法?
 - Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
