@@ -23,6 +23,7 @@
 		- %% 計算這個UART的最高速度，用bitbang的方法? %%
 - Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用+Array leetcode題目
 	- 材料：按鈕+七段顯示器
+- Class 4 手刻Uart
 - Class 4函式化：打出PWM
 	- 馬達
 - Class 5函式化：UART (Embbed C+Ti API介紹)
