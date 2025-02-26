@@ -7,11 +7,11 @@
 	- [[Class1：An Introduction of Embbeded systems]]，上課直接發Energia做測試+MSP430 hint
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
-	- Mac[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
+	- Mac 環境：[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 	- 
 - Class 2加減：控制特定的寄存器，bitbang，自傳UART
 	- 隨機變化的二補數，所以要用code寫計算，然後print出一樣的結果(不給漂亮的圖)
-	- 課堂中蒐集
+	- 10:30課堂中蒐集bug，一次回答+
 	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
 		- 計算這個UART的最高速度，用bitbang的方法?
