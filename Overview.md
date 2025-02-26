@@ -21,10 +21,10 @@
 		- (上面沒做完的)
 		- 板子之間溝通
 		- %% 計算這個UART的最高速度，用bitbang的方法? %%
-- Class 3迴圈：七段顯示器 (Embbed C+Arduino)、UART Arduino應用
+- Class 3迴圈：七段顯示器 (Embbed C+Arduino)
 	- 材料：按鈕+七段顯示器
 - Class 4 函式化：手刻Uart+Ti API
-- Class 4 函式化：Array leetcode題目
+- Class 4 函式化：Array leetcode題目+swig
 - Class 5函式化：PWM
 - Class 6抽象化：使用API，DSP庫，ADC
 - Class 7抽象化：做自己的API C wrapper for python API
