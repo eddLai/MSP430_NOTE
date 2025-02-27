@@ -100,7 +100,7 @@ Homework: 漂亮的圖+Bug Log
 - RX, TX相反
 - baudrate一定要對
 -  歡迎使用 UART 測試工具
-請輸入 UART 端口 (如 COM3 / /dev/ttyUSB0): COM12()
+請輸入 UART 端口 (如 COM3 / /dev/ttyUSB0): COM14(注意)
 
 ---
 # USB
