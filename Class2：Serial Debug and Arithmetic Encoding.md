@@ -101,6 +101,7 @@ Homework: 漂亮的圖+Bug Log
 ![[Debug interface.png]]
 
 ---
+一開始就給
 ```C++
 #include <Arduino.h>
 
