@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -202,7 +201,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "9b9315576392ae8c",
+  "active": "0d76ff36e05d58c4",
   "lastOpenFiles": [
     "Class2 result.png",
     "Class2：Serial Debugging and Arithmetic Encoding.md",
