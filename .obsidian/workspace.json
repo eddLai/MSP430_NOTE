@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class1：An Introduction of Embbeded systems"
+              "title": "Overview"
             }
           },
           {
@@ -33,6 +33,23 @@
               },
               "icon": "lucide-file",
               "title": "Class2：Serial Debug and Arithmetic Encoding"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "88e7ee46fc6d54a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c018a373f8cfa42",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -182,11 +199,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e852c27a647d42d4",
+  "active": "2c018a373f8cfa42",
   "lastOpenFiles": [
-    "Class2：Serial Debug and Arithmetic Encoding.md",
-    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Overview.md",
+    "Class1/Class1：An Introduction of Embbeded systems.md",
+    "Class2：Serial Debug and Arithmetic Encoding.md",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
     "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf",
