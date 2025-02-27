@@ -26,7 +26,8 @@
 4. 函式化：Class 4: Digital Communication Protocols and Application programming interface：UART+Ti API
 5. 函式化：Array leetcode題目+swig
 6. 函式化：I2C黑箱光照猜測
-7. 使用API，DSP庫，ADC
+7. 函式化：SPI，Micro
+8. DSP庫內建ADC
 - Class 7抽象化：做自己的API C wrapper for python API
 - Class 8資料結構：leetcode
 - Class 8物件導向：
