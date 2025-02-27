@@ -55,7 +55,8 @@ Transmit and Receive
 
 ---
 # Framework Design
-Homework: Bug Log
+(手繪很醜的架構圖, 一組提一個)\
+Homework: 漂亮的圖+Bug Log
 
 ---
 # Caution
