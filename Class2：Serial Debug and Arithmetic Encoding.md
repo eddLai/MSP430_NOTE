@@ -68,9 +68,10 @@ Mac的Energia替代(如果想要vscode的也可以學):
 
 ---
 # Pinout
-<split 
-![[UART module.png]]
-![[pinout MSP430G2ET.png]]
+<split no-margin>
+![[UART module.png|400]]
+![[pinout MSP430G2ET.png|500]]
+</split>
 
 ---
 解釋：什麼是GPIO\
