@@ -146,7 +146,7 @@ void loop() {
 
 ---
 11:30公布接線圖
-![[pinout connection of TTLmodule.png|500]]
+![[pinout connection of TTLmodule.png|400]]
 
 
 ---
