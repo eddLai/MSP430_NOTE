@@ -62,6 +62,10 @@ Mac的Energia替代(如果想要vscode的也可以學):
 ![[pinout MSP430G2ET.png]]
 
 ---
+解釋：什麼是GPIO
+多個
+
+---
 ![[Device manager.png]]
 
 ---
