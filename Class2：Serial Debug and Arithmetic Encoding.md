@@ -99,6 +99,8 @@ Homework: 漂亮的圖+Bug Log
 - 補數的bit數量
 - RX, TX相反
 - baudrate一定要對
+-  歡迎使用 UART 測試工具
+請輸入 UART 端口 (如 COM3 / /dev/ttyUSB0): COM12()
 
 ---
 # USB
