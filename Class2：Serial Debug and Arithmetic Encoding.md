@@ -87,7 +87,8 @@ Homework: 漂亮的圖+Bug Log
 ---
 - PC Serial code
 - UART TTL module連接電腦
-- 
+- MSP430 Serial code
+- MSP430 
 
 ---
 # Hint
