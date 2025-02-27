@@ -63,7 +63,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 
 ---
 解釋：什麼是GPIO\
-多個連線
+什麼只u.
 
 ---
 ![[Device manager.png]]
