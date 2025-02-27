@@ -134,7 +134,7 @@ void loop() {
 ---
 11:30\
 接線圖
-![[Pasted image 20250227171756.png]]
+![[pinout connection of TTLmodule.png|500]]
 
 
 ---
