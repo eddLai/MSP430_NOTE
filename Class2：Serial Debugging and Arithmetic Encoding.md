@@ -41,9 +41,8 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Goal
-debug $\$人機互動介面(User interface)\
-Serial通訊\
-Transmit and Receive\
+debug $\rightarrow$人機互動介面(User interface)\
+Serial通訊 $\rightarrow$ Transmit and Receive\
 Mac的Energia替代(如果想要vscode的也可以學):
 [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 `pio run -e lpmsp430g2553 --target upload`
