@@ -35,21 +35,9 @@
               "icon": "lucide-file",
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
-          },
-          {
-            "id": "ea794843447edf4f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Debug interface.png"
-              },
-              "icon": "lucide-image",
-              "title": "Debug interface"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -140,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Debug interface.png",
+                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Debug interface"
+              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
             }
           },
           {
@@ -186,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Debug interface.png",
+                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Debug interface"
+              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
             }
           }
         ],
@@ -214,10 +202,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "ea794843447edf4f",
+  "active": "0d76ff36e05d58c4",
   "lastOpenFiles": [
-    "Class2：Serial Debug and Arithmetic Encoding.md",
     "Debug interface.png",
+    "Class2：Serial Debug and Arithmetic Encoding.md",
     "nearsight of MSPG2553.png",
     "MSPG2553.png",
     "Overview.md",
