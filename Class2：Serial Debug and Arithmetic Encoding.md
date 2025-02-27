@@ -85,6 +85,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 Homework: 漂亮的圖+Bug Log
 
 ---
+- PC Serial code
 - UART TTL module連接電腦
 - 
 
