@@ -37,3 +37,4 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
+![[UART module.png]]
