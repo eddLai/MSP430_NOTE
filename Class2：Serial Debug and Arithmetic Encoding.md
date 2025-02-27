@@ -231,3 +231,6 @@ int32_t parseTwosComplement(String binary) {
 }
 
 ```
+
+---
+[MSP430 Nothing on Serial Monitor using Energia - MSP low-power microcontroller forum - MSP low-power microcontrollers - TI E2E support forums](https://e2e.ti.com/support/microcontrollers/msp-low-power-microcontrollers-group/msp430/f/msp-low-power-microcontroller-forum/382391/msp430-nothing-on-serial-monitor-using-energia)
