@@ -40,8 +40,8 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-# Goad
-debug需要人機互動介面(User interface)\
+# Goal
+debug $\$人機互動介面(User interface)\
 Serial通訊\
 Transmit and Receive\
 Mac的Energia替代(如果想要vscode的也可以學):

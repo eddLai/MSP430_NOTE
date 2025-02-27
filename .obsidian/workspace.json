@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2：Serial Debugging and Arithmetic Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           },
           {
@@ -39,12 +39,12 @@
         ]
       },
       {
-        "id": "c0ec409c7655000d",
+        "id": "c61d1300dd804a70",
         "type": "tabs",
         "dimension": 50,
         "children": [
           {
-            "id": "72646fb7b0bf2c0c",
+            "id": "f94484f065895f3d",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -201,8 +201,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "72646fb7b0bf2c0c",
+  "active": "f94484f065895f3d",
   "lastOpenFiles": [
+    "Overview.md",
     "Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class2 result.png",
     "Pasted image 20250227173349.png",
@@ -212,7 +213,6 @@
     "Debug interface.png",
     "nearsight of MSPG2553.png",
     "MSPG2553.png",
-    "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Device manager.png",
     "pinout MSP430G2ET.png",
