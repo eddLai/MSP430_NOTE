@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -199,11 +198,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0d76ff36e05d58c4",
+  "active": "e852c27a647d42d4",
   "lastOpenFiles": [
-    "UART module.png",
-    "Class2：Serial Debug and Arithmetic Encoding.md",
     "Overview.md",
+    "Class2：Serial Debug and Arithmetic Encoding.md",
+    "UART module.png",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
