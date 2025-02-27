@@ -57,7 +57,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 - IEEE-754 float 3分
 
 ---
-67什麼是GPIO
+什麼是GPIO
 
 ---
 # Pinout
