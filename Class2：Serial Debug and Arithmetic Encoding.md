@@ -43,7 +43,8 @@ eddlai.be10@nycu.edu.tw
 # Goad
 debug需要人機互動介面(User interface)\
 Serial通訊\
-Transmit and Receive
+Transmit and Receive\
+Mac
 
 ---
 # Task
