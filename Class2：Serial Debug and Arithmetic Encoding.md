@@ -1,3 +1,6 @@
+---
+bg: "[[NTKLab_white bg.png]]"
+---
 
 <style>
     .reveal {
@@ -39,3 +42,5 @@ eddlai.be10@nycu.edu.tw
 ---
 ![[UART module.png]]
 ![[pinout MSP430G2ET.png]]
+
+---
