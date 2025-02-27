@@ -39,12 +39,12 @@
         ]
       },
       {
-        "id": "c61d1300dd804a70",
+        "id": "5ab91e8554c77de7",
         "type": "tabs",
         "dimension": 50,
         "children": [
           {
-            "id": "f94484f065895f3d",
+            "id": "65950977498876c6",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -201,7 +201,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f94484f065895f3d",
+  "active": "65950977498876c6",
   "lastOpenFiles": [
     "Overview.md",
     "Class2：Serial Debugging and Arithmetic Encoding.md",
