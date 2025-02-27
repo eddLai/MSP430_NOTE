@@ -45,7 +45,7 @@ debug需要人機互動介面(User interface)\
 Serial通訊\
 Transmit and Receive\
 Mac的Energia替代(如果想要vscode的也可以學):
-
+[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 
 ---
 # Task

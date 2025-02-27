@@ -8,7 +8,6 @@
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
 	- Mac 環境：[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
-	- 
 - Class 2加減：[[Class2：Serial Debug and Arithmetic Encoding]]
 	- 控制特定的寄存器，bitbang，自傳UART
 	- 材料：USB_TTL轉換板+杜邦線每組三種各一包

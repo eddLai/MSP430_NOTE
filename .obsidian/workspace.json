@@ -35,7 +35,8 @@
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
             }
           },
           {
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overview"
+              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
             }
           }
         ],
@@ -199,12 +200,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e852c27a647d42d4",
+  "active": "0d76ff36e05d58c4",
   "lastOpenFiles": [
-    "Class2：Serial Debug and Arithmetic Encoding.md",
-    "Device manager.png",
     "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
+    "Class2：Serial Debug and Arithmetic Encoding.md",
+    "Device manager.png",
     "pinout MSP430G2ET.png",
     "UART module.png",
     "Class1/Class1 lec slide english-version.md",
