@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class2：Serial Debug and Arithmetic Encoding
+Class2：Serial Debugging and Arithmetic Encoding
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
