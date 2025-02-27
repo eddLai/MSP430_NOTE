@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class1：An Introduction of Embbeded systems
+Class2：Serial Debug and Arithmetic Encoding
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
@@ -40,6 +40,7 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
+## Pinout
 ![[UART module.png]]
 ![[pinout MSP430G2ET.png]]
 

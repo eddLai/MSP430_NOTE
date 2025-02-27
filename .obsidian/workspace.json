@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
             }
           },
           {
@@ -172,21 +172,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overview"
+              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,7 +199,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0d76ff36e05d58c4",
+  "active": "6a9f29f2eb9d31ac",
   "lastOpenFiles": [
     "pinout MSP430G2ET.png",
     "Class2：Serial Debug and Arithmetic Encoding.md",
