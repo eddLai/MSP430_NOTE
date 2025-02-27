@@ -85,8 +85,9 @@ Homework: 漂亮的圖+Bug Log
 
 ---
 # USB
-- MSP Application UART1
+- MSP Application UART1: 用來燒錄
 - MSP Debug interface
+
 
 ---
 ## complete code
