@@ -132,6 +132,11 @@ void loop() {
 
 
 ---
+
+接線圖
+
+
+---
 ## complete code
 ```C++
 #include <Arduino.h>
