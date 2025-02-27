@@ -97,7 +97,8 @@ Homework: 漂亮的圖+Bug Log
 # Hint
 - 參考IDE提供的範例程式(開一次)
 - 補數的bit數量
-- 需要兩個
+- RX, TX相反
+- 需
 
 ---
 # USB
