@@ -44,6 +44,11 @@ eddlai.be10@nycu.edu.tw
 ![[pinout MSP430G2ET.png]]
 
 ---
+## Caution
+
+
+---
+## complete code
 ```C++
 #include <Arduino.h>
 
