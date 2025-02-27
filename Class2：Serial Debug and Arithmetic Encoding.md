@@ -106,7 +106,7 @@ Homework: 漂亮的圖+Bug Log
 # USB
 - MSP Application UART1: 用來燒錄
 - MSP Debug interface
-![[Debug interface.png]]
+![[Debug interface.png|500]]
 
 ---
 一開始就給
