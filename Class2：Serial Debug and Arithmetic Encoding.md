@@ -63,7 +63,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 # Pinout
 ![[UART module.png]]
 ![[pinout MSP430G2ET.png]]
-
+為什麼要連 
 ---
 ![[Device manager.png]]
 
