@@ -21,7 +21,7 @@
 		- (上面沒做完的)
 		- 板子之間溝通
 		- %% 計算這個UART的最高速度，用bitbang的方法? %%
-3. 迴圈：classHuman Machine Interface 七段顯示器 (Embbed C+Arduino)
+3. 迴圈：[[Class3：Seven-Segment Display and Human Machine Interface]] 七段顯示器 (Embbed C+Arduino)
 	- 材料：按鈕+七段顯示器
 4. 函式化：[[Class 4: Digital Communication Protocols and Application programming interface]]：UART+Ti API
 5. 函式化：資料結構Array leetcode題目+swig，API C wrapper for python API
