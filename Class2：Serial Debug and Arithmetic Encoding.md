@@ -108,6 +108,8 @@ Homework: 漂亮的圖+Bug Log
 - MSP Debug interface
 ![[Debug interface.png|500]]
 
+[ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939](https://www.ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939)
+
 ---
 一開始就給
 ```C++
