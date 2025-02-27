@@ -24,12 +24,13 @@
 3. 迴圈：七段顯示器 (Embbed C+Arduino)
 	- 材料：按鈕+七段顯示器
 4. 函式化：Class 4: Digital Communication Protocols and Application programming interface：UART+Ti API
-5. 函式化：資料結構Array leetcode題目+swig
+5. 函式化：資料結構Array leetcode題目+swig，API C wrapper for python API
 6. 函式化：I2C黑箱光照猜測
 7. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+能源分析
-8. DSP庫內建ADC
-9. 抽象化：做自己的API C wrapper for python API
-10. 物件導向
+8. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+能源分析
+9. DSP庫內建ADC
+10. SPI的乙太網路處理
+11. 物件導向
 - [Edge AI Studio](https://dev.ti.com/edgeaistudio/)
 
 - MSP430
