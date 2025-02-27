@@ -35,9 +35,21 @@
               "icon": "lucide-file",
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
+          },
+          {
+            "id": "8cae7313b9f04f6f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250227173410.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250227173410"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Pasted image 20250227173410.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Backlinks for Pasted image 20250227173410"
             }
           },
           {
@@ -174,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Pasted image 20250227173410.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Outline of Pasted image 20250227173410"
             }
           }
         ],
@@ -202,11 +214,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0d76ff36e05d58c4",
+  "active": "8cae7313b9f04f6f",
   "lastOpenFiles": [
+    "Class2：Serial Debug and Arithmetic Encoding.md",
+    "Pasted image 20250227173410.png",
     "Pasted image 20250227173349.png",
     "pinout connection of TTLmodule.png",
-    "Class2：Serial Debug and Arithmetic Encoding.md",
     "platformIO monitor.png",
     "platformIO setup.png",
     "Debug interface.png",
@@ -216,10 +229,8 @@
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Device manager.png",
     "pinout MSP430G2ET.png",
-    "UART module.png",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
-    "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf",
-    "NTKLab_white bg.png"
+    "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf"
   ]
 }

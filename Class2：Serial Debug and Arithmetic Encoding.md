@@ -64,7 +64,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 - IEEE-754 float 3分
 
 ---
-
+![[Class2 result.png]]
 
 ---
 # Pinout
