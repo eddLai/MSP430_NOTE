@@ -54,6 +54,10 @@ Transmit and Receive
 ![[Device manager.png]]
 
 ---
+# Framework Design
+Homework: Bug Log
+
+---
 # Caution
 
 
