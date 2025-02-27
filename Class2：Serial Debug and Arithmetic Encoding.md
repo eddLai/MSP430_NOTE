@@ -73,7 +73,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 ![[pinout MSP430G2ET.png|500]]
 </split>
 
-[ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939](https://www.ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939)
+[MSP430G2553 LaunchPad™ Development Kit](https://www.ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939)
 
 ---
 解釋：什麼是GPIO\
