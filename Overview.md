@@ -23,9 +23,9 @@
 		- %% 計算這個UART的最高速度，用bitbang的方法? %%
 3. 迴圈：七段顯示器 (Embbed C+Arduino)
 	- 材料：按鈕+七段顯示器
-4. 函式化：Class 4: Digital Communication Protocols and Application programming interface：UART+Ti API
+4. 函式化：[[Class 4: Digital Communication Protocols and Application programming interface]]：UART+Ti API
 5. 函式化：資料結構Array leetcode題目+swig，API C wrapper for python API
-6. 函式化：I2C黑箱光照猜測
+6. 函式化：I2C黑箱光照偵測
 7. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影響
 8. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+MSP430能源分析
 9. DSP庫內建ADC：波形產生器的輸入，物件導向
