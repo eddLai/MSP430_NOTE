@@ -85,7 +85,9 @@ Homework: 漂亮的圖+Bug Log
 
 ---
 # USB
-USB Appl
+- MSP Application UART1
+- MSP Debug interface
+
 ---
 ## complete code
 ```C++
