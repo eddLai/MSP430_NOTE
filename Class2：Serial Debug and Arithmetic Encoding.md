@@ -84,7 +84,8 @@ Homework: 漂亮的圖+Bug Log
 - 需要兩個
 
 ---
-# 
+# USB
+USB
 
 ---
 ## complete code
