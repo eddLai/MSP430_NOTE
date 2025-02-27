@@ -78,8 +78,8 @@ Mac的Energia替代(如果想要vscode的也可以學):
 Homework: 漂亮的圖+Bug Log
 
 ---
-# Caution
-- 
+# Hint
+- 參考IDE提供的範例程式(開一次)
 - 補數的bit數量
 
 ---
