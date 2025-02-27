@@ -42,7 +42,8 @@ eddlai.be10@nycu.edu.tw
 ---
 # Goad
 debug需要人機互動介面(User interface)\
-Serial
+Serial通訊\
+Transmit and Receive
 
 ---
 # Pinout

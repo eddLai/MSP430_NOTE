@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class1：An Introduction of Embbeded systems"
+              "title": "Overview"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Overview.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Backlinks for Overview"
             }
           },
           {
@@ -172,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Outline of Overview"
             }
           }
         ],
@@ -199,11 +198,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6a9f29f2eb9d31ac",
+  "active": "e852c27a647d42d4",
   "lastOpenFiles": [
-    "pinout MSP430G2ET.png",
-    "Class2：Serial Debug and Arithmetic Encoding.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
+    "Class2：Serial Debug and Arithmetic Encoding.md",
+    "pinout MSP430G2ET.png",
     "Overview.md",
     "UART module.png",
     "Class1/Class1 lec slide english-version.md",
