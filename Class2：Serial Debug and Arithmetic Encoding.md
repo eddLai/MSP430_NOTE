@@ -97,6 +97,37 @@ Homework: 漂亮的圖+Bug Log
 ![[Debug interface.png]]
 
 ---
+```C++
+#include <Arduino.h>
+
+#define BAUD_RATE 4800  // UART 波特率
+#define RX_PIN P1_1  // 硬體 UART RX
+#define TX_PIN P1_2  // 硬體 UART TX
+
+String receivedString = "";  // 存儲接收的 UART 數據
+
+void setup() {
+    Serial.begin(BAUD_RATE);
+    Serial.println("MSP430 UART RX/TX 測試開始 (4800 baud)");
+}
+
+void loop() {
+    while (Serial.available()) {  // 如果有 UART 數據
+        char c = Serial.read();  // 讀取單個字元
+
+        if (c == '\n' || c == '\r') {  // 偵測換行符
+            Serial.println(receivedString);
+            receivedString = "";  // 清空字串，準備接收新的數據
+        } else {
+            receivedString += c;  // 累積字元
+        }
+    }
+}
+
+```
+
+
+---
 ## complete code
 ```C++
 #include <Arduino.h>
