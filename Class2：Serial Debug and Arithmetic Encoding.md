@@ -67,6 +67,9 @@ Mac的Energia替代(如果想要vscode的也可以學):
 ![[MSPG2553.png]]
 
 ---
+![[Pasted image 20250227162043.png]]
+
+---
 ![[Device manager.png]]
 
 ---

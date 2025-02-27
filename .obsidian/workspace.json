@@ -35,9 +35,21 @@
               "icon": "lucide-file",
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
+          },
+          {
+            "id": "e4d098b2be46a275",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250227162043.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250227162043"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Pasted image 20250227162043.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Backlinks for Pasted image 20250227162043"
             }
           },
           {
@@ -174,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Pasted image 20250227162043.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Outline of Pasted image 20250227162043"
             }
           }
         ],
@@ -202,10 +214,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0d76ff36e05d58c4",
+  "active": "e4d098b2be46a275",
   "lastOpenFiles": [
-    "MSPG2553.png",
     "Class2：Serial Debug and Arithmetic Encoding.md",
+    "Pasted image 20250227162043.png",
+    "MSPG2553.png",
     "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Device manager.png",
