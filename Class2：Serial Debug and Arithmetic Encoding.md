@@ -55,12 +55,13 @@ Transmit and Receive
 
 ---
 # Framework Design
-(手繪很醜的架構圖, 一組提一個)\
+(手繪很醜的架構圖, 一組提一個function block)\
 Homework: 漂亮的圖+Bug Log
 
 ---
 # Caution
-
+- 
+- 補數的bit數量
 
 ---
 ## complete code
