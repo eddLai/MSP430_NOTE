@@ -28,7 +28,7 @@
 6. 函式化：I2C黑箱光照猜測
 7. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影響
 8. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+MSP430能源分析
-9. DSP庫內建ADC：示波器處理
+9. DSP庫內建ADC：波形產生器的輸入，物件導向
 10. 物件導向
 - [Edge AI Studio](https://dev.ti.com/edgeaistudio/)
 
