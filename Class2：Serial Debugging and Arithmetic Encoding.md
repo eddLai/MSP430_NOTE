@@ -46,7 +46,7 @@ Serial通訊 $\rightarrow$ Transmit and Receive\
 Mac的Energia替代(如果想要vscode的也可以學):
 [platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
 `pio run -e lpmsp430g2553 --target upload`
-%% 可以拿來偷訊號，如果有條線 %%
+%% 可以拿來偷訊號，如果有條傳輸線，剪斷接上 %%
 
 ---
 ![[platformIO setup.png]]
