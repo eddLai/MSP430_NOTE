@@ -98,7 +98,7 @@ Homework: 漂亮的圖+Bug Log
 - 參考IDE提供的範例程式(開一次)
 - 補數的bit數量
 - RX, TX相反
-- 需
+- baudrate一定要對
 
 ---
 # USB
