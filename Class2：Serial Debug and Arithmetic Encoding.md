@@ -85,7 +85,7 @@ Homework: 漂亮的圖+Bug Log
 
 ---
 # USB
-USB
+USB TX, RX
 
 ---
 ## complete code
