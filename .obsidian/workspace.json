@@ -36,16 +36,15 @@
               "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "a212235aa1485449",
+        "id": "c0ec409c7655000d",
         "type": "tabs",
         "dimension": 50,
         "children": [
           {
-            "id": "9b9315576392ae8c",
+            "id": "72646fb7b0bf2c0c",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -111,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -201,10 +201,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0d76ff36e05d58c4",
+  "active": "72646fb7b0bf2c0c",
   "lastOpenFiles": [
-    "Class2 result.png",
     "Class2：Serial Debugging and Arithmetic Encoding.md",
+    "Class2 result.png",
     "Pasted image 20250227173349.png",
     "pinout connection of TTLmodule.png",
     "platformIO monitor.png",
