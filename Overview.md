@@ -26,7 +26,7 @@
 4. 函式化：Class 4: Digital Communication Protocols and Application programming interface：UART+Ti API
 5. 函式化：資料結構Array leetcode題目+swig，API C wrapper for python API
 6. 函式化：I2C黑箱光照猜測
-7. 函式化：SPI的MicroSD+SPI乙太2j0j讀寫大檔案的傳輸速度
+7. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影u
 8. 函式化：SPI的MicroSD讀寫大檔案的傳輸速度+能源分析
 9. DSP庫內建ADC
 10. 物件導向
