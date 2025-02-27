@@ -46,6 +46,10 @@ Serial通訊\
 Transmit and Receive
 
 ---
+# Task
+
+
+---
 # Pinout
 ![[UART module.png]]
 ![[pinout MSP430G2ET.png]]
