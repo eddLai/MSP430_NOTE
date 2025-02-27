@@ -64,6 +64,9 @@ Mac的Energia替代(如果想要vscode的也可以學):
 - IEEE-754 float 3分
 
 ---
+
+
+---
 # Pinout
 ![[UART module.png]]
 ![[pinout MSP430G2ET.png]]
@@ -88,7 +91,7 @@ Homework: 漂亮的圖+Bug Log
 - PC Serial code
 - UART TTL module連接電腦
 - MSP430 Serial code
-- MSP430 
+- MSP430 Arithmetic code
 
 ---
 # Hint
