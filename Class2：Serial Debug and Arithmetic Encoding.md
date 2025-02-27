@@ -63,7 +63,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 
 ---
 解釋：什麼是GPIO\
-什麼只u.
+什麼只有特定的腳位可以接特定的功能?
 
 ---
 ![[Device manager.png]]
