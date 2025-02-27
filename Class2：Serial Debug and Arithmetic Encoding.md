@@ -40,12 +40,16 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-## Pinout
+# Goad
+deu
+
+---
+# Pinout
 ![[UART module.png]]
 ![[pinout MSP430G2ET.png]]
 
 ---
-## Caution
+# Caution
 
 
 ---
