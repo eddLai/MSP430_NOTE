@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Class2：Serial Debug and Arithmetic Encoding"
             }
+          },
+          {
+            "id": "76d187cd95e6fbc8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Device manager.png"
+              },
+              "icon": "lucide-image",
+              "title": "Device manager"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "88e7ee46fc6d54a3",
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Device manager.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Backlinks for Device manager"
             }
           },
           {
@@ -172,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class2：Serial Debug and Arithmetic Encoding.md",
+                "file": "Device manager.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class2：Serial Debug and Arithmetic Encoding"
+              "title": "Outline of Device manager"
             }
           }
         ],
@@ -186,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,11 +212,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0d76ff36e05d58c4",
+  "active": "76d187cd95e6fbc8",
   "lastOpenFiles": [
+    "Class2：Serial Debug and Arithmetic Encoding.md",
+    "Device manager.png",
     "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
-    "Class2：Serial Debug and Arithmetic Encoding.md",
     "pinout MSP430G2ET.png",
     "UART module.png",
     "Class1/Class1 lec slide english-version.md",

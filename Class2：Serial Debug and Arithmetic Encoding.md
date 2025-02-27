@@ -51,6 +51,9 @@ Transmit and Receive
 ![[pinout MSP430G2ET.png]]
 
 ---
+![[Device manager.png]]
+
+---
 # Caution
 
 
