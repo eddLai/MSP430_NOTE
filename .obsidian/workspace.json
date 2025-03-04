@@ -6,7 +6,6 @@
       {
         "id": "29d44ccbee8980ef",
         "type": "tabs",
-        "dimension": 25.380710659898476,
         "children": [
           {
             "id": "e852c27a647d42d4",
@@ -20,23 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Class2：Serial Debugging and Arithmetic Encoding"
-            }
-          }
-        ]
-      },
-      {
-        "id": "77a44429af43509d",
-        "type": "tabs",
-        "dimension": 74.61928934010153,
-        "children": [
-          {
-            "id": "49dd39286843762a",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
             }
           }
         ]
