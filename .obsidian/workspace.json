@@ -8,26 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e852c27a647d42d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Class2：Serial Debugging and Arithmetic Encoding"
-            }
-          },
-          {
             "id": "7edaf9e4ed0c9667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3：Seven-Segment Display and Human Machine Interface.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,8 +21,7 @@
               "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,15 +168,15 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "7edaf9e4ed0c9667",
+  "active": "67291265d6a386b9",
   "lastOpenFiles": [
-    "7 segment pinout.png",
-    "Class3：Seven-Segment Display and Human Machine Interface.md",
-    "Overview.md",
+    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "Class3/7 segment pinout.png",
+    "Overview.md",
     "Class2/pinout.md",
     "Framework Design hand made.png",
-    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/Class2 result.png",
     "Class2/Class2 UART driver.md",
     "Class3",
