@@ -236,4 +236,4 @@ int32_t parseTwosComplement(String binary) {
 [MSP430 Nothing on Serial Monitor using Energia - MSP low-power microcontroller forum - MSP low-power microcontrollers - TI E2E support forums](https://e2e.ti.com/support/microcontrollers/msp-low-power-microcontrollers-group/msp430/f/msp-low-power-microcontroller-forum/382391/msp430-nothing-on-serial-monitor-using-energia)
 
 ---
-今天教的架構，需要同時使用Hardware UART and Software UART比較困難，因此我們先使用Hardware UART就好。這依然是我們過幾個禮拜後的目標，
+今天教的架構，需要同時使用Hardware UART and Software UART比較困難(許多同學都遇到了，因此我們先使用Hardware UART就好。這依然是我們過幾個禮拜後的目標，
