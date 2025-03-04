@@ -99,6 +99,9 @@ Homework: 漂亮的圖+Bug Log
 - MSP430 Arithmetic code
 
 ---
+![[Framework Design hand made.png]]
+
+---
 # Hint
 - 參考IDE提供的範例程式(開一次)
 - 補數的bit數量
