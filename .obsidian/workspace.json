@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pinout MSP430G2ET",
+                "query": "Overv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,8 +182,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "7edaf9e4ed0c9667",
+  "active": "f6d783bac8645d43",
   "lastOpenFiles": [
+    "Class3",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class2/Debug interface.png",
     "Class2/Class2 UART driver.md",
