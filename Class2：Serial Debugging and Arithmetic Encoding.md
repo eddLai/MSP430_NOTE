@@ -58,7 +58,7 @@ Mac的Energia替代(如果想要vscode的也可以學):
 # Task
 螢幕上顯示一組數字+透過UART送出隨機變化的一組補碼字串，要寫code進行計算，然後print出一樣的結果\
 依據難度，看大家的解題狀況：
-- Two's components(可以用現有函式) 1分
+- Two's complements(可以用現有函式) 1分
 - Two's complements 1分
 - One's Complement 2分
 - IEEE-754 float 3分
