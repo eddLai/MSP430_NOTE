@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pinout MSP430G2ET",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,7 +187,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e852c27a647d42d4",
+  "active": "f6d783bac8645d43",
   "lastOpenFiles": [
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Overview.md",
