@@ -11,17 +11,28 @@
             "id": "e852c27a647d42d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Class2：Serial Debugging and Arithmetic Encoding.md",
-                "mode": "source",
-                "source": false
+                "file": "Class2/Class2 result.png"
               },
-              "icon": "lucide-file",
-              "title": "Class2：Serial Debugging and Arithmetic Encoding"
+              "icon": "lucide-image",
+              "title": "Class2 result"
+            }
+          },
+          {
+            "id": "7edaf9e4ed0c9667",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "MSPG2553.png"
+              },
+              "icon": "lucide-image",
+              "title": "MSPG2553"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,13 +85,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -170,21 +179,23 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e852c27a647d42d4",
+  "active": "7edaf9e4ed0c9667",
   "lastOpenFiles": [
-    "Framework Design hand made.png",
-    "Class2：Serial Debugging and Arithmetic Encoding.md",
+    "MSP430G2ET pinout.png",
+    "MSPG2553.png",
+    "MSPLM pinout.png",
+    "family manual user.pdf",
+    "Class2/Device manager.png",
+    "Class2/Debug interface.png",
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+    "Class2/Class2 result.png",
     "Class1/Class1：An Introduction of Embbeded systems.md",
+    "Framework Design hand made.png",
     "Overview.md",
-    "Class2 result.png",
     "Pasted image 20250227173349.png",
     "pinout connection of TTLmodule.png",
     "platformIO monitor.png",
     "platformIO setup.png",
-    "Debug interface.png",
-    "nearsight of MSPG2553.png",
-    "MSPG2553.png",
-    "Device manager.png",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
     "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf"
