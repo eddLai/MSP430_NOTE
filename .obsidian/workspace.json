@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class2/Class2 UART driver.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class2 UART driver"
+              "title": "Overview"
             }
           }
         ],
@@ -87,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,12 +181,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f6d783bac8645d43",
+  "active": "67291265d6a386b9",
   "lastOpenFiles": [
+    "Class2/Class2 UART driver.md",
     "Class3",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class2/Debug interface.png",
-    "Class2/Class2 UART driver.md",
     "Class2/Device manager.png",
     "Class2/MSPG2553.png",
     "Class2/Pasted image 20240303133254.png",
