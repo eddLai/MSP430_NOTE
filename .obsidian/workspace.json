@@ -6,7 +6,7 @@
       {
         "id": "29d44ccbee8980ef",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 32.5242718446602,
         "children": [
           {
             "id": "e852c27a647d42d4",
@@ -27,7 +27,7 @@
       {
         "id": "aee8bbb0ef7390e3",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 67.47572815533981,
         "children": [
           {
             "id": "8ff8c72a8b696b9d",
@@ -187,7 +187,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "8ff8c72a8b696b9d",
+  "active": "e852c27a647d42d4",
   "lastOpenFiles": [
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Overview.md",
