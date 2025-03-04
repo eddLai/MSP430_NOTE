@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+                "file": "Class2/pinout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class2：Serial Debugging and Arithmetic Encoding"
+              "title": "pinout"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Overv",
+                "query": "pinou",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,12 +185,13 @@
   },
   "active": "e852c27a647d42d4",
   "lastOpenFiles": [
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+    "Framework Design hand made.png",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/Class2 result.png",
     "Overview.md",
     "Class2/Class2 UART driver.md",
     "Class3",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class2/Debug interface.png",
     "Class2/Device manager.png",
     "Class2/MSPG2553.png",
@@ -199,7 +201,6 @@
     "MSP430G2ET pinout.png",
     "MSPLM pinout.png",
     "family manual user.pdf",
-    "Framework Design hand made.png",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
     "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf"
