@@ -6,3 +6,4 @@
 [energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
 
 接線30分鐘
+[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
