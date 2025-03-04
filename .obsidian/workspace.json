@@ -23,12 +23,14 @@
             "id": "7edaf9e4ed0c9667",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "MSPG2553.png"
+                "file": "Class2/Class2 UART driver.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "MSPG2553"
+              "icon": "lucide-file",
+              "title": "Class2 UART driver"
             }
           }
         ],
@@ -181,21 +183,21 @@
   },
   "active": "7edaf9e4ed0c9667",
   "lastOpenFiles": [
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+    "Class2/Debug interface.png",
+    "Class2/Class2 UART driver.md",
+    "Class2/Device manager.png",
+    "Class2/MSPG2553.png",
+    "Class2/Pasted image 20240303133254.png",
+    "Class2/Pasted image 20240303154821.png",
+    "Class2/Pasted image 20240303154827.png",
     "MSP430G2ET pinout.png",
-    "MSPG2553.png",
     "MSPLM pinout.png",
     "family manual user.pdf",
-    "Class2/Device manager.png",
-    "Class2/Debug interface.png",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class2/Class2 result.png",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Framework Design hand made.png",
     "Overview.md",
-    "Pasted image 20250227173349.png",
-    "pinout connection of TTLmodule.png",
-    "platformIO monitor.png",
-    "platformIO setup.png",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
     "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf"
