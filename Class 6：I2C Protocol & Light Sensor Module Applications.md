@@ -1,0 +1,1 @@
+[mouser.com/datasheet/2/348/bh1750fvi-e-186247.pdf?srsltid=AfmBOoowKcH8CYswT8aOzOq95zMt8ydJSq6HLWNrmTyIfsxDoa50HnGC](https://www.mouser.com/datasheet/2/348/bh1750fvi-e-186247.pdf?srsltid=AfmBOoowKcH8CYswT8aOzOq95zMt8ydJSq6HLWNrmTyIfsxDoa50HnGC)
