@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "7eece0cbd672f9bc",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "9aeb2d1e259b0275",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "aa958a9c8c523271",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pinou",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,10 +171,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "aa958a9c8c523271",
+  "active": "f6d783bac8645d43",
   "lastOpenFiles": [
-    "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Overview.md",
+    "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
