@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,8 +170,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f6d783bac8645d43",
+  "active": "67291265d6a386b9",
   "lastOpenFiles": [
+    "Lec HW/~$P430_class1.docx",
+    "Lec HW/MSP430_class2_HW (1).mp4",
+    "Lec HW/MSP430_class2_HW.mp4",
+    "Lec HW/MSP430_class2_HW.pdf",
+    "Lec HW/MSP430_Jumper_setup.jpg",
+    "Lec HW/MSP430_class1.docx",
     "Overview.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
@@ -190,7 +195,6 @@
     "Class2/Pasted image 20240303133254.png",
     "Class2/Pasted image 20240303154821.png",
     "Class2/Pasted image 20240303154827.png",
-    "MSP430G2ET pinout.png",
     "family manual user.pdf",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",
