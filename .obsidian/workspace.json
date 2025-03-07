@@ -35,8 +35,7 @@
               "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "2efff79d27196ecf",
@@ -201,8 +200,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "41cc1920a52c84ac",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
     "Lec HW/~$P430_class1.docx",
@@ -213,7 +213,6 @@
     "Lec HW/MSP430_class1.docx",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/7 segment pinout.png",
     "Class2/pinout.md",
     "Framework Design hand made.png",
