@@ -91,7 +91,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Code Hint
-Energia
+## Energia
 ```C++
 byte num[10][7] = ??
 byte pinMapping[7] = {P1_1, P1_2, P1_3, P1_4, P1_5, P1_6, P1_7};
@@ -100,8 +100,8 @@ digitalWrite(pinMapping[i], LOW);
 ```
 
 ---
-CCS
-[ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09)
+## CCS
+[](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09)
 ![[PxIN Register.png]]
 
 ---
