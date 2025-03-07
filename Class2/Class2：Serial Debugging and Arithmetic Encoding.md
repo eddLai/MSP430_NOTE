@@ -240,3 +240,9 @@ int32_t parseTwosComplement(String binary) {
 
 ---
 今天教的架構比較困難，許多同學都遇到了無法使用Serial.println()出自己想要的東西，這是因為需要同時使用Hardware UART and Software UART，因此我們一步一步來，先使用Hardware UART就好，請所有人確保下週二時能做到影片中的輸入編碼解碼，而架構圖中的依然是我們幾個禮拜後的目標，
+
+---
+[[MSP430_class2_HW.pdf]]
+[[MSP430_class2_HW.mp4]]
+[[MSP430_Jumper_setup.jpg]]
+[[HW]]
