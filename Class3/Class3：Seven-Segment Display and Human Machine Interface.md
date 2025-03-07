@@ -83,6 +83,7 @@ eddlai.be10@nycu.edu.tw
 ---
 # Code Hint
 ```C++
+byte num[10][7] = ??
 byte pinMapping[7] = {P1_1, P1_2, P1_3, P1_4, P1_5, P1_6, P1_7};
 digitalWrite(pinMapping[i], HIGH);
 digitalWrite(pinMapping[i], LOW);
