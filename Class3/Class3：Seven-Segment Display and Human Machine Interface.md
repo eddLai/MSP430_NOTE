@@ -212,7 +212,7 @@ void main()
 | 9      | 1    | 1    | 1    | 0    | 0    | 1    | 1    |
 
 ---
-![[7 segment pinout.png|500]]
+![[7 segment pinout with Arduino.png|500]]
 
 ---
 # button module
