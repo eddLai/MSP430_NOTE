@@ -104,6 +104,12 @@ CCS
 ![[PxIN Register.png]]
 
 ---
+![[PxOUT Register.png]]
+
+---
+
+
+---
 # Task
 注意沒有加電阻會導致顯示器被破壞，==一人只有一個==
 1. 用Energia: 完成0~9的計時，並用碼表檢查其準確性
