@@ -41,7 +41,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # pinout Table
-1. 接5V線測試
+1. 接5V線確定腳位位置
 2. 決定連接的pin腳
 
 |     |     |     |               |     | MSP430 pinout |     |
@@ -52,7 +52,8 @@ eddlai.be10@nycu.edu.tw
 | E   |     | C   |               |     |               |     |
 | --- | D   | --- |               | --- |               | --- |
 
-
+---
+# 
 
 ---
 ![[7 segment pinout.png|500]]
