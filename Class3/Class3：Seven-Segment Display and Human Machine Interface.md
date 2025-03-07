@@ -114,9 +114,9 @@ digitalWrite(pinMapping[i], LOW);
 #define g BIT7
 ```
 
-
-| Register | BIT1 | BIT2 | BIT3 | BIT4 | BIT5 |     |     |
-| -------- | ---- | ---- | ---- | ---- | ---- | --- | --- |
+| Register | BIT1 | BIT2 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7 |
+| -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|          |      |      |      |      |      |      |      |
 
 ---
 ```C++
