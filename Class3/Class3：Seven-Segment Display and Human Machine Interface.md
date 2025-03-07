@@ -41,6 +41,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # pinout Table
+請畫出連接的pin腳
 
 |     |     |     |               |     | MSP430 pinout |     |
 | --- | --- | --- | ------------- | --- | ------------- | --- |
