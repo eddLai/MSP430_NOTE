@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class2：Serial Debugging and Arithmetic Encoding"
+              "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class2：Serial Debugging and Arithmetic Encoding"
+              "title": "Outline of Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
         ],
@@ -203,10 +203,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "MSP430G2553 LaunchPad™ Development Kit.pdf",
     "Overview.md",
-    "FET driver upload issue.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+    "MSP430G2553 LaunchPad™ Development Kit.pdf",
+    "FET driver upload issue.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/UART Protocols.jpg",
     "Class3/7 segment pinout with Arduino.png",
