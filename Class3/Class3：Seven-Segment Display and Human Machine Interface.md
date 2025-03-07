@@ -52,18 +52,18 @@ eddlai.be10@nycu.edu.tw
 | E   |     | C   |               |     |               |     |
 | --- | D   | --- |               | --- |               | --- |
 
-| number | count         |
-| ------ | ------------- |
-| 0      | A+B+C+D+E+F+G |
-| 1      | B+C           |
-| 2      | A+B+G+E+D     |
-| 3      | A+B+C+D+G     |
-| 4      | B+C+F+G       |
-| 5      | A+F+G+C+D     |
-| 6      | F+G+C+D+E     |
-| 7      | A+B+C         |
-| 8      |               |
-| 9      |               |
+| number | count       |     |
+| ------ | ----------- | --- |
+| 0      | A+B+C+D+E+F |     |
+| 1      | B+C         |     |
+| 2      | A+B+G+E+D   |     |
+| 3      | A+B+C+D+G   |     |
+| 4      | B+C+F+G     |     |
+| 5      | A+F+G+C+D   |     |
+| 6      | F+G+C+D+E   |     |
+| 7      | A+B+C       |     |
+| 8      | A+B+C+D+E+F |     |
+| 9      | A+B+C+G+F   |     |
 
 
 ---
