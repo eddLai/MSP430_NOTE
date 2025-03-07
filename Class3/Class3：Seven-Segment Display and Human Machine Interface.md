@@ -174,9 +174,3 @@ void main()
 接線30分鐘
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
 
-
-媒體的片面性
-起因是
-45分鐘
-這是導演好的嗎，給歐洲壓力，帶
-
