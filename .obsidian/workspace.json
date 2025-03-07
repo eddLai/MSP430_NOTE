@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Class3/7 segment pinout with Arduino.png"
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "7 segment pinout with Arduino"
+              "icon": "lucide-file",
+              "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           },
           {
@@ -168,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class3/7 segment pinout with Arduino.png",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 7 segment pinout with Arduino"
+              "title": "Outline of Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
         ],
@@ -198,12 +200,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "67291265d6a386b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Class2/UART Protocols.jpg",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Overview.md",
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "Class2/UART Protocols.jpg",
+    "Class3/7 segment pinout with Arduino.png",
+    "Class3/7 segments display pinout.png",
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class2_HW (1).mp4",
     "Lec HW/MSP430_class2_HW.mp4",
@@ -212,7 +216,6 @@
     "Lec HW/MSP430_class1.docx",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
-    "Class3/7 segment pinout with Arduino.png",
     "Class2/pinout.md",
     "Framework Design hand made.png",
     "Class2/Class2 result.png",
@@ -222,8 +225,6 @@
     "Class2/Device manager.png",
     "Class2/MSPG2553.png",
     "Class2/Pasted image 20240303133254.png",
-    "Class2/Pasted image 20240303154821.png",
-    "Class2/Pasted image 20240303154827.png",
     "family manual user.pdf",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md",

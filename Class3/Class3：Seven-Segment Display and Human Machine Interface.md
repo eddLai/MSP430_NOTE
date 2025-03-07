@@ -86,7 +86,8 @@ eddlai.be10@nycu.edu.tw
 | 9      |      |      |      |      |      |      |      |
 
 ---
-
+![[7 segments display pinout.png]]
+共pu
 
 ---
 # Code Hint
