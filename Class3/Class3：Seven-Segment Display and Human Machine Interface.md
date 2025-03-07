@@ -122,9 +122,11 @@ digitalWrite(pinMapping[i], LOW);
 ![[PxIN Register.png]]
 
 ---
+
 ![[PxOUT Register.png]]
 
 ---
+輸出輸入Direction
 ![[PxDIR Register.png]]
 
 ---
