@@ -134,4 +134,4 @@ Teaching Assistant
 [7 Segment LED Stopwatch](https://dev.ti.com/tirex/explore/node?node=A__AGMceNIDp4hzf0lgOnv36g__msp_housekeeping__IOGqZri__LATEST)
 [MSP430 Academy 教程](https://dev.ti.com/tirex/explore/node?node=A__AEIJm0rwIeU.2P1OBWwlaA__MSP430-ACADEMY-CN__rro-Qq-__LATEST)
 
-[[Driver修復]]
+[[Driver upload issue]]
