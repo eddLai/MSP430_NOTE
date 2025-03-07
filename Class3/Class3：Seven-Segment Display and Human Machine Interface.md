@@ -164,6 +164,24 @@ void main()
 ```
 
 ---
+範例：
+
+| number | count       |     |
+| ------ | ----------- | --- |
+| 0      | A+B+C+D+E+F |     |
+| 1      | B+C         |     |
+| 2      | A+B+G+E+D   |     |
+| 3      | A+B+C+D+G   |     |
+| 4      | B+C+F+G     |     |
+| 5      | A+F+G+C+D   |     |
+| 6      | F+G+C+D+E   |     |
+| 7      | A+B+C       |     |
+| 8      | A+B+C+D+E+F |     |
+| 9      | A+B+C+G+F   |     |
+---
+
+
+---
 ![[7 segment pinout.png|500]]
 
 [Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)
