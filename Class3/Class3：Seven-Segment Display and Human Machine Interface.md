@@ -116,15 +116,15 @@ digitalWrite(pinMapping[i], LOW);
 void main()
 {
     WDTCTL = WDTPW + WDTHOLD;
-    P1DIR = a+b+c+d+e+f+g;
+    P1DIR = ;
  
     while(1)
     {
-        P1OUT = b+c;
+        P1OUT = ;
         __delay_cycles(500000);
-        P1OUT = a+b+g+e+d;
+        P1OUT = ;
         __delay_cycles(500000);
-        P1OUT = a+b+g+c+d;
+        P1OUT = ;
         __delay_cycles(500000);
     }
 }
