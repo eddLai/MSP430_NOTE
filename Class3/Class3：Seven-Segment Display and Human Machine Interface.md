@@ -55,6 +55,11 @@ eddlai.be10@nycu.edu.tw
 ---
 # 
 
+|     |     |
+| --- | --- |
+|     |     |
+
+
 ---
 ![[7 segment pinout.png|500]]
 
