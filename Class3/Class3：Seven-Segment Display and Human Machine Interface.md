@@ -113,15 +113,15 @@ digitalWrite(pinMapping[i], LOW);
 #define g BIT7
 ```
 
-| Register | BIT1 | BIT2 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7 |
-| -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Register BIT1 | BIT1 | BIT2 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7 |
+| ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 
 ---
 ## Register
 ![[PxIN Register.png]]
 
 ---
-第七的pin腳是HIGH，我就要
+第七的pin腳是HIGH，我就要指定BIT7
 ![[PxOUT Register.png]]
 
 ---
