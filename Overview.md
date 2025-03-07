@@ -129,3 +129,5 @@ Please make sure to bring your laptop for the session. It is better to use a per
 Best regards,
 賴宏達
 Teaching Assistant
+
+[7 Segment LED Stopwatch](https://dev.ti.com/tirex/explore/node?node=A__AGMceNIDp4hzf0lgOnv36g__msp_housekeeping__IOGqZri__LATEST)
