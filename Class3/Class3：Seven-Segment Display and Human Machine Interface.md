@@ -101,7 +101,7 @@ digitalWrite(pinMapping[i], LOW);
 
 ---
 CCS
-
+![[PxIN Register.png]]
 
 ---
 # Task
