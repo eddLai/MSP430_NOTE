@@ -81,6 +81,11 @@ eddlai.be10@nycu.edu.tw
 | 9      | 1    | 1    | 1    | 0    | 0    | 1    | 1    |
 
 ---
+```
+byte pinMapping[7] = {P1_1, P1_2, P1_3, P1_4, P1_5, P1_6, P1_7};
+```
+
+---
 ![[7 segment pinout.png|500]]
 
 [Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)
