@@ -95,7 +95,44 @@ digitalWrite(pinMapping[i], LOW);
 2. 加分題：按下按鈕倒數計時
 
 ---
+```
+byte pin;
+byte num[10][7] = {
+  {1, 1, 1, 1, 1, 1, 0}, // 0
+  {0, 1, 1, 0, 0, 0, 0}, // 1
+  {1, 1, 0, 1, 1, 0, 1}, // 2
+  {1, 1, 1, 1, 0, 0, 1}, // 3
+  {0, 1, 1, 0, 0, 1, 1}, // 4 
+  {1, 0, 1, 1, 0, 1, 1}, // 5
+  {0, 0, 1, 1, 1, 1, 1}, // 6
+  {1, 1, 1, 0, 0, 0, 0}, // 7
+  {1, 1, 1, 1, 1, 1, 1}, // 8
+  {1, 1, 1, 0, 0, 1, 1}  // 9
+};
 
+// MSP430 P1.x 腳位對應
+byte pinMapping[7] = {P1_1, P1_2, P1_3, P1_4, P1_5, P1_6, P1_7};
+
+void setup() {
+  for (int i = 0; i < 7; i++) {         
+    pinMode(pinMapping[i], OUTPUT);  // 設定 P1_x 為輸出
+    digitalWrite(pinMapping[i], HIGH); // 測試 LED
+    delay(200);
+    digitalWrite(pinMapping[i], LOW);
+    delay(200);
+  }
+  digitalWrite(pinMapping[0], HIGH);
+}
+
+void loop() {
+  for (int i = 0; i < 10; i++) {  // 顯示 0~9
+    for (int j = 0; j < 7; j++) {
+      digitalWrite(pinMapping[j], num[i][j]); // 更新顯示
+    }
+    delay(1000);  // 1秒更新數字
+  }
+}
+```
 
 ---
 ```
