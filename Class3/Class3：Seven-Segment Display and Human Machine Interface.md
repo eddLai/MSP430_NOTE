@@ -86,6 +86,9 @@ eddlai.be10@nycu.edu.tw
 | 9      |      |      |      |      |      |      |      |
 
 ---
+
+
+---
 # Code Hint
 ```C++
 byte num[10][7] = ??
