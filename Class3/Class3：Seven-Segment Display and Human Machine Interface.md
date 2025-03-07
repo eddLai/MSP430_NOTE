@@ -1,4 +1,43 @@
 
+<style>
+    .reveal {
+        font-family: 'Times New Roman', '標楷體';
+        font-size: 30px;
+        text-align: left;
+        color: black;
+        background-size: cover;
+        background-position: center;
+    }
+	.reveal h1,
+	.reveal h2,
+	.reveal h3,
+	.reveal h4,
+	.reveal h5,
+	.reveal h6 {
+	  font-family: 'Times New Roman', '標楷體';
+	  color: black;
+	  %%text-transform: lowercase%%;
+	  text-transform: capitalize;
+	}
+	.with-border{
+		border: 1px solid red;
+	}
+</style>
+<grid drag="100 10" drop="0 40">
+Class2：Serial Debugging and Arithmetic Encoding
+<!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
+</grid>
+
+<grid drag="50 10" drop="40 70">
+TA: 賴宏達\
+eddlai.be10@nycu.edu.tw
+<!-- element style="background-color: black;font-size: 40px;align: right; text-align: right;color: white"-->
+</grid>
+
+<!-- slide bg="[[MSP430 HD pic.png]]" -->
+
+---
+
 ![[7 segment pinout.png|500]]
 
 [Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)
