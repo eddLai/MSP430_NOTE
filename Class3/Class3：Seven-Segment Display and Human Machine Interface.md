@@ -9,3 +9,5 @@
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
 
 
+媒體的片面性
+起因是
