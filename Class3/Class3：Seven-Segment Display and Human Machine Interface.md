@@ -113,8 +113,10 @@ digitalWrite(pinMapping[i], LOW);
 #define g BIT7
 ```
 
-| Register BIT1 | 1   | 0   | 0   | 0   | 0   | 0   | 0   |
+
+| Register      |     |     |     |     |     |     |     |
 | ------------- | --- | --- | --- | --- | --- | --- | --- |
+| BIT1          | 1   | 0   | 0   | 0   | 0   | 0   | 0   |
 | Register BIT5 | 0   | 0   | 0   | 0   | 1   | 0   | 0   |
 | +             |     |     |     |     |     |     |     |
 | BIT1+BIT5     | 1   | 0   | 0   | 0   | 1   | 0   | 0   |
