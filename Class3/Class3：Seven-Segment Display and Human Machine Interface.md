@@ -87,7 +87,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 ![[7 segments display pinout.png]]
-共陰極是為了減少電流消耗(每個腳位是有電流)
+共陰極是為了減少電流消耗(每個腳位是有電流上限的)
 
 ---
 # Code Hint
