@@ -101,13 +101,14 @@ digitalWrite(pinMapping[i], LOW);
 
 ---
 CCS
+[ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09)
 ![[PxIN Register.png]]
 
 ---
 ![[PxOUT Register.png]]
 
 ---
-
+![[PxDIR Register.png]]
 
 ---
 # Task
