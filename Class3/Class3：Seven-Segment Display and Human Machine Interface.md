@@ -90,8 +90,8 @@ eddlai.be10@nycu.edu.tw
 共陰極是為了減少電流消耗(每個腳位是有電流上限的)
 
 ---
-# Code Hint
-## Energia
+# Energia
+## Hint
 ```C++
 byte num[10][7] = ??
 byte pinMapping[7] = {P1_1, P1_2, P1_3, P1_4, P1_5, P1_6, P1_7};
@@ -116,7 +116,16 @@ digitalWrite(pinMapping[i], LOW);
 
 | Register | BIT1 | BIT2 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7 |
 | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|          |      |      |      |      |      |      |      |
+
+---
+## Register
+![[PxIN Register.png]]
+
+---
+![[PxOUT Register.png]]
+
+---
+![[PxDIR Register.png]]
 
 ---
 ```C++
@@ -135,15 +144,6 @@ void main()
 }
 ```
 
----
-## Register
-![[PxIN Register.png]]
-
----
-![[PxOUT Register.png]]
-
----
-![[PxDIR Register.png]]
 
 ---
 # Task
