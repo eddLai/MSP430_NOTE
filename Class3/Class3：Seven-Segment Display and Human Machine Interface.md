@@ -158,7 +158,8 @@ void main()
 # Task
 注意沒有加電阻會導致顯示器被破壞，==一人只有一個==
 1. 用Energia: 完成0~9的計時，並用碼表檢查其準確性
-2. 用CCS:完成一樣的任務%%加分題：按下按鈕倒數計時%%![[7 segment display with resistor.png|300]]
+2. 用CCS:完成一樣的任務%%加分題：按下按鈕倒數計時%%
+3. ![[7 segment display with resistor.png|300]]
 
 ---
 ```
