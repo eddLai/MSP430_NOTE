@@ -245,4 +245,3 @@ int32_t parseTwosComplement(String binary) {
 [[MSP430_class2_HW.pdf]]
 [[MSP430_class2_HW.mp4]]
 [[MSP430_Jumper_setup.jpg]]
-[[HW]]
