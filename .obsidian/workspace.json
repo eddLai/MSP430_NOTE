@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "2aae390727c1ec5c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MSP430G2553 LaunchPad™ Development Kit.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MSP430G2553 LaunchPad™ Development Kit"
+            }
+          },
+          {
             "id": "23d81e9fdc5597cd",
             "type": "leaf",
             "state": {
@@ -35,7 +47,8 @@
               "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8ffb42f25bf992c8",
@@ -170,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+                "file": "MSP430G2553 LaunchPad™ Development Kit.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class3：Seven-Segment Display and Human Machine Interface"
+              "title": "Outline of MSP430G2553 LaunchPad™ Development Kit"
             }
           }
         ],
@@ -200,10 +213,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2aae390727c1ec5c",
   "lastOpenFiles": [
-    "Overview.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "Overview.md",
     "Class2/UART Protocols.jpg",
     "Class3/7 segment pinout with Arduino.png",
     "Class3/7 segments display pinout.png",
