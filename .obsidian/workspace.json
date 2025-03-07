@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class2：Serial Debugging and Arithmetic Encoding.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class2：Serial Debugging and Arithmetic Encoding"
+              "title": "Outline of Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
         ],
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
