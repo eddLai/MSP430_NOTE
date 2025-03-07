@@ -100,7 +100,8 @@ digitalWrite(pinMapping[i], LOW);
 ```
 
 ---
-CCS:
+CCS
+
 
 ---
 # Task
