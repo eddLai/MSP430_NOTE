@@ -60,8 +60,8 @@ eddlai.be10@nycu.edu.tw
 | 3      | A+B+C+D+G     |
 | 4      | B+C+F+G       |
 | 5      | A+F+G+C+D     |
-| 6      |               |
-| 7      |               |
+| 6      | F+G+C+D+E     |
+| 7      | A+B+C         |
 | 8      |               |
 | 9      |               |
 
