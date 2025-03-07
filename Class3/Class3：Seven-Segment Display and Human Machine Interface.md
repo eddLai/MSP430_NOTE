@@ -94,6 +94,37 @@ digitalWrite(pinMapping[i], LOW);
 1. 完成0~9的計時，並用碼表檢查其準確性
 2. 加分題：按下按鈕倒數計時
 
+---
+
+
+---
+```
+#include <msp430.h>
+
+#define a BIT1
+#define b BIT2
+#define c BIT3
+#define d BIT4
+#define e BIT5
+#define f BIT6
+#define g BIT7
+ 
+void main()
+{
+    WDTCTL = WDTPW + WDTHOLD;
+    P1DIR = a+b+c+d+e+f+g;
+ 
+    while(1)
+    {
+        P1OUT = b+c;
+        __delay_cycles(500000);
+        P1OUT = a+b+g+e+d;
+        __delay_cycles(500000);
+        P1OUT = a+b+g+c+d;
+        __delay_cycles(500000);
+    }
+}
+```
 
 ---
 ![[7 segment pinout.png|500]]
