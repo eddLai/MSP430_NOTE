@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
+          },
+          {
+            "id": "f30b0b2cbbf01ddd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MSP430G2553 LaunchPad™ Development Kit.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MSP430G2553 LaunchPad™ Development Kit"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8ffb42f25bf992c8",
@@ -156,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+                "file": "MSP430G2553 LaunchPad™ Development Kit.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class3：Seven-Segment Display and Human Machine Interface"
+              "title": "Outline of MSP430G2553 LaunchPad™ Development Kit"
             }
           }
         ],
@@ -186,10 +199,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f30b0b2cbbf01ddd",
   "lastOpenFiles": [
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "MSP430G2553 LaunchPad™ Development Kit.pdf",
     "Overview.md",
     "Class2/UART Protocols.jpg",
