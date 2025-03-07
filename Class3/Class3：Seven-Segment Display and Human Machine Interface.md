@@ -121,7 +121,7 @@ digitalWrite(pinMapping[i], LOW);
 ![[PxIN Register.png]]
 
 ---
-
+第七的pin腳是HIGH，我就要
 ![[PxOUT Register.png]]
 
 ---
