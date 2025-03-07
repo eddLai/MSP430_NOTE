@@ -102,9 +102,9 @@ digitalWrite(pinMapping[i], LOW);
 ---
 ## CCS
 [MSP430F2xx, MSP430G2xx Family](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09)
+
 ```C++
 #include <msp430.h>
-
 #define a BIT1
 #define b BIT2
 #define c BIT3
@@ -112,7 +112,8 @@ digitalWrite(pinMapping[i], LOW);
 #define e BIT5
 #define f BIT6
 #define g BIT7
- 
+```
+```C++
 void main()
 {
     WDTCTL = WDTPW + WDTHOLD;
@@ -120,8 +121,6 @@ void main()
  
     while(1)
     {
-        P1OUT = ;
-        __delay_cycles(500000);
         P1OUT = ;
         __delay_cycles(500000);
         P1OUT = ;
