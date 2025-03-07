@@ -91,6 +91,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Code Hint
+Energia
 ```C++
 byte num[10][7] = ??
 byte pinMapping[7] = {P1_1, P1_2, P1_3, P1_4, P1_5, P1_6, P1_7};
@@ -99,10 +100,13 @@ digitalWrite(pinMapping[i], LOW);
 ```
 
 ---
+CCS:
+
+---
 # Task
 注意沒有加電阻會導致顯示器被破壞，==一人只有一個==
 1. 用Energia: 完成0~9的計時，並用碼表檢查其準確性
-2. m/%%加分題：按下按鈕倒數計時%%
+2. 用CCS:完成一樣的任務%%加分題：按下按鈕倒數計時%%
 
 ---
 ```
