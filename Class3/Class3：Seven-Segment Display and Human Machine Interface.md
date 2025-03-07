@@ -113,17 +113,25 @@ digitalWrite(pinMapping[i], LOW);
 #define f BIT6
 #define g BIT7
 ```
+
+
+|     |     |
+| --- | --- |
+|     |     |
+
+
+---
 ```C++
 void main()
 {
     WDTCTL = WDTPW + WDTHOLD;
-    P1DIR = ;
+    P1DIR = ??;
  
     while(1)
     {
-        P1OUT = ;
+        P1OUT = ??;
         __delay_cycles(500000);
-        P1OUT = ;
+        P1OUT = ??;
         __delay_cycles(500000);
     }
 }
