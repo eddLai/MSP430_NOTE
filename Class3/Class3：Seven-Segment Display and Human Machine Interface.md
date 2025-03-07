@@ -100,7 +100,7 @@ digitalWrite(pinMapping[i], LOW);
 ```
 
 ---
-## CCS
+# CCS
 [MSP430F2xx, MSP430G2xx Family](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09)\
 假設我使用P1.1~P1.7
 ```C++
@@ -128,6 +128,7 @@ digitalWrite(pinMapping[i], LOW);
 ![[PxDIR Register.png]]
 
 ---
+## Hint
 ```C++
 void main()
 {
