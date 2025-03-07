@@ -1,2 +1,0 @@
-[MSP-EXP430G2ET 1_01_00_00 - TI.com](https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP-EXP430G2ET/latest/index_FDS.html)
-[ti.com/lit/ug/slau278ah/slau278ah.pdf?ts=1741339847721#page=7.29](https://www.ti.com/lit/ug/slau278ah/slau278ah.pdf?ts=1741339847721#page=7.29)
