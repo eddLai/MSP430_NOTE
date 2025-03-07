@@ -1,3 +1,4 @@
+
 ![[7 segment pinout.png|500]]
 
 [Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)
