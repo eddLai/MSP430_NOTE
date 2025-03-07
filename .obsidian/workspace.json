@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
         ]
@@ -170,15 +170,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "67291265d6a386b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Overview.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class2_HW (1).mp4",
     "Lec HW/MSP430_class2_HW.mp4",
     "Lec HW/MSP430_class2_HW.pdf",
     "Lec HW/MSP430_Jumper_setup.jpg",
     "Lec HW/MSP430_class1.docx",
-    "Overview.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
