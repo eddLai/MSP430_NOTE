@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class3：7 segment display
+Class3：7 segment display pin wiring practice 
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
