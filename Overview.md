@@ -135,3 +135,4 @@ Teaching Assistant
 [MSP430 Academy 教程](https://dev.ti.com/tirex/explore/node?node=A__AEIJm0rwIeU.2P1OBWwlaA__MSP430-ACADEMY-CN__rro-Qq-__LATEST)
 
 [[FET driver upload issue]]
+[[MSP430]]
