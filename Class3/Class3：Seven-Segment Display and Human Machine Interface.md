@@ -40,6 +40,9 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
+0900~0930 先把上次作業最後一題展示出來。
+
+---
 # pinout Table
 接5V線確定腳位位置\
 填入連接的pin腳
