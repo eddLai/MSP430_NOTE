@@ -40,7 +40,8 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-0900~0930 先把上次作業最後一題展示出來。
+0900~0930 先把上次作業最後一題展示出來。\
+TTL module拿到前面
 
 ---
 # pinout Table
