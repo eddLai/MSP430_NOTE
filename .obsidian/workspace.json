@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -187,7 +186,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "82036055df7aa59e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
