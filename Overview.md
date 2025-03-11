@@ -137,3 +137,5 @@ Teaching Assistant
 
 [[FET driver upload issue]]
 [[MSP430F2xx, MSP430G2xx Family.pdf]]
+
+放了筆電、兩盒
