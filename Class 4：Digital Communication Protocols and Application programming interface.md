@@ -26,7 +26,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class3.5：Button module and functionization, write your own library
+Digital Communication Protocols and Application programming interface
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
