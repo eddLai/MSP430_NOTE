@@ -40,9 +40,5 @@ eddlai.be10@nycu.edu.tw
 
 ---
 
-1. 軟體重置
-```
-UCA0CTLW0 |= UCSWRST;  // 1. 進入「軟體重置模式」，讓 UART 模塊進入可配置狀態
-```
-
+1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
 2. 
