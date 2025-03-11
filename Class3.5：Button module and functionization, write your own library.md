@@ -49,3 +49,4 @@ eddlai.be10@nycu.edu.tw
 接線30分鐘
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
+
