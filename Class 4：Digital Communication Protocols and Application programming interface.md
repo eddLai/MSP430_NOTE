@@ -1,4 +1,6 @@
-
+---
+bg: "[[NTKLab_white bg.png]]"
+---
 <style>
     .reveal {
         font-family: 'Times New Roman', '標楷體';
@@ -35,7 +37,5 @@ eddlai.be10@nycu.edu.tw
 </grid>
 
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
-bg: "[[NTKLab_white bg.png]]"
-
 
 ---
