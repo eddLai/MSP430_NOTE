@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -202,8 +203,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "67291265d6a386b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Lec HW/~WRL0003.tmp",
+    "Lec HW/~WRD0002.tmp",
     "Lec HW/~$P430_class1.docx",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
@@ -232,7 +235,6 @@
     "Class3",
     "family manual user.pdf",
     "Class1/Class1 lec slide english-version.md",
-    "Class1/LED blinkin.md",
-    "Class1/下載及安裝TI MSP 430 CCS程式的步驟.pdf"
+    "Class1/LED blinkin.md"
   ]
 }
