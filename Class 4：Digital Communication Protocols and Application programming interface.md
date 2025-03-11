@@ -39,9 +39,9 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-
+# Flow
 1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
 2. 
 
 ---
-## Regis
+# Register Table
