@@ -41,7 +41,7 @@ eddlai.be10@nycu.edu.tw
 ---
 # Flow
 1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
-2. 
+2. 關閉UCSWRST，啟動 UART `UCA0CTL1 &= ~UCSWRST;`
 
 ---
 # Register Table
