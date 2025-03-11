@@ -13,22 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class 4：Digital Communication Protocols and Application programming interface.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 4：Digital Communication Protocols and Application programming interface"
+              "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
         ]
       },
       {
-        "id": "a99df66e5821afad",
+        "id": "0b75fc620773f34c",
         "type": "tabs",
         "children": [
           {
-            "id": "82036055df7aa59e",
+            "id": "566a1ce2125c3a8a",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -187,11 +187,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "566a1ce2125c3a8a",
   "lastOpenFiles": [
     "Overview.md",
-    "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Class3.5：Button module and functionization, write your own library.md",
+    "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Lec HW/A9Rijwhuo_1ju6xqm_e5c.tmp",
