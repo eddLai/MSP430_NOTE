@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 33.00970873786408,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -19,6 +20,23 @@
               },
               "icon": "lucide-file",
               "title": "Class3：Seven-Segment Display and Human Machine Interface"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b99f11ded222dd18",
+        "type": "tabs",
+        "dimension": 66.99029126213593,
+        "children": [
+          {
+            "id": "8ff142e585ca277e",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -78,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -173,8 +192,8 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
-    "MSP430F2xx, MSP430G2xx Family.pdf",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "MSP430F2xx, MSP430G2xx Family.pdf",
     "7 segment display with resistor.png",
     "PxDIR Register.png",
     "PxOUT Register.png",
