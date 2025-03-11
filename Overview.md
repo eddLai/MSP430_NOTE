@@ -23,7 +23,7 @@
 		- %% 計算這個UART的最高速度，用bitbang的方法? %%
 3. 迴圈：[[Class3：Seven-Segment Display and Human Machine Interface]] 七段顯示器 (Embbed C+Arduino)
 	- 材料：按鈕+七段顯示器
-4. [[Class3：Button module and your own library]]
+4. [[Class3.5：Button module and functionization, write your own library]]
 5. 函式化：[[Class 4: Digital Communication Protocols and Application programming interface]]：UART+Ti API
 6. 函式化：[[Class 5：The Role of Data Structures in Functionalization, LeetCode Arrays and Custon C-based API]]資料結構Array leetcode題目+swig，API C wrapper for python API
 7. 函式化：[[Class 6：I2C Protocol & Light Sensor Module Applications]] 黑箱光照偵測
