@@ -36,8 +36,7 @@
               "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b99f11ded222dd18",
@@ -204,8 +203,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6f7f54eede9b9952",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
     "MSP430F2xx, MSP430G2xx Family.pdf",
@@ -213,7 +213,6 @@
     "PxDIR Register.png",
     "PxOUT Register.png",
     "PxIN Register.png",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "MSP430G2553 LaunchPad™ Development Kit.pdf",
     "FET driver upload issue.md",
     "Class2/UART Protocols.jpg",
