@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class3：Seven-Segment Display and Human Machine Interface"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0b75fc620773f34c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "566a1ce2125c3a8a",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "Overview"
             }
           }
         ]
@@ -187,12 +171,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "566a1ce2125c3a8a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
     "Class3.5：Button module and functionization, write your own library.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Lec HW/A9Rijwhuo_1ju6xqm_e5c.tmp",
     "Lec HW/MSP430_class3_HW.pdf",

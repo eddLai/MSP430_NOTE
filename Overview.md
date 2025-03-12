@@ -139,3 +139,5 @@ Teaching Assistant
 [[MSP430F2xx, MSP430G2xx Family.pdf]]
 
 放了筆電、兩盒
+
+在chatgpt問世以來，寫程式變得如此簡單，邏輯思考是必要的，但是單純的vu
