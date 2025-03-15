@@ -147,6 +147,29 @@ TotalMilliseconds : 296.577
 ```
 
 ---
+## Count in Swig
+```
+(base) PS D:\C code\python-c-mixing\python-call-c\swig> python swig_main.py
+speedup_performance module loaded: <module 'speedup_performance' from 'D:\\C code\\python-c-mixing\\python-call-c\\swig\\speedup_performance.py'>
+10
+10000000200000000
+(base) PS D:\C code\python-c-mixing\python-call-c\swig> Measure-Command {python .\swig_main.py}
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 117
+Ticks             : 1176634
+TotalDays         : 1.36184490740741E-06
+TotalHours        : 3.26842777777778E-05
+TotalMinutes      : 0.00196105666666667
+TotalSeconds      : 0.1176634
+TotalMilliseconds : 117.6634
+```
+
+---
 # Tasks
 - MSP430
 	- 完成薄膜按鈕輸入輸出判定
