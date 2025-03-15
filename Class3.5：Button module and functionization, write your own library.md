@@ -56,8 +56,8 @@ food order(food_category, deliver){
 	Foodpanda(food_category)
 }
 ```
-application program interface，API
-金融API，馬達控制API，
+application program interface，API\
+金融API，馬達控制API，高階語法`digitalWrite(gpio, LEVEL)`
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
