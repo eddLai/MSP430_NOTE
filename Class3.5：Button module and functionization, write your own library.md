@@ -67,6 +67,7 @@ application program interface，API\
 金融API，馬達控制API，高階語法`digitalWrite(gpio, LEVEL)`
 
 ---
+API的背後，**後端**，可能是某種複雜k
 ```C++
 food UberEats(string food_category) {
     vector<string> process_steps = {"製作食物", "包裝食物", "配送中"};
