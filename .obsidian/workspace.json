@@ -51,6 +51,22 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "4a5cebeb57ae27ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90c89475cc1115f4",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +216,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9fa642d1187d4cd3",
+  "active": "90c89475cc1115f4",
   "lastOpenFiles": [
     "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Overview.md",
