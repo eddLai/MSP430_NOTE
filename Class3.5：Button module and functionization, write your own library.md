@@ -49,6 +49,9 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Functionization
+
+
+---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
 2. 從官網中找到自己系統的下載版本[Simplified Wrapper and Interface Generator](https://www.swig.org/)
 3. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
