@@ -83,7 +83,9 @@ food UberEats(string food_category) {
 3. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
 4. `swig --version`
 5. 打包C++ function
-6. 測試迭代速度差異windows(Measure-Command), MAC
+6. 測試迭代速度差異
+	1. windows用(Measure-Command)
+	2. Unix例如：macOS用
 
 ---
 # Tasks
