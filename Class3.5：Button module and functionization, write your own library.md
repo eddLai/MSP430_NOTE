@@ -51,9 +51,20 @@ eddlai.be10@nycu.edu.tw
 # Functionization
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
-food order(food_category, deliver){
-	retrun UberEats(food_category)
-	Foodpanda(food_category)
+void food_order(vector<string> food_categories, string deliver_platform) {
+    for (string category : food_categories) {
+        string result;
+
+        // 根據選擇的外送平台呼叫不同的 API
+        if (deliver_platform == "UberEats") {
+            result = UberEats(category); // 呼叫 UberEats API
+        } else if (deliver_platform == "Foodpanda") {
+            result = Foodpanda(category); // 呼叫 Foodpanda API
+        } else {
+            result = "Unknown delivery platform";
+        }
+        ret
+    }
 }
 ```
 application program interface，API\
