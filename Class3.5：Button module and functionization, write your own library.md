@@ -89,3 +89,6 @@ food UberEats(string food_category) {
 # Tasks
 - 下載SWIG
 - 把函式封裝成python API
+- 實測迴圈差異
+
+(之後幾堂課彙整何在)
