@@ -88,8 +88,9 @@ food UberEats(string food_category) {
 3. 解壓縮到系統儲存程式的位置(可能是C槽之類的) 
 4. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
 5. `swig --version` 確認安裝完成
-6. 打包C++ function，編譯並輸出
-7. 測試迭代速度差異
+6. 確定C編譯器也被設定為環境變數
+7. 打包C++ function，編譯並輸出
+8. 測試迭代速度差異
 	1. windows用
 		1. `Measure-Command {python my_script.p}` 
 		2. `Measure-Command { .\my_program.exe }`
