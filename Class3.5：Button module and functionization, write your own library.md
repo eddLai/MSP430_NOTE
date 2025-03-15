@@ -106,4 +106,6 @@ food UberEats(string food_category) {
 
 (之後幾堂課會整合在一起)
 
-related
+---
+# Ref.
+[pyliaorachel/python-c-mixing: Examples of mixing Python and C](https://github.com/pyliaorachel/python-c-mixing)
