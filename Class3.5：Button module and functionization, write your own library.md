@@ -155,6 +155,10 @@ TotalMilliseconds : 296.577
 	- 把函式封裝成python API
 	- 實測C++ vs python迴圈速度差異
 
+---
+# Homework
+- 把swig工具所調用的檔案畫成
+
 (之後幾堂課會整合在一起)
 
 ---
