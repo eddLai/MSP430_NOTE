@@ -67,7 +67,14 @@ application program interface，API\
 金融API，馬達控制API，高階語法`digitalWrite(gpio, LEVEL)`
 
 ---
-UberEats
+```C++
+food UberEats(string food_category) {
+    vector<string> process_steps = {"製作食物", "包裝食物", "配送中"};
+
+    for (string step : process_steps) {
+        cout << "[UberEats] " << step << "中：" << food_category << endl;
+    }
+```
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
