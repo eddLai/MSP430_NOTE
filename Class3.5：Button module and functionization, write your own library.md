@@ -49,7 +49,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Functionization
-Why is C++ not python
+Why is C++ not python or JAVA?\
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
 food food_order(food_categories, deliver_platform) {
