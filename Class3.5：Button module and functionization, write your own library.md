@@ -99,6 +99,7 @@ food UberEats(string food_category) {
 		2. `time ./my_program`
 
 ---
+## count in python
 ```
 (base) PS D:\C code\python-c-mixing\python-call-c\swig> python main.py
 Python result: 10000000200000000
@@ -116,6 +117,11 @@ TotalHours        : 0.00365652152777778
 TotalMinutes      : 0.219391291666667
 TotalSeconds      : 13.1634775
 TotalMilliseconds : 13163.4775
+```
+
+---
+## count in C++
+```
 ```
 
 ---
