@@ -80,16 +80,16 @@ food UberEats(string food_category) {
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
 2. 從官網中找到自己系統的下載版本[Simplified Wrapper and Interface Generator](https://www.swig.org/)
-3. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
-4. `swig --version`
+3. 解壓縮到系統儲存未5設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
+4. `swig --version` 確認安裝完成
 5. 打包C++ function
 6. 測試迭代速度差異
 	1. windows用
 		1. `Measure-Command {python my_script.p}` 
 		2. `Measure-Command { .\my_program.exe }`
 	2. Unix例如：macOS用`time`
-		1. time python3 my_script.py
-		2. 
+		1. `time python3 my_script.py`
+		2. `time ./my_program`
 
 ---
 # Tasks
