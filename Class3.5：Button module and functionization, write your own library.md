@@ -49,7 +49,12 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Functionization
-Uber Eats 或 Foodpandan蓊
+Uber Eats 或 Foodpanda送出訂單，這一個函式
+```C++
+food order(){
+	
+}
+```
 application program interface，API
 
 ---
