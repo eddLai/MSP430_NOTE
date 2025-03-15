@@ -52,3 +52,5 @@ eddlai.be10@nycu.edu.tw
 
 ---
 實驗記錄
+[Simplified Wrapper and Interface Generator](https://www.swig.org/)
+1. 設定為環境變數(什麼是環境變數，讓)
