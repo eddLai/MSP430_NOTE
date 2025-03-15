@@ -51,9 +51,9 @@ eddlai.be10@nycu.edu.tw
 # Functionization
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
-food order(food_category){
-	UberEats
-	Foodpanda
+food order(food_category, deliver){
+	retrun UberEats(food_category)
+	Foodpanda(food_category)
 }
 ```
 application program interface，API
