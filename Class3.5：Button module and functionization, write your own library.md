@@ -84,8 +84,12 @@ food UberEats(string food_category) {
 4. `swig --version`
 5. 打包C++ function
 6. 測試迭代速度差異
-	1. windows用`Measure-Command` 
+	1. windows用
+		1. `Measure-Command {python my_script.p}` 
+		2. `Measure-Command { .\my_program.exe }`
 	2. Unix例如：macOS用`time`
+		1. time python3 my_script.py
+		2. 
 
 ---
 # Tasks
