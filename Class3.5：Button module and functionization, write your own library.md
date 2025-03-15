@@ -54,6 +54,7 @@ eddlai.be10@nycu.edu.tw
 # Functionization
 %%MRI可以用python寫嗎，用python寫你敢照嗎%%
 Why is C++ not python or JAVA?\
+開發u0
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
 food food_order(food_category, deliver_platform) {
