@@ -52,11 +52,11 @@ eddlai.be10@nycu.edu.tw
 Why is C++ not python or JAVA?\
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
-food food_order(food_categories, deliver_platform) {
+food food_order(food_category, deliver_platform) {
 	if (deliver_platform == "UberEats") {
-		result = UberEats(category); // 呼叫 UberEats API
+		result = UberEats(food_category); // 呼叫 UberEats API
 	} else if (deliver_platform == "Foodpanda") {
-		result = Foodpanda(category); // 呼叫 Foodpanda API
+		result = Foodpanda(food_category); // 呼叫 Foodpanda API
 	} else { //防呆
 		result = "Unknown delivery platform";
 	}
@@ -65,6 +65,9 @@ food food_order(food_categories, deliver_platform) {
 ```
 application program interface，API\
 金融API，馬達控制API，高階語法`digitalWrite(gpio, LEVEL)`
+
+---
+UberEats
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
