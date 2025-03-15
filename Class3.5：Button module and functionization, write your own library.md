@@ -95,6 +95,7 @@ food UberEats(string food_category) {
 
 ---
 # Tasks
+- 完成薄膜按鈕輸入輸出
 - 下載SWIG
 - 把函式封裝成python API
 - 實測迴圈速度差異
