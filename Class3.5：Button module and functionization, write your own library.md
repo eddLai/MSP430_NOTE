@@ -49,22 +49,18 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Functionization
+Why is C++ not python
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
 food food_order(food_categories, deliver_platform) {
-    for (string category : food_categories) {
-        string result;
-
-        // 根據選擇的外送平台呼叫不同的 API
-        if (deliver_platform == "UberEats") {
-            result = UberEats(category); // 呼叫 UberEats API
-        } else if (deliver_platform == "Foodpanda") {
-            result = Foodpanda(category); // 呼叫 Foodpanda API
-        } else {
-            result = "Unknown delivery platform";
-        }
-        return result
-    }
+	if (deliver_platform == "UberEats") {
+		result = UberEats(category); // 呼叫 UberEats API
+	} else if (deliver_platform == "Foodpanda") {
+		result = Foodpanda(category); // 呼叫 Foodpanda API
+	} else { //防呆
+		result = "Unknown delivery platform";
+	}
+	return result
 }
 ```
 application program interface，API\
