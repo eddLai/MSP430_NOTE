@@ -50,3 +50,5 @@ eddlai.be10@nycu.edu.tw
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
 
+---
+實驗記錄
