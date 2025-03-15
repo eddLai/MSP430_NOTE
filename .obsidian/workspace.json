@@ -49,7 +49,8 @@
               "title": "Class 4：Digital Communication Protocols and Application programming interface"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4a5cebeb57ae27ac",
@@ -185,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overview.md",
+                "file": "Class3.5：Button module and functionization, write your own library.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overview"
+              "title": "Outline of Class3.5：Button module and functionization, write your own library"
             }
           }
         ],
@@ -199,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,14 +216,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9fa642d1187d4cd3",
   "lastOpenFiles": [
+    "Overview.md",
+    "Class5",
     "Class4",
     "Class 4",
     "Class 5",
     "新增資料夾 (2)",
     "Class3.5：Button module and functionization, write your own library.md",
-    "Overview.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
     "新增資料夾",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
@@ -230,8 +233,6 @@
     "Lec HW/MSP430_class3_HW.pdf",
     "Lec HW/~WRL0005.tmp",
     "Lec HW/~WRD0004.tmp",
-    "Lec HW/~WRL0003.tmp",
-    "Lec HW/~WRD0002.tmp",
     "7 segment display with resistor.png",
     "PxDIR Register.png",
     "PxOUT Register.png",
