@@ -99,6 +99,26 @@ food UberEats(string food_category) {
 		2. `time ./my_program`
 
 ---
+```
+(base) PS D:\C code\python-c-mixing\python-call-c\swig> python main.py
+Python result: 10000000200000000
+(base) PS D:\C code\python-c-mixing\python-call-c\swig> Measure-Command {python .\main.py}
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 13
+Milliseconds      : 163
+Ticks             : 131634775
+TotalDays         : 0.000152355063657407
+TotalHours        : 0.00365652152777778
+TotalMinutes      : 0.219391291666667
+TotalSeconds      : 13.1634775
+TotalMilliseconds : 13163.4775
+```
+
+---
 # Tasks
 - MSP430
 	- 完成薄膜按鈕輸入輸出判定
