@@ -166,6 +166,12 @@ void main()
 3. ![[7 segment display with resistor.png|300]]
 
 ---
+# Related
+- [Arduino筆記 07. 七段顯示器(7-Segment Display) - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)
+- [（十）msp430：7段显示器与MSP-EXP430G2 TI Launchpad连接 – 趣讨教](https://www.qutaojiao.com/18851.html)
+- [energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
+
+---
 ```
 byte pin;
 byte num[10][7] = {
