@@ -49,8 +49,7 @@
               "title": "Class 4：Digital Communication Protocols and Application programming interface"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4a5cebeb57ae27ac",
@@ -186,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class3.5：Button module and functionization, write your own library.md",
+                "file": "Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Class3.5：Button module and functionization, write your own library"
+              "title": "Outline of Overview"
             }
           }
         ],
@@ -215,11 +214,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9fa642d1187d4cd3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Class3.5：Button module and functionization, write your own library.md",
+    "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Overview.md",
+    "新增資料夾",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Lec HW/A9Rijwhuo_1ju6xqm_e5c.tmp",
@@ -239,7 +239,6 @@
     "Class2/UART Protocols.jpg",
     "Class3/7 segment pinout with Arduino.png",
     "Class3/7 segments display pinout.png",
-    "Lec HW/MSP430_class2_HW (1).mp4",
     "Lec HW/MSP430_Jumper_setup.jpg",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
