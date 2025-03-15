@@ -122,6 +122,22 @@ TotalMilliseconds : 13163.4775
 ---
 ## count in C++
 ```
+(base) PS D:\C code\python-c-mixing\python-call-c\swig> .\main.exe
+Result: 10000000200000000
+(base) PS D:\C code\python-c-mixing\python-call-c\swig> Measure-Command {.\main.exe}
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 296
+Ticks             : 2965770
+TotalDays         : 3.43260416666667E-06
+TotalHours        : 8.23825E-05
+TotalMinutes      : 0.00494295
+TotalSeconds      : 0.296577
+TotalMilliseconds : 296.577
 ```
 
 ---
