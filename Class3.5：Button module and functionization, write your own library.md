@@ -157,7 +157,9 @@ TotalMilliseconds : 296.577
 
 ---
 # Homework
-- 把swig工具所調用的檔案畫成
+- 把swig工具所調用的檔案畫成block diagram
+- 實測迴圈速度的差異
+- 
 
 (之後幾堂課會整合在一起)
 
