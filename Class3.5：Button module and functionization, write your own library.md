@@ -99,6 +99,11 @@ food UberEats(string food_category) {
 		2. `time ./my_program`
 
 ---
+## swig命令
+1. 移動到檔案的所在位置
+2. 使用
+
+---
 ## count in python
 ```
 (base) PS D:\C code\python-c-mixing\python-call-c\swig> python main.py
