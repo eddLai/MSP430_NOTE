@@ -182,10 +182,11 @@ TotalMilliseconds : 117.6634
 # Homework
 - 把swig工具所調用的檔案畫成block diagram
 - 實測迴圈速度的差異
-- 
+- 嘗試把`%include "stdint.i"`刪除並看看會發生什麼
 
 (之後幾堂課會整合在一起)
 
 ---
 # Ref.
-[pyliaorachel/python-c-mixing: Examples of mixing Python and C](https://github.com/pyliaorachel/python-c-mixing)
+- [pyliaorachel/python-c-mixing: Examples of mixing Python and C](https://github.com/pyliaorachel/python-c-mixing)
+- [swig/python detected a memory leak of type 'int64_t *', no destructor found. · Issue #15 · aphysci/gravity](https://github.com/aphysci/gravity/issues/15)
