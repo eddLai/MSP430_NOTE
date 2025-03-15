@@ -182,7 +182,7 @@ TotalMilliseconds : 117.6634
 # Homework
 - 把swig工具所調用的檔案畫成block diagram
 - 實測迴圈速度的差異
-- 討論
+- 討論為什麼C++還比SWIG慢，是因為?(修改code，以及關閉.h)
 - 嘗試把`%include "stdint.i"`刪除並看看會發生什麼
 
 (之後幾堂課會整合在一起)
