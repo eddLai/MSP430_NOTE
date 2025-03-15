@@ -53,8 +53,7 @@ eddlai.be10@nycu.edu.tw
 ---
 # Functionization
 Why is C++ not python or JAVA?\
-MRI可以用python寫嗎，用python寫你敢照嗎\
-
+MRI可以用python寫嗎(自由度太高，資料結構太亂)，用python寫你敢照嗎\
 開發嚴謹的硬體需要用嚴謹的語言\
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
