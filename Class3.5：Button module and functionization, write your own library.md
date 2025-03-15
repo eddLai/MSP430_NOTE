@@ -43,7 +43,7 @@ eddlai.be10@nycu.edu.tw
 # button module
 
 [Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)
-
+寫一個祭jn0
 接線30分鐘
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
