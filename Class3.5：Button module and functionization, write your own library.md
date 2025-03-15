@@ -51,7 +51,7 @@ eddlai.be10@nycu.edu.tw
 # Functionization
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
-void food_order(vector<string> food_categories, string deliver_platform) {
+food food_order(food_categories, deliver_platform) {
     for (string category : food_categories) {
         string result;
 
@@ -63,7 +63,7 @@ void food_order(vector<string> food_categories, string deliver_platform) {
         } else {
             result = "Unknown delivery platform";
         }
-        ret
+        return result
     }
 }
 ```
