@@ -67,7 +67,7 @@ application program interface，API\
 金融API，馬達控制API，高階語法`digitalWrite(gpio, LEVEL)`
 
 ---
-API的背後，**後端**，可能是某種複雜k
+API的背後，**後端**，可能是某種複雜的函式
 ```C++
 food UberEats(string food_category) {
     vector<string> process_steps = {"製作食物", "包裝食物", "配送中"};
@@ -84,3 +84,8 @@ food UberEats(string food_category) {
 4. `swig --version`
 5. 打包C++ function
 6. 測試迭代速度差異
+
+---
+# Tasks
+- 下載SWIG
+- 把
