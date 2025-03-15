@@ -57,4 +57,5 @@ eddlai.be10@nycu.edu.tw
 [Simplified Wrapper and Interface Generator](https://www.swig.org/)
 1. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
 2. `swig --version`
-3. 打包
+3. 打包C++ function
+4. 
