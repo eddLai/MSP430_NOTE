@@ -52,10 +52,9 @@ eddlai.be10@nycu.edu.tw
 
 ---
 實驗記錄
-下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
-
-1. 從官網中找到自己系統的下載版本[Simplified Wrapper and Interface Generator](https://www.swig.org/)
-2. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
-3. `swig --version`
-4. 打包C++ function
-5. 測試迭代速度差異
+1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
+2. 從官網中找到自己系統的下載版本[Simplified Wrapper and Interface Generator](https://www.swig.org/)
+3. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
+4. `swig --version`
+5. 打包C++ function
+6. 測試迭代速度差異
