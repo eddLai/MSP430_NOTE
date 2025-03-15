@@ -49,7 +49,8 @@
               "title": "Class3.5：Button module and functionization, write your own library"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +200,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "a4b7fed161901901",
   "lastOpenFiles": [
-    "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Overview.md",
+    "Class 4：Digital Communication Protocols and Application programming interface.md",
     "Class3.5：Button module and functionization, write your own library.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
