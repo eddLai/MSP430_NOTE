@@ -101,7 +101,7 @@ food UberEats(string food_category) {
 ---
 ## swig命令
 1. 使用terminal移動到檔案的所在位置
-2. 確定存在`.i`, `函式第/易.h`
+2. 確定存在`swig設定.i`, `函式定義.h`, `setup.py`
 3. `swig -python -c++ speedup_performance.i`
 
 ---
