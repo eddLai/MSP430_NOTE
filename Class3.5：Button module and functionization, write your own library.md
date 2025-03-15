@@ -47,7 +47,6 @@ eddlai.be10@nycu.edu.tw
 寫一個計算機
 
 ---
-接線30分鐘
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
 
@@ -55,7 +54,7 @@ eddlai.be10@nycu.edu.tw
 # Functionization
 Why is C++ not python or JAVA?\
 X-ray用python寫嗎(自由度太高，資料結構太亂)，用python寫你敢照嗎\
-開發嚴謹的硬體需要用嚴謹的語言\
+開發不能出錯的u需要用嚴謹的語言\
 Uber Eats 或 Foodpanda送出訂單，這一個函式
 ```C++
 food food_order(food_category, deliver_platform) {
