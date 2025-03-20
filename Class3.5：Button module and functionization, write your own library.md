@@ -47,7 +47,7 @@ eddlai.be10@nycu.edu.tw
 寫一個計算機
 
 ---
-[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)
+[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
 
 ---
