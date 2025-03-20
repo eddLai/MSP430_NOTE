@@ -196,7 +196,7 @@ _speedup_performance.cp311-win_amd64.pyd
 - API
 	- 下載SWIG
 	- 把函式封裝成python API
-	- 實測C++ vs python迴圈速度差異並記錄結
+	- 實測C++ vs python迴圈速度差異並記錄結果
 
 ---
 # Homework

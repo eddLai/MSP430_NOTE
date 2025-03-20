@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "2ae2eceb1c59e6a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4849dcfd8d0b18bc",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +187,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "4849dcfd8d0b18bc",
   "lastOpenFiles": [
     "Overview.md",
     "Class3.5：Button module and functionization, write your own library.md",
