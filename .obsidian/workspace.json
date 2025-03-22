@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3.5：Button module and functionization, write your own library.md",
+                "file": "Class 4：Digital Communication Protocols and Application programming interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class3.5：Button module and functionization, write your own library"
-            }
-          }
-        ]
-      },
-      {
-        "id": "2ae2eceb1c59e6a8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4849dcfd8d0b18bc",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "Class 4：Digital Communication Protocols and Application programming interface"
             }
           }
         ]
@@ -187,7 +171,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4849dcfd8d0b18bc",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
     "Class3.5：Button module and functionization, write your own library.md",
