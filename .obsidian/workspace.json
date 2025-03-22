@@ -22,6 +22,25 @@
             }
           },
           {
+            "id": "b88a2bf370fcdfd5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-23 00.19.01.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "5537961daa9d5714",
+        "type": "tabs",
+        "children": [
+          {
             "id": "c735d87e65f86aab",
             "type": "leaf",
             "state": {
@@ -35,25 +54,6 @@
               "title": "USCI overview"
             }
           },
-          {
-            "id": "b88a2bf370fcdfd5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-23 00.19.01.excalidraw"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "5537961daa9d5714",
-        "type": "tabs",
-        "children": [
           {
             "id": "b9de3515601e7fcd",
             "type": "leaf",
@@ -214,10 +214,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b88a2bf370fcdfd5",
+  "active": "c735d87e65f86aab",
   "lastOpenFiles": [
-    "USCI overview.md",
     "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md",
+    "USCI overview.md",
     "Excalidraw",
     "USCI block diagram.png",
     "Class3.5：Functionalization and API, write your own library.md",
