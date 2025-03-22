@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class3.5：Functionization, write your own library.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class3.5：Functionization, write your own library"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "USCI overview"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,13 +185,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c735d87e65f86aab",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "USCI overview.md",
     "Overview.md",
+    "USCI overview.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
     "MSP430F2xx, MSP430G2xx Family.pdf",
-    "Class3.5：Button module and functionization, write your own library.md",
+    "Class3.5：Functionization, write your own library.md",
     "Class5/speedup_performance.h",
     "Class5/setup.py",
     "Class5/swig_main.py",
