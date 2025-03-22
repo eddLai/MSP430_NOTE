@@ -202,7 +202,7 @@ _speedup_performance.cp311-win_amd64.pyd
 # Homework
 - 把swig工具所調用的檔案畫成block diagram
 - 實測迴圈速度的差異
-- 討論為什麼C++還比SWIG慢，是因為?(修改code，以及關閉.h調用試試看)
+- 討論為什麼C++還比SWIG速度慢，是因為?(修改code，以及關閉.h調用試試看)
 - 嘗試把`%include "stdint.i"`刪除並看看會發生什麼
 
 (之後幾堂課會整合在一起)
