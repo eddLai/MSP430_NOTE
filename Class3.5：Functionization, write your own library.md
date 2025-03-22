@@ -199,7 +199,7 @@ _speedup_performance.cp311-win_amd64.pyd
 ---
 # Tasks
 - 下載SWIG
-- 根據.h檔案內容寫一個cppㄅ
+- 根據`.h`檔案內容寫一個.cpp版本的code
 - 把函式封裝成python API
 - 實測C++ vs python迴圈速度差異並記錄結果
 
