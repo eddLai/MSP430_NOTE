@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -201,7 +200,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b9de3515601e7fcd",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Class3.5/MSP430_class_swig.zip",
     "Class3.5",
