@@ -42,8 +42,8 @@ eddlai.be10@nycu.edu.tw
 ---
 # Functionization
 Why is C++ not python or JAVA?\
-X-ray用python寫嗎(自由度太高，資料結構太亂)，用python寫你敢照嗎\
-開發不能出錯的應用需要用嚴謹的語言
+X-ray用python寫嗎(自由度太高，資料結構容易亂)，用python寫你敢照嗎\
+開發不能出錯且高效的應用需要用嚴謹的語言
 
 ---
 C編譯器\
