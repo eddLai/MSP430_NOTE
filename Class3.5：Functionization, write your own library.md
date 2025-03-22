@@ -88,7 +88,7 @@ food UberEats(string food_category) {
 5. `swig --version` 確認安裝完成
 6. 確定C編譯器也被設定為環境變數
 7. 打包C++ function，編譯並輸出
-8. 參考.h檔案內容寫一個C_main.cpp以及python_main.cpp
+8. 參考.h檔案內容寫一個C_main.cpp
 9. 測試迭代速度差異
 	1. windows用
 		1. `Measure-Command {python my_script.py}` 
@@ -191,6 +191,7 @@ _speedup_performance.cp311-win_amd64.pyd
 
 ---
 # Tasks
+- 把我提供的黨ㄢ
 - 下載SWIG
 - 根據`.h`檔案內容寫一個.cpp版本的code
 - 把函式封裝成python API
