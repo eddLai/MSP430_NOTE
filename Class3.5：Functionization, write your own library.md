@@ -91,7 +91,14 @@ food UberEats(string food_category) {
 8. 參考.h檔案內容寫一個C_main.cpp
 9. 測試迭代速度差異
 
-ㄦ
+---
+## 測速指令
+1. windows用
+	1. `Measure-Command {python my_script.py}` 
+	2. `Measure-Command { .\my_program.exe }`
+2. Unix例如：macOS用`time`
+	1. `time python3 my_script.py`
+	2. `time ./my_program`
 
 ---
 ## swig命令
