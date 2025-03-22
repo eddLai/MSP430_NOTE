@@ -52,7 +52,7 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 
 
 ---
-舉例：函式
+舉例：函式\
 Uber Eats 或 Foodpanda送出訂單
 ```C++
 food food_order(food_category, deliver_platform) {
