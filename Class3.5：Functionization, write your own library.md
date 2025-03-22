@@ -84,6 +84,7 @@ food UberEats(string food_category) {
 
 ---
 C編譯器
+![[C compiler process.png]]
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
