@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class3.5：Functionization and API, write your own library
+Class3.5：Functionalization and API, write your own library
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
@@ -40,7 +40,7 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-# Functionization
+# Functionalization
 Why is C++ not python or JAVA?\
 X-ray用python寫嗎(自由度太高，資料結構容易亂)，用python寫你敢照嗎\
 開發不能出錯且高效的應用需要用嚴謹的語言
