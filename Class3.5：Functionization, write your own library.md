@@ -55,6 +55,14 @@ eddlai.be10@nycu.edu.tw
 Why is C++ not python or JAVA?\
 X-ray用python寫嗎(自由度太高，資料結構太亂)，用python寫你敢照嗎\
 開發不能出錯的應用需要用嚴謹的語言\
+
+---C編譯器\
+![[C compiler process.png]]
+ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda.com/embedded-systems/c-program-compilation-step#google_vignette)
+
+
+---
+舉例：函式
 Uber Eats 或 Foodpanda送出訂單
 ```C++
 food food_order(food_category, deliver_platform) {
@@ -81,11 +89,6 @@ food UberEats(string food_category) {
         cout << "[UberEats] " << step << "中：" << food_category << endl;
     }
 ```
-
----
-C編譯器\
-![[C compiler process.png]]
-ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda.com/embedded-systems/c-program-compilation-step#google_vignette)
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
