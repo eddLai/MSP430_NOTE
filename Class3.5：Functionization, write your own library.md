@@ -111,7 +111,7 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 3. `swig -python -c++ speedup_performance.i`
 4. `python setup.py build_ext --inplace`
 5. 寫一個python腳本`swig_main`(引用`import speedup_performance`)
-6. Measure-Command {python my_script.py}
+6. 執行`python swig_main.py`並計時
 
 ---
 ## count in python
