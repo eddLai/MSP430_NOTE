@@ -11,3 +11,5 @@
 ---
 ## UART mode
 asynchronous mode
+USCI_Ax modules connect the MSP430 to an external system via two external pins
+UCAxRXD and UCAxTXD. UART mode is selected when the UCSYNC bit is cleared.
