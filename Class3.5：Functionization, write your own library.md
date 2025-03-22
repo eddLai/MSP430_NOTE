@@ -193,7 +193,7 @@ _speedup_performance.cp311-win_amd64.pyd
 
 
 ---
-# Tasks
+# 今日Tasks
 - 把我提供的檔案放到一個資料夾
 - 下載SWIG工具
 - 在同一個資料夾中，根據`.h`檔案內容寫一個.cpp版本的code
@@ -207,6 +207,7 @@ _speedup_performance.cp311-win_amd64.pyd
 - 實測迴圈速度的差異
 - 討論為什麼C++還比SWIG速度慢，是因為?(修改code，以及關閉.h調用試試看)
 - 嘗試把`%include "stdint.i"`刪除並看看會發生什麼
+- 寫一個不一樣的測試
 
 (之後幾堂課會整合在一起)
 
