@@ -33,6 +33,8 @@
 11. 物件導向
 - [Edge AI Studio](https://dev.ti.com/edgeaistudio/)
 
+[[USCI overview]]
+
 - MSP430
 	- 嵌入式系統、環境建置+Arduino C LED閃爍
 	- Arduino C, 555Timer
