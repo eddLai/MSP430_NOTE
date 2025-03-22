@@ -40,23 +40,13 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-# button module
-
-[Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)\
-引入一個我手寫的`.h`檔案\
-寫一個計算機
-
----
-[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
-[[MSP430G2553 LaunchPad™ Development Kit.pdf]]
-
----
 # Functionization
 Why is C++ not python or JAVA?\
 X-ray用python寫嗎(自由度太高，資料結構太亂)，用python寫你敢照嗎\
-開發不能出錯的應用需要用嚴謹的語言\
+開發不能出錯的應用需要用嚴謹的語言
 
----C編譯器\
+---
+C編譯器\
 ![[C compiler process.png]]
 ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda.com/embedded-systems/c-program-compilation-step#google_vignette)
 

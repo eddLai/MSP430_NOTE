@@ -50,3 +50,14 @@ eddlai.be10@nycu.edu.tw
 [MSP430 USCI/EUSCI UART Baudrate Calculator](https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430BaudRateConverter/index.html)
 [[MSP430F2xx, MSP430G2xx Family.pdf]]
 
+
+---
+# button module
+
+[Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)\
+引入一個我手寫的`.h`檔案\
+寫一個計算機
+
+---
+[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
+[[MSP430G2553 LaunchPad™ Development Kit.pdf]]

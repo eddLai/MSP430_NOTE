@@ -201,13 +201,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d1d7bca78b414434",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "C compiler process.png",
-    "Class3.5：Functionization, write your own library.md",
     "Overview.md",
-    "USCI overview.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
+    "Class3.5：Functionization, write your own library.md",
+    "C compiler process.png",
+    "USCI overview.md",
     "MSP430F2xx, MSP430G2xx Family.pdf",
     "Class5/speedup_performance.h",
     "Class5/setup.py",
