@@ -83,8 +83,9 @@ food UberEats(string food_category) {
 ```
 
 ---
-C編譯器
+C編譯器\
 ![[C compiler process.png]]
+ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda.com/embedded-systems/c-program-compilation-step#google_vignette)
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
