@@ -7,3 +7,7 @@
 - The USCI_Bx modules support:
 	- I2C mode
 	- SPI mode
+
+---
+## UART mode
+asynchronous mode
