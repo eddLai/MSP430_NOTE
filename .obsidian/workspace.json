@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "USCI overview"
             }
+          },
+          {
+            "id": "b88a2bf370fcdfd5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-23 00.19.01.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5537961daa9d5714",
@@ -202,8 +214,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c735d87e65f86aab",
+  "active": "b88a2bf370fcdfd5",
   "lastOpenFiles": [
+    "USCI overview.md",
+    "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md",
+    "Excalidraw",
+    "USCI block diagram.png",
     "Class3.5：Functionalization and API, write your own library.md",
     "Class3.5/MSP430_class_swig.zip",
     "Class3.5",
@@ -212,13 +228,11 @@
     "Overview.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
     "C compiler process.png",
-    "USCI overview.md",
     "MSP430F2xx, MSP430G2xx Family.pdf",
     "Class5/speedup_performance.h",
     "Class5/setup.py",
     "Class5/swig_main.py",
     "Class5/speedup_performance.i",
-    "Class5",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "7 segment display with resistor.png",
@@ -233,7 +247,6 @@
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/pinout.md",
-    "Framework Design hand made.png",
     "Class2/Class2 UART driver.md",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md"
