@@ -42,7 +42,7 @@ eddlai.be10@nycu.edu.tw
 ---
 # Functionalization
 把程式的功能用function包起來，方便可讀與維護。(當你的程式碼超過幾百行的時候)\
-Why is C++ not python or JAVA?\
+Why are we using C++ not python or JAVA?\
 X-ray用python寫嗎(自由度太高，資料結構容易亂)，用python寫你敢照嗎\
 開發不能出錯且高效的應用需要用嚴謹的語言
 
