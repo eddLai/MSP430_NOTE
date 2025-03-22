@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class3.5：functionization and API, write your own library to control button module
+Class3.5：functionization and API, write your own library
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
@@ -207,6 +207,7 @@ _speedup_performance.cp311-win_amd64.pyd
 - 實測迴圈速度的差異
 - 討論為什麼C++還比SWIG速度慢，是因為?(修改code，以及關閉.h調用試試看)
 - 嘗試把`%include "stdint.i"`刪除並看看會發生什麼
+- 把C的python API庫改名
 - 寫一個不一樣的耗時計算出來
 
 (之後幾堂課會整合在一起)
