@@ -15,4 +15,5 @@ asynchronous mode
 `UCAxRXD and UCAxTXD`
 - UART mode is selected when the `UCSYNC` bit is cleared.
 
-![[USCI block diagram.png]]
+[[block diagrams]]
+[[USCI block diagram.png]]

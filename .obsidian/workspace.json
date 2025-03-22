@@ -27,10 +27,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md"
+                "file": "Excalidraw/block diagrams.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-23 00.19.01.excalidraw"
+              "title": "block diagrams"
             }
           }
         ],
@@ -216,7 +216,7 @@
   },
   "active": "c735d87e65f86aab",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-23 00.19.01.excalidraw.md",
+    "Excalidraw/block diagrams.md",
     "USCI overview.md",
     "Excalidraw",
     "USCI block diagram.png",
