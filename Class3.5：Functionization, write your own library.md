@@ -110,7 +110,8 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 2. 確定存在`swig設定.i`, `函式定義.h`, `setup.py`
 3. `swig -python -c++ speedup_performance.i`
 4. `python setup.py build_ext --inplace`
-5. 寫一個python腳本(引用`import speedup_performance`)
+5. 寫一個python腳本`swig_main`(引用`import speedup_performance`)
+6. 
 
 ---
 ## count in python
