@@ -95,7 +95,7 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 5. `swig --version` 確認安裝完成
 6. 確定C編譯器也被設定為環境變數
 7. 打包C++ function，編譯並輸出
-8. 參考.h檔案內容寫一個main.cpp以及python
+8. 參考.h檔案內容寫一個C_main.cpp以及python_main.cpp
 9. 測試迭代速度差異
 	1. windows用
 		1. `Measure-Command {python my_script.p}` 
