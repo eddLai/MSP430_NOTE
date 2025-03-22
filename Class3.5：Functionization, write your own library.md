@@ -55,7 +55,7 @@ eddlai.be10@nycu.edu.tw
 Why is C++ not python or JAVA?\
 X-ray用python寫嗎(自由度太高，資料結構太亂)，用python寫你敢照嗎\
 開發不能出錯的應用需要用嚴謹的語言\
-Uber Eats 或 Foodpanda送出訂單，這一個函式
+Uber Eats 或 Foodpanda送出訂單
 ```C++
 food food_order(food_category, deliver_platform) {
 	if (deliver_platform == "UberEats") {
