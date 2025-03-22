@@ -5,5 +5,5 @@
 	- Automatic baud rate detection for LIN communications
 	- SPI mode
 - The USCI_Bx modules support:
-• I2C mode
-• SPI mode
+	- I2C mode
+	- SPI mode
