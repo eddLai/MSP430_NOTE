@@ -35,7 +35,8 @@
               "title": "USCI overview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5537961daa9d5714",
@@ -201,14 +202,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c735d87e65f86aab",
   "lastOpenFiles": [
+    "Class3.5：Functionalization and API, write your own library.md",
     "Class3.5/MSP430_class_swig.zip",
     "Class3.5",
     "新增資料夾",
     "Class4/MSP430_class_swig.zip",
     "Overview.md",
-    "Class3.5：Functionalization and API, write your own library.md",
     "Class 4：Digital Communication Protocols and Application programming interface.md",
     "C compiler process.png",
     "USCI overview.md",
@@ -218,7 +219,6 @@
     "Class5/swig_main.py",
     "Class5/speedup_performance.i",
     "Class5",
-    "Class4",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "7 segment display with resistor.png",
