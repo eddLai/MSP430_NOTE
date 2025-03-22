@@ -98,7 +98,7 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 8. 參考.h檔案內容寫一個C_main.cpp以及python_main.cpp
 9. 測試迭代速度差異
 	1. windows用
-		1. `Measure-Command {python my_script.p}` 
+		1. `Measure-Command {python my_script.py}` 
 		2. `Measure-Command { .\my_program.exe }`
 	2. Unix例如：macOS用`time`
 		1. `time python3 my_script.py`
@@ -111,7 +111,7 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 3. `swig -python -c++ speedup_performance.i`
 4. `python setup.py build_ext --inplace`
 5. 寫一個python腳本`swig_main`(引用`import speedup_performance`)
-6. 
+6. Measure-Command {python my_script.py}
 
 ---
 ## count in python
