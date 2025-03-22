@@ -110,6 +110,7 @@ ref: [Compilation Process in C Language: 4 steps to follow](https://tutorialadda
 2. 確定存在`swig設定.i`, `函式定義.h`, `setup.py`
 3. `swig -python -c++ speedup_performance.i`
 4. `python setup.py build_ext --inplace`
+5. 寫一個python腳本(引用`import speedup_performance`)
 
 ---
 ## count in python
@@ -200,7 +201,6 @@ _speedup_performance.cp311-win_amd64.pyd
 	- 下載SWIG
 	- 把函式封裝成python API
 	- 實測C++ vs python迴圈速度差異並記錄結果
-	- `import speedup_performance`
 
 ---
 # Homework
