@@ -196,8 +196,6 @@ _speedup_performance.cp311-win_amd64.pyd
 
 ---
 # Tasks
-- MSP430
-	- 完成薄膜按鈕輸入輸出判定
 - API
 	- 下載SWIG
 	- 把函式封裝成python API
