@@ -82,7 +82,7 @@ food UberEats(string food_category) {
 
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
-2. 從官網中找到自己系統的下載版本 https://www.swig.org/https://open-box.readthedocs.io/zh-cn/latest/installation/install_swig.html, 其中Mac可以用`brew install swig`
+2. 從官網中找到自己系統的下載版本 https://www.swig.org/ 其中Mac可以用`brew install swig`
 3. 解壓縮到系統儲存程式的位置(可能是C槽之類的) 
 4. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
 5. `swig --version` 確認安裝完成
@@ -90,12 +90,8 @@ food UberEats(string food_category) {
 7. 打包C++ function，編譯並輸出
 8. 參考.h檔案內容寫一個C_main.cpp
 9. 測試迭代速度差異
-	1. windows用
-		1. `Measure-Command {python my_script.py}` 
-		2. `Measure-Command { .\my_program.exe }`
-	2. Unix例如：macOS用`time`
-		1. `time python3 my_script.py`
-		2. `time ./my_program`
+
+ㄦ
 
 ---
 ## swig命令
@@ -211,3 +207,4 @@ _speedup_performance.cp311-win_amd64.pyd
 # Ref.
 - [pyliaorachel/python-c-mixing: Examples of mixing Python and C](https://github.com/pyliaorachel/python-c-mixing)
 - [swig/python detected a memory leak of type 'int64_t *', no destructor found. · Issue #15 · aphysci/gravity](https://github.com/aphysci/gravity/issues/15)
+- https://open-box.readthedocs.io/zh-cn/latest/installation/install_swig.html
