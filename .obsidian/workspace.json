@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "d6c4c14de5c8856e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90a96e2115e6c63b",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
