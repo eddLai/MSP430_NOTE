@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "d6c4c14de5c8856e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "90a96e2115e6c63b",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -190,12 +174,12 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
+    "Class3.5：Functionalization and API, write your own library.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "Excalidraw",
     "USCI block diagram.png",
-    "Class3.5：Functionalization and API, write your own library.md",
     "Class3.5/MSP430_class_swig.zip",
     "Class3.5",
     "新增資料夾",
