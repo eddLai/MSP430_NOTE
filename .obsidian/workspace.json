@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 25.40453074433657,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -39,12 +38,11 @@
         ]
       },
       {
-        "id": "2a57803b6ef7efa6",
+        "id": "a0d3cda266c9fb87",
         "type": "tabs",
-        "dimension": 74.59546925566343,
         "children": [
           {
-            "id": "795f6cccd84ade19",
+            "id": "5b4e831fc9183125",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -203,7 +201,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5b4e831fc9183125",
   "lastOpenFiles": [
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class3.5：Functionalization and API, write your own library.md",
