@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 28.074433656957932,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -26,6 +27,7 @@
       {
         "id": "cffa6e9c883a23cb",
         "type": "tabs",
+        "dimension": 71.92556634304206,
         "children": [
           {
             "id": "e8b39e165a984846",
@@ -187,7 +189,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e8b39e165a984846",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
     "Class3.5：Functionalization and API, write your own library.md",
