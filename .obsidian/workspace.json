@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "cffa6e9c883a23cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8b39e165a984846",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +187,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e8b39e165a984846",
   "lastOpenFiles": [
     "Overview.md",
     "Class3.5：Functionalization and API, write your own library.md",
