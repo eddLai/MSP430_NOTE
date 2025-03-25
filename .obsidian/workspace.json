@@ -36,16 +36,15 @@
               "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "59cf6e29b3ef56ba",
+        "id": "2a57803b6ef7efa6",
         "type": "tabs",
         "dimension": 50,
         "children": [
           {
-            "id": "46b5da52e6145d70",
+            "id": "795f6cccd84ade19",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -204,11 +203,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "46b5da52e6145d70",
+  "active": "795f6cccd84ade19",
   "lastOpenFiles": [
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Overview.md",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "Excalidraw",
