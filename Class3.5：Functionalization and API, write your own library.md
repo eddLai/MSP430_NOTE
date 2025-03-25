@@ -84,13 +84,14 @@ food UberEats(string food_category) {
 ---
 1. 下載python[Welcome to Python.org](https://www.python.org/)，或者用colab[歡迎使用 Colaboratory - Colab](https://colab.research.google.com/)
 2. 從官網中找到自己系統的下載版本 https://www.swig.org/ 其中Mac可以用`brew install swig`
-3. 解壓縮到系統儲存程式的位置(可能是C槽之類的) 
-4. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
-5. `swig --version` 確認安裝完成
-6. 確定C編譯器也被設定為環境變數
-7. 打包C++ function，編譯並輸出
-8. 參考.h檔案內容寫一個C_main.cpp
-9. 測試迭代速度差異
+3. "C:\swigwin-4.3.0\Lib"
+4. 解壓縮到系統儲存程式的位置(可能是C槽之類的) 
+5. 設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
+6. `swig --version` 確認安裝完成
+7. 確定C編譯器也被設定為環境變數
+8. 打包C++ function，編譯並輸出
+9. 參考.h檔案內容寫一個C_main.cpp
+10. 測試迭代速度差異
 
 ---
 ## 測速指令
