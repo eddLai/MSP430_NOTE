@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 32.5242718446602,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -40,6 +41,7 @@
       {
         "id": "a0d3cda266c9fb87",
         "type": "tabs",
+        "dimension": 67.47572815533981,
         "children": [
           {
             "id": "5b4e831fc9183125",
@@ -201,7 +203,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5b4e831fc9183125",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class3.5：Functionalization and API, write your own library.md",
