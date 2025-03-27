@@ -8,7 +8,7 @@
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
 	- Mac 環境：[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
-2. 加減運算：[[Class2：Serial Debugging and Arithmetic Encoding]]
+2. 加減運算：[[Class2：Serial Debugging and Arithmetic Encoding]] 做到輸入UART就好
 	- 控制特定的寄存器，bitbang，自傳UART
 	- 材料：USB_TTL轉換板+杜邦線每組三種各一包
 	- 螢幕上顯示一組數字+透過UART送出隨機變化的一組補碼字串，要寫code進行計算，然後print出一樣的結果(不給漂亮的圖)
@@ -16,7 +16,8 @@
 		- One's Complement
 		- IEEE-754 float
 	- 10:45課堂中蒐集bug，一次回答+教怎麼做debug tree+公布一些簡單的code
-	- HW：買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
+	- HW：用電腦試試看寫一樣的code
+	- 買一堆UART轉TTL(現有一個，要再多買6個+杜邦線)
 		- 重要的是框架設計圖+遇到的bug+解決方式，
 		- (上面沒做完的)
 		- 板子之間溝通
