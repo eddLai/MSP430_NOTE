@@ -6,7 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 35.57046979865772,
+        "dimension": 50,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -52,12 +52,12 @@
         "currentTab": 1
       },
       {
-        "id": "f14b3ab8e71a4dda",
+        "id": "ddc16e874cb85b0a",
         "type": "tabs",
-        "dimension": 64.42953020134227,
+        "dimension": 50,
         "children": [
           {
-            "id": "c8c9dc4710ed97b3",
+            "id": "3aeb0f754a2a6d49",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -216,7 +216,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e3ad315130f6325f",
+  "active": "3aeb0f754a2a6d49",
   "lastOpenFiles": [
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
