@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class 4：Digital Communication Protocols, depth-intro of UART and Interupt.md",
+                "file": "Class 4：polling and.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 4：Digital Communication Protocols, depth-intro of UART and Interupt"
+              "title": "Class 4：polling and"
             }
           }
         ],
@@ -205,7 +205,7 @@
   "active": "e3ad315130f6325f",
   "lastOpenFiles": [
     "Overview.md",
-    "Class 4：Digital Communication Protocols, depth-intro of UART and Interupt.md",
+    "Class 4：polling and.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class3.5.pdf",
