@@ -6,7 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 34.81543624161073,
+        "dimension": 50,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class 4：polling and Interrupt, UART setup in CCS.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 4：polling and Interrupt, UART setup in CCS"
+              "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           },
           {
@@ -48,16 +48,15 @@
               "title": "MSP430G2553 LaunchPad™ Development Kit"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "f77f955ffc79943e",
+        "id": "f14b3ab8e71a4dda",
         "type": "tabs",
-        "dimension": 65.18456375838926,
+        "dimension": 50,
         "children": [
           {
-            "id": "0560986a55ef2f45",
+            "id": "c8c9dc4710ed97b3",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -216,11 +215,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "2ea24d8c18def917",
+  "active": "c8c9dc4710ed97b3",
   "lastOpenFiles": [
-    "Class 4：polling and Interrupt, UART setup in CCS.md",
-    "MSP datasheet (Rev. J).pdf",
     "Overview.md",
+    "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "MSP430G2553 LaunchPad™ Development Kit.pdf",
+    "MSP datasheet (Rev. J).pdf",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class3.5：Functionalization and API, write your own library.md",
@@ -232,7 +232,6 @@
     "Lec HW/~WRD2344.tmp",
     "Lec HW/~WRL0995.tmp",
     "Lec HW/~WRD0976.tmp",
-    "Lec HW/~WRL0265.tmp",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "USCI block diagram.png",
