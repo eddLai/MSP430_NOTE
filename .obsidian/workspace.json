@@ -6,7 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 35.57046979865772,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -53,7 +53,7 @@
       {
         "id": "f14b3ab8e71a4dda",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 64.42953020134227,
         "children": [
           {
             "id": "c8c9dc4710ed97b3",
@@ -215,7 +215,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c8c9dc4710ed97b3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
