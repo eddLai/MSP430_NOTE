@@ -51,6 +51,7 @@ eddlai.be10@nycu.edu.tw
 - Interrupt
 
 舉例：多個if的問題，(阻塞)
+switch判斷
 
 ---
 # Register Table
