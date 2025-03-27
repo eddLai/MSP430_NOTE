@@ -39,11 +39,11 @@
         "currentTab": 1
       },
       {
-        "id": "84477aeb37266b90",
+        "id": "731b8d5d1715a6fb",
         "type": "tabs",
         "children": [
           {
-            "id": "84814e9df331e842",
+            "id": "f5b868030a637bfc",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -202,7 +202,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e3ad315130f6325f",
+  "active": "f5b868030a637bfc",
   "lastOpenFiles": [
     "Overview.md",
     "Class 4：Digital Communication Protocols, depth-intro of UART.md",
