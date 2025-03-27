@@ -45,7 +45,7 @@ eddlai.be10@nycu.edu.tw
 
 舉例：多個if的問題，(阻塞)
 
-`switch`, `if, else` 玩LED燈
+`switch`, `if, else` 讓LED燈閃10下，每0.5秒
 
 ---
 # Flow
