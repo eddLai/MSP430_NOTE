@@ -26,9 +26,9 @@
 	- 材料：按鈕+七段顯示器
 4. 函式化：[[Class3.5：Functionalization and API, write your own library]]：清楚為什麼要學C++
 5. 深入迴圈：[[Class 4：polling and Interrupt, UART setup in CCS]]：了解if-else，CPU的運作
-6. 深入函式化：[[Class 5：The Role of Data Structures in Functionalization, LeetCode Arrays]]資料結構Array leetcode題目
-7. 函式化：[[Class 6：I2C Protocol & Light Sensor Module Applications]] 黑箱光照偵測
-8. 函式化：[[Class 7：High-Speed SPI Data Transfer – MicroSD Large File Handling & Ethernet,  Performance limit in Energia]]SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影響
+6. 應用函式化：[[Class 5：The Role of Data Structures in Functionalization, LeetCode Arrays]]資料結構Array leetcode題目
+7. 應用函式化：[[Class 6：I2C Protocol & Light Sensor Module Applications]] 黑箱光照偵測
+8. 應用：[[Class 7：High-Speed SPI Data Transfer – MicroSD Large File Handling & Ethernet,  Performance limit in Energia]]SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影響
 9. 函式化：[[Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430]]SPI的MicroSD讀寫大檔案的傳輸速度+MSP430能源分析
 10. DSP庫內建ADC：[[Class 9：ADC and DSP tool integrated in MS430]] 波形產生器的輸入，物件導向
 11. 物件導向
