@@ -45,8 +45,7 @@ eddlai.be10@nycu.edu.tw
 
 舉例：多個if的問題，(阻塞)
 
-switch判斷
-`if, else` 玩LED燈
+`switch`, `if, else` 玩LED燈
 
 ---
 # Flow
