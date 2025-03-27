@@ -2,12 +2,12 @@
 ## 大綱
 [2025MSP430完成狀況 - Google 試算表](https://docs.google.com/spreadsheets/d/1Q5lRjRBiwN_YJWAx8VdnXJqRml5ew77iE20tfGScxh0/edit?gid=0#gid=0)
 
-- debug tree
 1. 介紹：閃燈 (Embbed C+Arduino)
 	- [[Class1：An Introduction of Embbeded systems]]，上課直接發Energia做測試+MSP430 hint
 	- [[Class1 lec slide english-version]]
 	- [[CCS]]
 	- Mac 環境：[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
+	- debug tree
 2. 加減運算：[[Class2：Serial Debugging and Arithmetic Encoding]] 做到輸入UART就好
 	- 控制特定的寄存器，bitbang，自傳UART
 	- 材料：USB_TTL轉換板+杜邦線每組三種各一包
