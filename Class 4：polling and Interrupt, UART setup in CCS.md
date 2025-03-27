@@ -48,6 +48,10 @@ eddlai.be10@nycu.edu.tw
 `switch`, `if, else` 讓LED燈閃10下，每0.5秒
 
 ---
+# Task
+`#define BUTTON BIT3`，寫當按鈕按下去會閃10秒
+
+---
 # Flow
 燒錄就好
 1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
