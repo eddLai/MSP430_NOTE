@@ -48,7 +48,8 @@
               "title": "MSP430G2553 LaunchPad™ Development Kit"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f14b3ab8e71a4dda",
@@ -215,13 +216,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e3ad315130f6325f",
   "lastOpenFiles": [
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "MSP430G2553 LaunchPad™ Development Kit.pdf",
     "MSP datasheet (Rev. J).pdf",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/~$P430_class1.docx",
