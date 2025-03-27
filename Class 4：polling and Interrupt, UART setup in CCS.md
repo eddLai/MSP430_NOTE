@@ -85,7 +85,7 @@ eddlai.be10@nycu.edu.tw
 ---
 # Homework
 - [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
-- 為[UART 简介实验室 — MSP430 Academy 教程](https://dev.ti.com/tirex4-desktop/content/msp430_academy_%E6%95%99%E7%A8%8B_2_01_00_00/_build_msp430_academy_%E6%95%99%E7%A8%8B_2_01_00_00/source/msp430/msp430_uart_training/msp430_uart_chinese.html) 任務二中的程式碼做註解
+- 用Interrupt的想法，解說任務二中的程式碼做註解
 
 ---
 ## Polling Answer
