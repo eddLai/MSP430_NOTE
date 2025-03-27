@@ -50,7 +50,7 @@ eddlai.be10@nycu.edu.tw
 - polling（輪詢）
 - Interrupt
 
-舉例：多個if的問題，()
+舉例：多個if的問題，(阻塞)
 
 ---
 
