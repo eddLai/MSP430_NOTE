@@ -51,7 +51,7 @@ eddlai.be10@nycu.edu.tw
 # Task
 `#define BUTTON BIT3`\
 `#define LED1 BIT0 綠燈`\
-`#define LED2 BIT6 紅燈`\
+`#define LED2 BIT6 紅燈`
 - 寫一下按鈕會閃10秒
 - 如果按超過
 
