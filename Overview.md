@@ -33,6 +33,7 @@
 9. 傳輸協定：[[Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430]]SPI的MicroSD讀寫大檔案的傳輸速度+MSP430能源分析
 10. DSP庫內建ADC：[[Class 9：ADC and DSP tool integrated in MS430]] 波形產生器的輸入，物件導向
 11. 物件導向：OP-AMP
+12. pointer 控制 DMA
 - [Edge AI Studio](https://dev.ti.com/edgeaistudio/)
 
 [[USCI overview]]
