@@ -87,7 +87,7 @@ eddlai.be10@nycu.edu.tw
 - [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
 
 ---
-# Polling Answer
+## Polling Answer
 ```C
 #include <msp430.h>
 
