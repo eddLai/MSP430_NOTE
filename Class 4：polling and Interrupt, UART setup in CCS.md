@@ -39,6 +39,13 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
+# Idea
+- polling（輪詢）
+- Interrupt
+
+舉例：多個if的問題，(阻塞)
+switch判斷
+`if, else`
 
 ---
 # Flow
@@ -47,14 +54,6 @@ eddlai.be10@nycu.edu.tw
 `IE2 |= UCA0RXIE;`
 `__bis_SR_register(LPM0_bits + GIE);`
 進入 低功耗模式 LPM0，並開啟全域中斷允許
-
----
-- polling（輪詢）
-- Interrupt
-
-舉例：多個if的問題，(阻塞)
-switch判斷
-`if, else`
 
 ---
 # Register Table
