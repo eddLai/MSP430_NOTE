@@ -49,7 +49,8 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Task
-`#define BUTTON BIT3`，寫當按鈕按下去會閃10秒
+`#define BUTTON BIT3`
+- 寫一下按鈕會閃10秒，如果按超過
 
 ---
 # Flow
