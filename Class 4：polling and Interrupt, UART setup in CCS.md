@@ -45,15 +45,34 @@ eddlai.be10@nycu.edu.tw
 
 舉例：多個if的問題，(阻塞)
 
-`switch`, `if, else` 讓LED燈閃10下，每0.5秒
+`switch`, `if, else` 
 
 ---
 # Task
 `#define BUTTON BIT3`\
 `#define LED1 BIT0 綠燈`\
 `#define LED2 BIT6 紅燈`
-- 寫一下按鈕會閃10秒
-- 如果按超過
+- 寫一下按鈕會閃10秒綠燈
+- 如果按超過2秒會開始閃爍紅燈
+
+---
+```
+// Configure UART
+UCA0CTLW0|= UCSWRST;
+UCA0CTLW0|= UCSSEL__SMCLK;
+
+// Baud Rate calculation
+// 8000000/(16*9600) = 52.083
+// Fractional portion = 0.083
+// User's Guide Table 14-4: UCBRSx = 0x49
+// UCBRFx = int ( (52.083-52)*16) = 1
+UCA0BR0 = 52;                             // 8000000/16/9600
+UCA0BR1 = 0x00;
+UCA0MCTLW = 0x4900 | UCOS16 | UCBRF_1;
+
+UCA0CTLW0 &= ~UCSWRST;                    // Initialize eUSCI
+UCA0IE|= UCRXIE;                         // Enable USCI_A0 RX interrupt
+```
 
 ---
 # Flow
