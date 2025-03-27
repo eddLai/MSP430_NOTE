@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3.5：Functionalization and API, write your own library.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class3.5：Functionalization and API, write your own library"
+              "title": "Overview"
             }
           }
         ]
@@ -189,6 +189,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class3.5.pdf",
     "Lec HW/~WRL1653.tmp",
@@ -199,9 +200,7 @@
     "Lec HW/~WRD0976.tmp",
     "Lec HW/~WRL0265.tmp",
     "Lec HW/~WRD0257.tmp",
-    "Lec HW/~WRL0005.tmp",
     "Overview.md",
-    "Class3.5：Functionalization and API, write your own library.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
