@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "84477aeb37266b90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84814e9df331e842",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,6 +189,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Lec HW/~$P430_class1.docx",
     "Overview.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
