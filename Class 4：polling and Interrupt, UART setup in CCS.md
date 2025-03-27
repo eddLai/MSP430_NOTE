@@ -76,4 +76,4 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Homework
-- [[MSP430F2xx, MSP430G2xx Family.pdf]] 第32，
+- [[MSP430F2xx, MSP430G2xx Family.pdf]] 第32頁，
