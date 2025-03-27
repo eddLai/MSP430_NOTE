@@ -49,10 +49,9 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Task
-`#define BUTTON BIT3`
-`#define LED1   BIT0     // P1.0 = 紅燈（內建）`
-
-#define LED2   BIT6     // P1.1 = 綠燈（可接外部）
+`#define BUTTON BIT3`\
+`#define LED1 BIT0 綠燈`\
+`#define LED2 BIT6 紅燈`\
 - 寫一下按鈕會閃10秒
 - 如果按超過
 
