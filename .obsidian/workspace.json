@@ -35,8 +35,21 @@
               "icon": "lucide-file",
               "title": "Class 4：polling and Interrupt, UART setup in CCS"
             }
+          },
+          {
+            "id": "2ea24d8c18def917",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MSP430G2553 LaunchPad™ Development Kit.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MSP430G2553 LaunchPad™ Development Kit"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "f77f955ffc79943e",
@@ -203,12 +216,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2ea24d8c18def917",
   "lastOpenFiles": [
+    "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "MSP datasheet (Rev. J).pdf",
     "Overview.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
-    "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class3.5.pdf",
@@ -219,7 +233,6 @@
     "Lec HW/~WRL0995.tmp",
     "Lec HW/~WRD0976.tmp",
     "Lec HW/~WRL0265.tmp",
-    "Lec HW/~WRD0257.tmp",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "USCI block diagram.png",
