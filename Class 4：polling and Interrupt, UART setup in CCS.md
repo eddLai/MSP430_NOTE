@@ -45,14 +45,15 @@ eddlai.be10@nycu.edu.tw
 
 舉例：多個if的問題，(阻塞)
 switch判斷
-`if, else`
+`if, else` 玩LED燈
 
 ---
 # Flow
+使用
 1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
 2. 關閉UCSWRST，啟動 UART `UCA0CTL1 &= ~UCSWRST;`
-`IE2 |= UCA0RXIE;`
-`__bis_SR_register(LPM0_bits + GIE);`
+3. `IE2 |= UCA0RXIE;`
+4. `__bis_SR_register(LPM0_bits + GIE);`
 進入 低功耗模式 LPM0，並開啟全域中斷允許
 
 ---
