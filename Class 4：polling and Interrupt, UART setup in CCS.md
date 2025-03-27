@@ -26,7 +26,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Digital Communication Protocols and Application programming interface
+polling and Interrupt, UART setup in CCS
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
@@ -37,6 +37,8 @@ eddlai.be10@nycu.edu.tw
 </grid>
 
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
+
+---
 
 ---
 # Flow

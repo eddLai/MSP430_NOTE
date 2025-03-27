@@ -27,23 +27,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class 4：polling and Interrupt.md",
+                "file": "Class 4：polling and Interrupt, UART setup in CCS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 4：polling and Interrupt"
+              "title": "Class 4：polling and Interrupt, UART setup in CCS"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "731b8d5d1715a6fb",
+        "id": "f77f955ffc79943e",
         "type": "tabs",
         "children": [
           {
-            "id": "f5b868030a637bfc",
+            "id": "0560986a55ef2f45",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -202,10 +202,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e3ad315130f6325f",
+  "active": "0560986a55ef2f45",
   "lastOpenFiles": [
     "Overview.md",
-    "Class 4：polling and Interrupt.md",
+    "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class3.5.pdf",
