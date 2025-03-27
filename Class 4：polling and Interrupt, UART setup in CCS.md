@@ -56,6 +56,11 @@ eddlai.be10@nycu.edu.tw
 - 如果按超過2秒會開始閃爍紅燈
 
 ---
+# Homework
+- [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
+- 用Interrupt的想法，解說任務二中的程式碼做註解
+
+---
 ```
 // Configure UART
 UCA0CTLW0|= UCSWRST;
@@ -72,6 +77,20 @@ UCA0MCTLW = 0x4900 | UCOS16 | UCBRF_1;
 
 UCA0CTLW0 &= ~UCSWRST;                    // Initialize eUSCI
 UCA0IE|= UCRXIE;                         // Enable USCI_A0 RX interrupt
+
+  switch(__even_in_range(UCA0IV,USCI_UART_UCTXCPTIFG))
+  {
+case USCI_NONE: break;
+case USCI_UART_UCRXIFG:
+  while(!(UCA0IFG&UCTXIFG));
+  UCA0TXBUF = UCA0RXBUF;
+  __no_operation();
+  break;
+case USCI_UART_UCTXIFG: break;
+case USCI_UART_UCSTTIFG: break;
+case USCI_UART_UCTXCPTIFG: break;
+default: break;
+  }
 ```
 
 ---
@@ -100,11 +119,6 @@ UCA0IE|= UCRXIE;                         // Enable USCI_A0 RX interrupt
 ---
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
-
----
-# Homework
-- [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
-- 用Interrupt的想法，解說任務二中的程式碼做註解
 
 ---
 ## Polling Answer
