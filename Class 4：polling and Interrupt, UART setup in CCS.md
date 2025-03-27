@@ -44,12 +44,13 @@ eddlai.be10@nycu.edu.tw
 - Interrupt
 
 舉例：多個if的問題，(阻塞)
+
 switch判斷
 `if, else` 玩LED燈
 
 ---
 # Flow
-使用
+燒錄就好
 1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
 2. 關閉UCSWRST，啟動 UART `UCA0CTL1 &= ~UCSWRST;`
 3. `IE2 |= UCA0RXIE;`
