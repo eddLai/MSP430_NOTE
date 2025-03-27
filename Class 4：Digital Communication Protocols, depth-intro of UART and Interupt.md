@@ -42,6 +42,9 @@ eddlai.be10@nycu.edu.tw
 # Flow
 1. 軟體重置可配置狀態`UCA0CTLW0 |= UCSWRST;`
 2. 關閉UCSWRST，啟動 UART `UCA0CTL1 &= ~UCSWRST;`
+`IE2 |= UCA0RXIE;`
+`__bis_SR_register(LPM0_bits + GIE);`
+進入 低功耗模式 LPM0，並開啟全域中斷允許。
 
 ---
 # Register Table
