@@ -31,10 +31,11 @@
 7. 陣列
 8. 應用函式化：[[Class 6：I2C Protocol & Light Sensor Module Applications]] 黑箱光照偵測
 9. 傳輸協定：[[Class 7：High-Speed SPI Data Transfer – MicroSD Large File Handling & Ethernet,  Performance limit in Energia]]SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影響
-10. 傳輸協定：[[Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430]]SPI的MicroSD讀寫大檔案的傳輸速度+MSP430能源分析
-11. DSP庫內建ADC：[[Class 9：ADC and DSP tool integrated in MS430]] 波形產生器的輸入，物件導向
-12. 物件導向：OP-AMP
-13. pointer 控制 DMA
+10. 指標：DMA
+11. 傳輸協定：[[Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430]]SPI的MicroSD讀寫大檔案的傳輸速度+MSP430能源分析
+12. DSP庫內建ADC：[[Class 9：ADC and DSP tool integrated in MS430]] 波形產生器的輸入，物件導向
+13. 物件導向：OP-AMP
+14. pointer 控制 DMA
 - [Edge AI Studio](https://dev.ti.com/edgeaistudio/)
 
 [[USCI overview]]
