@@ -88,9 +88,8 @@ food UberEats(string food_category) {
 4. 整個資料夾`"C:\swigwin-4.3.0"`設定為環境變數(什麼是環境變數，讓terminal可以呼叫這個程式)
 5. `swig --version` 確認安裝完成
 6. 確定C編譯器也被設定為環境變數 `g++ --version`
-7. 打包C++ function，編譯並輸出
-8. 參考.h檔案內容寫一個C_main.cpp
-9. 測試迭代速度差異
+7. 打包C++ function，編譯並輸出，參考.h檔案內容寫一個C_main.cpp
+8. 測試迭代速度差異
 
 ---
 ## 測速指令
