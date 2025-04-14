@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3.5：Functionalization and API, write your own library.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class3.5：Functionalization and API, write your own library"
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -174,12 +174,12 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
+    "Class3.5：Functionalization and API, write your own library.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "MSP430G2553 LaunchPad™ Development Kit.pdf",
     "MSP datasheet (Rev. J).pdf",
     "Class1/Class1：An Introduction of Embbeded systems.md",
-    "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class3.5.pdf",
     "Lec HW/~WRL1653.tmp",
