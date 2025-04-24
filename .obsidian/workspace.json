@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "738ab245b8bb5a84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddec7cbaa2b7dec5",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -172,9 +189,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "MSP430F2xx, MSP430G2xx Family.pdf",
-    "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Overview.md",
+    "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "MSP430F2xx, MSP430G2xx Family.pdf",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430.md",
