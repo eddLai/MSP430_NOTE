@@ -57,8 +57,104 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Code hint
-``
+```C++
+#include <msp430.h>
 
+#define BUTTON    BIT3      // P1.3 = 按鈕
+#define LED_GREEN BIT0     // P1.0 = 綠燈
+#define LED_RED   BIT6     // P1.6 = 紅燈
+
+volatile unsigned int tick_green = 0;  // 記錄綠燈閃爍時間
+volatile unsigned int tick_red = 0;    // 記錄紅燈閃爍時間
+volatile unsigned char pressed = 0;    // 按鈕是否被按下
+
+int i;
+
+void flash_led(unsigned char led)
+{
+    for (i = 0; i < 10; i++) {       // 6 次閃爍，每次 0.5 秒
+        P1OUT ^= led;                // 切換 LED 狀態
+        __delay_cycles(500000);      // 延遲 0.5 秒
+    }
+    P1OUT &= ~led;                   // 確保燈熄掉
+}
+
+void main(void)
+{
+    WDTCTL = WDTPW | WDTHOLD;      // 停用 watchdog timer
+    BCSCTL1 = CALBC1_1MHZ;         // DCO 1MHz
+    DCOCTL = CALDCO_1MHZ;
+
+    P1DIR |= LED_GREEN | LED_RED;  // 設定 LED 為輸出
+    P1OUT &= ~(LED_GREEN | LED_RED);  // 初始熄燈
+
+    P1DIR &= ~BUTTON;               // 設定按鈕為輸入
+    P1REN |= BUTTON;                // 啟用內建拉電阻
+    P1OUT |= BUTTON;                // 啟用上拉（按鈕未按下時為高電位）
+    P1IE  |= BUTTON;                // 啟用 P1.3 中斷
+    P1IES |= BUTTON;                // 設定中斷為 falling edge（按鈕按下）
+
+    P1IFG &= ~BUTTON;               // 清除中斷旗標
+
+    __enable_interrupt();           // 啟用全域中斷
+    __bis_SR_register(LPM0_bits + GIE); // 進入低功耗模式，等待中斷
+}
+
+// 按鈕中斷處理（falling edge）
+#pragma vector=PORT1_VECTOR
+__interrupt void PORT1_ISR(void)
+{
+    P1IFG &= ~BUTTON;  // 清除中斷旗標
+
+    if ((P1IN & BUTTON) == 0 && !pressed)  // 按鈕被按下
+    {
+        pressed = 1;
+        tick_green = 0;  // 重置綠燈計時器
+        tick_red = 0;    // 重置紅燈計時器
+
+        WDTCTL = WDT_MDLY_32;  // 設定 watchdog timer 每 32 毫秒觸發一次中斷
+        IFG1 &= ~WDTIFG;       // 清除 WDT 中斷旗標
+        IE1 |= WDTIE;          // 啟用 WDT 中斷
+    }
+}
+
+// Watchdog timer 中斷，每 32ms 觸發一次
+#pragma vector=WDT_VECTOR
+__interrupt void WDT_ISR(void)
+{
+    if (!pressed) return;  // 若按鈕未被按下則不處理
+
+    tick_green++;  // 增加綠燈計時器
+    tick_red++;    // 增加紅燈計時器
+
+    if (tick_green == 12)  // 約 0.4 秒
+    {
+        flash_led(LED_GREEN);    // 閃綠燈
+    }
+    else if (tick_red == 24)  // 約 0.8 秒
+    {
+        flash_led(LED_RED);      // 閃紅燈
+    }
+    else if (tick_green == 24)  // 約 0.8 秒
+    {
+        flash_led(LED_GREEN);    // 再閃一次綠燈
+    }
+    else if (tick_red == 31)  // 約 1 秒
+    {
+        flash_led(LED_RED);      // 再閃一次紅燈
+    }
+
+    // 完成後重置狀態
+    if (tick_red >= 31 && tick_green >= 24)  // 1 秒後，重置狀態
+    {
+        pressed = 0;    // 重置按鈕狀態
+        tick_green = 0; // 重置綠燈計時器
+        tick_red = 0;   // 重置紅燈計時器
+        IE1 &= ~WDTIE;  // 停用 WDT 中斷
+        WDTCTL = WDTPW | WDTHOLD;  // 停用 Watchdog Timer
+    }
+}
+```
 
 ---
 # Homework
