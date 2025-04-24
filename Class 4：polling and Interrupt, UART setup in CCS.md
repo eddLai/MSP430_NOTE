@@ -56,6 +56,73 @@ eddlai.be10@nycu.edu.tw
 - 如果按超過1秒會開始閃爍紅燈
 
 ---
+# Polling Code
+```C++
+#include <msp430.h>
+
+#define BUTTON BIT3     // P1.3 = S2 按鈕
+#define LED1   BIT0     // 綠燈（P1.0）
+#define LED2   BIT6     // 紅燈（P1.6）
+int i;
+
+void main(void)
+{
+    WDTCTL = WDTPW | WDTHOLD;       // 停用 watchdog timer
+
+    // 設定 LED 為輸出
+    P1DIR |= LED1 | LED2;
+    P1OUT &= ~(LED1 | LED2);        // 初始熄滅
+
+    // 設定按鈕為輸入，並啟用上拉電阻
+    P1DIR &= ~BUTTON;
+    P1REN |= BUTTON;
+    P1OUT |= BUTTON;
+
+    while (1)
+    {
+        if ((P1IN & BUTTON) == 0)   // 偵測按鈕按下
+        {
+            unsigned int held = 0;
+
+            // 按鈕持續按下時持續累加時間（每次約 100ms）
+            while ((P1IN & BUTTON) == 0)
+            {
+                __delay_cycles(100000);  // 100ms 延遲（假設 8MHz）
+                held++;
+
+                // 若按超過 20 次 * 100ms = 2 秒，就不再累加
+                if (held >= 20)
+                    break;
+            }
+
+            // 判斷短按或長按
+            if (held >= 20)  // 長按：紅燈
+            {
+                for (i = 0; i < 10; i++) {
+                    P1OUT ^= LED2;
+                    __delay_cycles(500000);  // 0.5 秒
+                }
+                P1OUT &= ~LED2;
+            }
+            else             // 短按：綠燈
+            {
+                for (i = 0; i < 10; i++) {
+                    P1OUT ^= LED1;
+                    __delay_cycles(500000);
+                }
+                P1OUT &= ~LED1;
+            }
+
+            // 等待放開再繼續
+            while ((P1IN & BUTTON) == 0);
+            __delay_cycles(50000); // debounce
+        }
+    }
+}
+
+```
+
+---
 # Code hint
 ```C++
 #include <msp430.h>
