@@ -57,6 +57,8 @@ eddlai.be10@nycu.edu.tw
 
 ---
 # Code hint
+``
+
 
 ---
 # Homework
