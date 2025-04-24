@@ -52,8 +52,8 @@ eddlai.be10@nycu.edu.tw
 `#define BUTTON BIT3`\
 `#define LED1 BIT0 綠燈`\
 `#define LED2 BIT6 紅燈`
-- 寫一下按鈕會閃10秒綠燈
-- 如果按超過2秒會開始閃爍紅燈
+- 寫一下按鈕會閃3秒綠燈
+- 如果按超過1秒會開始閃爍紅燈
 
 ---
 # Homework
