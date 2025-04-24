@@ -287,3 +287,6 @@ default: break;
 ---
 [MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
 [[MSP430G2553 LaunchPad™ Development Kit.pdf]]
+
+
+[courses.cs.washington.edu/courses/cse466/11au/calendar/04-Interrupts-posted.pdf](https://courses.cs.washington.edu/courses/cse466/11au/calendar/04-Interrupts-posted.pdf)
