@@ -56,7 +56,7 @@ eddlai.be10@nycu.edu.tw
 - 如果按超過1秒會開始閃爍紅燈
 
 ---
-# Polling Code
+# Polling Code Example
 ```C++
 #include <msp430.h>
 
@@ -123,7 +123,7 @@ void main(void)
 ```
 
 ---
-# Code hint
+# Interrupt Code hint
 ```C++
 #include <msp430.h>
 
