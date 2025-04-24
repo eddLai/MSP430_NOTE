@@ -103,24 +103,6 @@ default: break;
 進入 低功耗模式 LPM0，並開啟全域中斷允許
 
 ---
-# Register Table
-[msp430g2xx3_uscia0_uart_01_9600.c](https://dev.ti.com/tirex/explore/nod\e?node=A__AL4DP41WSJ9ZDY-aLKgPKg__msp430ware__IOGqZri__LATEST)\
-[UART 简介实验室 — MSP430 Academy 教程](https://dev.ti.com/tirex4-desktop/content/msp430_academy_%E6%95%99%E7%A8%8B_2_01_00_00/_build_msp430_academy_%E6%95%99%E7%A8%8B_2_01_00_00/source/msp430/msp430_uart_training/msp430_uart_chinese.html)\
-[MSP430 USCI/EUSCI UART Baudrate Calculator](https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430BaudRateConverter/index.html)
-[[MSP430F2xx, MSP430G2xx Family.pdf]]
-
-
----
-# button module
-[Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)\
-引入一個我手寫的`.h`檔案\
-寫一個計算機
-
----
-[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
-[[MSP430G2553 LaunchPad™ Development Kit.pdf]]
-
----
 ## Polling Answer
 ```C
 #include <msp430.h>
@@ -187,3 +169,20 @@ void main(void)
 
 ```
 
+---
+# Register Table
+[msp430g2xx3_uscia0_uart_01_9600.c](https://dev.ti.com/tirex/explore/nod\e?node=A__AL4DP41WSJ9ZDY-aLKgPKg__msp430ware__IOGqZri__LATEST)\
+[UART 简介实验室 — MSP430 Academy 教程](https://dev.ti.com/tirex4-desktop/content/msp430_academy_%E6%95%99%E7%A8%8B_2_01_00_00/_build_msp430_academy_%E6%95%99%E7%A8%8B_2_01_00_00/source/msp430/msp430_uart_training/msp430_uart_chinese.html)\
+[MSP430 USCI/EUSCI UART Baudrate Calculator](https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430BaudRateConverter/index.html)
+[[MSP430F2xx, MSP430G2xx Family.pdf]]
+
+
+---
+# button module
+[Arduino 4x4薄膜鍵盤模組實驗（一）：按鍵掃描程式原理說明 - 超圖解系列圖書](https://swf.com.tw/?p=917)\
+引入一個我手寫的`.h`檔案\
+寫一個計算機
+
+---
+[MSP430 Serial Monitor](https://www.youtube.com/watch?v=Fzf8q6fgxfQ)\
+[[MSP430G2553 LaunchPad™ Development Kit.pdf]]
