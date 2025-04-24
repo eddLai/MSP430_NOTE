@@ -56,6 +56,9 @@ eddlai.be10@nycu.edu.tw
 - 如果按超過1秒會開始閃爍紅燈
 
 ---
+# Code hint
+
+---
 # Homework
 - [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
 - 用Interrupt的想法，解說任務二中的程式碼做註解
