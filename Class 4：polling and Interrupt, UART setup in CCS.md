@@ -55,8 +55,6 @@ eddlai.be10@nycu.edu.tw
 - 寫一下按鈕會閃3秒綠燈
 - 如果按超過1秒會開始閃爍紅燈
 
---
-
 ---
 # Homework
 - [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
