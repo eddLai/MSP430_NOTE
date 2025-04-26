@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Class 4：polling and Interrupt, UART setup in CCS"
             }
+          },
+          {
+            "id": "d492d49c92761958",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250426112456.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250426112456"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,10 +184,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d492d49c92761958",
   "lastOpenFiles": [
-    "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "Pasted image 20250426112456.png",
+    "Overview.md",
     "MSP430F2xx, MSP430G2xx Family.pdf",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
@@ -202,7 +216,6 @@
     "Class2/UART Protocols.jpg",
     "Class3/7 segment pinout with Arduino.png",
     "Class3/7 segments display pinout.png",
-    "Lec HW/MSP430_Jumper_setup.jpg",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class2/pinout.md",
     "Class2/Class2 UART driver.md",

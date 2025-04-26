@@ -49,6 +49,9 @@ eddlai.be10@nycu.edu.tw
 哪個更加接近於人? 由event主導
 
 ---
+![[Pasted image 20250426112456.png]]
+
+---
 Interrupt觸發條件：
 - Change value of internal variable (count)
 - Read a data value (sensor, receive)
