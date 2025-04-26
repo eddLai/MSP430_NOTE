@@ -49,7 +49,7 @@ eddlai.be10@nycu.edu.tw
 哪個更加接近於人? 由event主導
 
 ---
-![[Pasted image 20250426112456.png]]
+![[polling example1.png]]![[interrupt example1.png]]
 
 ---
 Interrupt觸發條件：
