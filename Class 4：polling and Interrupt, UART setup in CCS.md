@@ -41,14 +41,18 @@ eddlai.be10@nycu.edu.tw
 ---
 # Idea
 - polling（輪詢）
-- Interrupt (更加接近於人)
+- Interrupt
 
 舉例：多個if的問題，(阻塞)
 
-`switch`, `if, else` 
+`switch`, `if, else` \
+哪個更加接近於人? 由event主導
 
 ---
-
+i觸發條件：
+- Change value of internal variable (count)
+- Read a data value (sensor, receive)
+- Write a data value (actuator, send)
 
 ---
 # Task
