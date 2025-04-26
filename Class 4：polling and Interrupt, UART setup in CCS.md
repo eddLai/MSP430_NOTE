@@ -50,6 +50,7 @@ eddlai.be10@nycu.edu.tw
 
 ---
 ![[polling example1.png]]![[interrupt example1.png]]
+[PIC Interrupts vs. Polling - Interrupt Theory | PyroElectro - News, Projects & Tutorials](http://www.pyroelectro.com/tutorials/pic_interrupts_vs_polling/theory.html)
 
 ---
 Interrupt觸發條件：
