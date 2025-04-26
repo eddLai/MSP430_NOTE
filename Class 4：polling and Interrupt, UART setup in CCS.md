@@ -48,6 +48,11 @@ eddlai.be10@nycu.edu.tw
 `switch`, `if, else` 
 
 ---
+ Change value of internal variable (count)
+ Read a data value (sensor, receive)
+ Write a data value (actuator, send)
+
+---
 # Task
 `#define BUTTON BIT3`\
 `#define LED1 BIT0 綠燈`\
