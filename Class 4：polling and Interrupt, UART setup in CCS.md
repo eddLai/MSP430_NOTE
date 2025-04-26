@@ -41,16 +41,14 @@ eddlai.be10@nycu.edu.tw
 ---
 # Idea
 - polling（輪詢）
-- Interrupt
+- Interrupt (更加接近於人)
 
 舉例：多個if的問題，(阻塞)
 
 `switch`, `if, else` 
 
 ---
- Change value of internal variable (count)
- Read a data value (sensor, receive)
- Write a data value (actuator, send)
+
 
 ---
 # Task
