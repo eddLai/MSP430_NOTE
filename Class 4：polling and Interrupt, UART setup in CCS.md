@@ -47,6 +47,7 @@ eddlai.be10@nycu.edu.tw
 
 `switch`, `if, else` \
 哪個更加接近於人? Event-driven programming
+>use interrupts to deal with each peripheral only when attention is required
 
 ---
 ![[polling example1.png]]![[interrupt example1.png]]
