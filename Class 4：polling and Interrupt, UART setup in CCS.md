@@ -86,6 +86,16 @@ SP is stack pointer
 [courses.cs.washington.edu/courses/cse466/11au/calendar/04-Interrupts-posted.pdf](https://courses.cs.washington.edu/courses/cse466/11au/calendar/04-Interrupts-posted.pdf)
 
 ---
+Common interrupt-related errors include:
+- Failing to protect global variables
+- Forgetting to actually include the ISR - no linker error!
+- Not testing or validating thoroughly
+- Stack overflow
+- Running out of CPU horsepower
+- Interrupting critical code
+- Trying to outsmart the compiler
+
+---
 # Task
 `#define BUTTON BIT3`\
 `#define LED1 BIT0 綠燈`\
