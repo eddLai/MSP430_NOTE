@@ -80,7 +80,7 @@ maskable還需要等待GIE（General Interrupt Enable）通過
 	- ==User ISR start==!
 
 ---
-SP is 
+SP is stack pointer
 ![[Stack pointer.png]]
 
 ---
@@ -263,6 +263,7 @@ __interrupt void WDT_ISR(void)
 # Homework
 - [[MSP430F2xx, MSP430G2xx Family.pdf]] 解釋第32頁，Fig. 2-3
 - 用Interrupt的想法，解說任務二中的程式碼做註解
+- 解釋SP圖
 
 ---
 ```
