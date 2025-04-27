@@ -177,13 +177,7 @@ void main(void)
 
 void main(void)
 {
-    WDTCTL = WDTPW + WDTHOLD;        // 停用 Watchdog Timer
-
-    P1DIR |= BIT0;                   // P1.0 output
-    P1OUT &= ~BIT0;                  // LED off
-
-    P1REN |= BIT3;                   // P1.3 拉電阻
-    P1OUT |= BIT3;                   // 上拉
+	// 初始設定
     P1IE  |= BIT3;                   // P1.3 中斷啟用
     P1IES |= BIT3;                   // 下降緣觸發
     P1IFG &= ~BIT3;                  // 清除中斷旗標
