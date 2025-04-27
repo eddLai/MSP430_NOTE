@@ -70,7 +70,7 @@ maskable還需要等待GIE（General Interrupt Enable）通過
 - Current instruction completed (等待上次完成)
 - MCLK started if CPU was off (重啟CPU)
 - Processor pushes on stack (送到stack為了接續使用)
-	- program counter: 記錄成
+	- program counter: 記錄程式執行到哪裡
 	- status register
 - Interrupt w/highest priority is selected
 2) Interrupt request flag cleared if single sourced
