@@ -189,8 +189,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "ISR location.png",
+    "memory map.png",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "ISR location.png",
     "Overview.md",
     "interrupt example1.png",
     "polling example1.png",
@@ -218,7 +219,6 @@
     "PxOUT Register.png",
     "PxIN Register.png",
     "FET driver upload issue.md",
-    "Class2/UART Protocols.jpg",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class2/pinout.md",
     "Class2/Class2 UART driver.md",
