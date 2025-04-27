@@ -70,15 +70,14 @@ maskable還需要等待GIE（General Interrupt Enable）通過
 - Current instruction completed (等待上次完成)
 - MCLK started if CPU was off (重啟CPU)
 - Processor pushes on stack (送到stack為了接續使用)
-	- program counter: 記錄程式執行到哪裡
+	- program counter(PC): 記錄程式執行到哪裡
 	- status register
 - Interrupt w/highest priority is selected
 	- Interrupt request flag cleared if single sourced
 	- Status register is cleared (防止中斷被中斷) $->$ Disables further maskable interrupts (GIE cleared)
- Terminates low-power mode
-3) Processor fetches interrupt vector and stores it in the
-program counter
-4) User ISR must do the rest!
+- Terminates low-power mode
+	- Processor fetches interrupt vector and stores it in the PC
+	- User ISR must do the rest!
 
 ---
 # Task
