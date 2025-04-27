@@ -74,8 +74,7 @@ maskable還需要等待GIE（General Interrupt Enable）通過
 	- status register
 - Interrupt w/highest priority is selected
 	- Interrupt request flag cleared if single sourced
-	- Status register is cleared (防止中斷被中斷)
- Disables further maskable interrupts (GIE cleared)
+	- Status register is cleared (防止中斷被中斷) $->$ Disables further maskable interrupts (GIE cleared)
  Terminates low-power mode
 3) Processor fetches interrupt vector and stores it in the
 program counter
