@@ -65,7 +65,7 @@ maskable還需要等待GIE（General Interrupt Enable）通過
 向量表的入口是固定在處理的向量表\
 (最後之類的，視處理器而定)，\
 但是後續的==ISR(Interrupt Service Routine)==則是可以在flash記憶體中的任何位置\
-![[ISR location.png|150]]![[memory map.png|150]]
+![[ISR location.png|150]]![[memory map.png|300]]
 
 ---
 - Current instruction completed (等待上次完成)
