@@ -199,18 +199,11 @@ void main(void)
     // }
 }
 
-// void configureClocks()
-// {
-//     BCSCTL1 = CALBC1_8MHZ;
-//     DCOCTL  = CALDCO_8MHZ;
-//     BCSCTL3 |= LFXT1S_2;              // VLO 12kHz
-// }
-
 #pragma vector=PORT1_VECTOR
 __interrupt void Port_1(void)
 {
-    __delay_cycles(50000);            // 防彈跳
-    if ((P1IN & BIT3) == 0)           // 再確認按鈕被按下
+    // 防彈跳
+    // 再確認按鈕被按下
     {
         P1OUT ^= BIT0;                // 切換 LED
     }
@@ -321,6 +314,7 @@ __interrupt void WDT_ISR(void)
 ```
 
 ---
+## simple Interrupt answer
 ```C++
 #include <msp430g2553.h>
 
