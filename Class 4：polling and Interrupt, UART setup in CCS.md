@@ -171,7 +171,7 @@ void main(void)
 ```
 
 ---
-# Simple Interrupt
+# Simple Interrupt hint
 ```
 #include <msp430g2553.h>
 
