@@ -59,6 +59,7 @@ Interrupt觸發條件：
 - Write a data value (actuator, send)
 
 maskable還需要等待GIE（General Interrupt Enable）通過
+向量表的入口是固定在處理的向量表指定在特定的位址，但是後續的
 
 ---
 # Task
