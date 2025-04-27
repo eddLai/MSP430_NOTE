@@ -82,6 +82,7 @@ maskable還需要等待GIE（General Interrupt Enable）通過
 ---
 SP is stack pointer
 ![[Stack pointer.png]]
+[courses.cs.washington.edu/courses/cse466/11au/calendar/04-Interrupts-posted.pdf](https://courses.cs.washington.edu/courses/cse466/11au/calendar/04-Interrupts-posted.pdf)
 
 ---
 # Task
