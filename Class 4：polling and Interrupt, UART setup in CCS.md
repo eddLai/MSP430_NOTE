@@ -58,7 +58,7 @@ Interrupt觸發條件：
 - Read a data value (sensor, receive)
 - Write a data value (actuator, send)
 
-maskable還需要等2294
+maskable還需要等待GIE（General Interrupt Enable）通過
 
 ---
 # Task
