@@ -187,10 +187,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e30c2a5a3bd6d63b",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Overview.md",
+    "ISR location.png",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "Overview.md",
     "interrupt example1.png",
     "polling example1.png",
     "MSP430F2xx, MSP430G2xx Family.pdf",
@@ -218,7 +219,6 @@
     "PxIN Register.png",
     "FET driver upload issue.md",
     "Class2/UART Protocols.jpg",
-    "Class3/7 segment pinout with Arduino.png",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class2/pinout.md",
     "Class2/Class2 UART driver.md",
