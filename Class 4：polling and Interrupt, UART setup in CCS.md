@@ -175,12 +175,9 @@ void main(void)
 ```C++
 #include <msp430g2553.h>
 
-void configureClocks();
-
 void main(void)
 {
     WDTCTL = WDTPW + WDTHOLD;        // 停用 Watchdog Timer
-    // configureClocks();
 
     P1DIR |= BIT0;                   // P1.0 output
     P1OUT &= ~BIT0;                  // LED off
@@ -192,11 +189,6 @@ void main(void)
     P1IFG &= ~BIT3;                  // 清除中斷旗標
 
     __enable_interrupt();            // 啟用全域中斷
-
-    // while(1)
-    // {
-    //     __bis_SR_register(LPM4_bits + GIE);  // 低功耗模式
-    // }
 }
 
 #pragma vector=PORT1_VECTOR
@@ -204,11 +196,8 @@ __interrupt void Port_1(void)
 {
     // 防彈跳
     // 再確認按鈕被按下
-    {
-        P1OUT ^= BIT0;                // 切換 LED
-    }
+    // 切換 LED
     P1IFG &= ~BIT3;                   // 清除中斷旗標
-    __bic_SR_register_on_exit(LPM4_bits);  // 退出低功耗
 }
 ```
 
