@@ -46,7 +46,7 @@ eddlai.be10@nycu.edu.tw
 舉例：多個if的問題，(阻塞)
 
 `switch`, `if, else` \
-哪個更加接近於人? 由event主導
+哪個更加接近於人? Event-driven programming
 
 ---
 ![[polling example1.png]]![[interrupt example1.png]]

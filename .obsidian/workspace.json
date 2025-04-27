@@ -13,12 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class 4：polling and Interrupt, UART setup in CCS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class 4：polling and Interrupt, UART setup in CCS"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b45f9841c2b1f394",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e30c2a5a3bd6d63b",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -171,12 +187,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e30c2a5a3bd6d63b",
   "lastOpenFiles": [
+    "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "interrupt example1.png",
     "polling example1.png",
-    "Overview.md",
     "MSP430F2xx, MSP430G2xx Family.pdf",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
