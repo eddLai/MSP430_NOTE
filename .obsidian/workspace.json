@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class 5：The Role of Data Structures in Functionalization, LeetCode Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class 5：The Role of Data Structures in Functionalization, LeetCode Arrays"
             }
           }
         ]
@@ -173,11 +173,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "pointer performance.png",
+    "Class 5：The Role of Data Structures in Functionalization, LeetCode Arrays.md",
+    "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Stack pointer.png",
     "memory map.png",
     "ISR location.png",
-    "Overview.md",
     "interrupt example1.png",
     "polling example1.png",
     "MSP430F2xx, MSP430G2xx Family.pdf",
@@ -201,7 +203,6 @@
     "C compiler process.png",
     "7 segment display with resistor.png",
     "PxDIR Register.png",
-    "PxOUT Register.png",
     "FET driver upload issue.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class2/pinout.md",
