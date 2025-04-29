@@ -40,7 +40,7 @@
 12. DSP庫內建ADC：[[Class 9：ADC and DSP tool integrated in MS430]] 波形產生器的輸入，物件導向
 13. 物件導向：OP-AMP
 14. pointer 控制 DMA
-15. [[Class 9：Electronics LAB ]]
+15. [[Class ：Electronics LAB 0 OPAMP]]
 - [Edge AI Studio](https://dev.ti.com/edgeaistudio/)
 
 [[USCI overview]]
