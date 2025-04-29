@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -217,7 +216,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "375f3dbe8de58924",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
     "Class 5：The Role of Data Structures RealWorld, DMA.md",
