@@ -5,6 +5,9 @@ PGA模式
 - 可程式化增益模組
 ![[MSP430 SAC.png|500]]
 ![[SAC DAC mode.png|500]]
+
+---
 ![[SAC OP mode.png|500]]
+![[common OPAMP.png|500]]
 
 ---
