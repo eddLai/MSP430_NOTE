@@ -12,5 +12,6 @@ PGA模式
 ---
 ![[SAC OP mode.png|500]]
 ![[common OPAMP.png|500]]
+$$\mathbf{V}_{1}={\frac{\mathbf{R}_{2}}{\mathbf{R}_{2}+\mathbf{R}_{\mathrm{{F}}}}}\times\mathbf{V}_{\mathrm{OUT}}$$
 
 ---
