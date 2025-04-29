@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class 4：polling and Interrupt, UART setup in CCS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class 4：polling and Interrupt, UART setup in CCS"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Class 5：The Role of Data Structures RealWorld, DMA"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,15 +199,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e81a7d6bad90e7fe",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "common OPAMP.png",
+    "Overview.md",
+    "Class 5：The Role of Data Structures RealWorld, DMA.md",
     "Class ：Electronics LAB 0 OPAMP.md",
+    "common OPAMP.png",
     "SAC OP mode.png",
     "SAC DAC mode.png",
     "MSP430 SAC.png",
-    "Overview.md",
-    "Class 5：The Role of Data Structures RealWorld, DMA.md",
     "pointer performance.png",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Stack pointer.png",
