@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 30.17799352750809,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -47,6 +48,23 @@
               },
               "icon": "lucide-file",
               "title": "Class 5：The Role of Data Structures RealWorld, DMA"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2cef76462a5c8d21",
+        "type": "tabs",
+        "dimension": 69.8220064724919,
+        "children": [
+          {
+            "id": "375f3dbe8de58924",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -199,7 +217,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "375f3dbe8de58924",
   "lastOpenFiles": [
     "Overview.md",
     "Class 5：The Role of Data Structures RealWorld, DMA.md",
