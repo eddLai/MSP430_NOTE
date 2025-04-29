@@ -4,6 +4,7 @@ PGA模式
 - DAC（數位類比轉換器）
 - 可程式化增益模組
 ![[MSP430 SAC.png|500]]
-
 ![[SAC DAC mode.png|500]]
-![[Pasted image 20250429101559.png]]
+![[SAC OP mode.png|500]]
+
+---

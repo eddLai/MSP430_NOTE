@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "8a53e3e0866f67b0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250429101559.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250429101559"
-            }
-          },
-          {
             "id": "47146823ceba67b9",
             "type": "leaf",
             "state": {
@@ -62,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,10 +200,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8a53e3e0866f67b0",
+  "active": "e81a7d6bad90e7fe",
   "lastOpenFiles": [
+    "SAC OP mode.png",
     "Class ：Electronics LAB 0 OPAMP.md",
-    "Pasted image 20250429101559.png",
     "SAC DAC mode.png",
     "MSP430 SAC.png",
     "Overview.md",
