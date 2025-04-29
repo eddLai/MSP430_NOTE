@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "8a53e3e0866f67b0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250429101559.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250429101559"
+            }
+          },
+          {
             "id": "47146823ceba67b9",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,10 +212,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e81a7d6bad90e7fe",
+  "active": "8a53e3e0866f67b0",
   "lastOpenFiles": [
-    "MSP430 SAC.png",
     "Class ：Electronics LAB 0 OPAMP.md",
+    "Pasted image 20250429101559.png",
+    "SAC DAC mode.png",
+    "MSP430 SAC.png",
     "Overview.md",
     "Class 5：The Role of Data Structures RealWorld, DMA.md",
     "pointer performance.png",
@@ -231,8 +245,6 @@
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "USCI block diagram.png",
-    "C compiler process.png",
-    "7 segment display with resistor.png",
     "FET driver upload issue.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class2/pinout.md",
