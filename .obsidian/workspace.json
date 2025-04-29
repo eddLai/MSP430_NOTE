@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class 5：The Role of Data Structures RealWorld.md",
+                "file": "Class 5：The Role of Data Structures RealWorld, DMA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 5：The Role of Data Structures RealWorld"
+              "title": "Class 5：The Role of Data Structures RealWorld, DMA"
             }
           }
         ],
@@ -189,7 +189,7 @@
   "active": "47146823ceba67b9",
   "lastOpenFiles": [
     "Overview.md",
-    "Class 5：The Role of Data Structures RealWorld.md",
+    "Class 5：The Role of Data Structures RealWorld, DMA.md",
     "pointer performance.png",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Stack pointer.png",

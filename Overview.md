@@ -31,7 +31,7 @@
 4. 函式化：[[Class3.5：Functionalization and API, write your own library]]：清楚為什麼要學C++
 5. 深入迴圈：[[Class 4：polling and Interrupt, UART setup in CCS]]：了解if-else，CPU的運作
 	- HW：教學完interrupt才可以進UART的使用阿
-6. 應用函式化：[[Class 5：The Role of Data Structures RealWorld]]資料結構Array leetcode題目
+6. 應用函式化：[[Class 5：The Role of Data Structures RealWorld, DMA]]資料結構Array leetcode題目
 7. 陣列
 8. 應用函式化：[[Class 6：I2C Protocol & Light Sensor Module Applications]] 黑箱光照偵測
 9. 傳輸協定：[[Class 7：High-Speed SPI Data Transfer – MicroSD Large File Handling & Ethernet,  Performance limit in Energia]]SPI的MicroSD讀寫大檔案的傳輸速度+SPI乙太端口，Energia的極限, 線材長度影響
