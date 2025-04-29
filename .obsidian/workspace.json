@@ -35,8 +35,7 @@
               "title": "Class 5：The Role of Data Structures RealWorld, DMA"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,10 +185,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "47146823ceba67b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Overview.md",
     "Class 5：The Role of Data Structures RealWorld, DMA.md",
+    "Overview.md",
     "pointer performance.png",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Stack pointer.png",
