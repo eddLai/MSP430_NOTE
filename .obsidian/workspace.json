@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "2d6f32daf79836bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c6bee90b7a35732",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +187,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "1c6bee90b7a35732",
   "lastOpenFiles": [
     "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
