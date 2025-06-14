@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -170,8 +171,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "67291265d6a386b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Overview.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class2_HW.mp4",
     "Lec HW/MSP430_class2_HW.pdf",
@@ -183,8 +185,6 @@
     "Lec HW/class2 HW/MSP430_class2_HW.mp4",
     "Lec HW/class2 HW/MSP430_Jumper_setup.jpg",
     "Lec HW/class2 HW/random_arithmetic_encoder_no_USBmodule (1).exe",
-    "Lec HW/class2 HW/MSP430_class2_HW.pdf",
-    "Overview.md",
     "Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
