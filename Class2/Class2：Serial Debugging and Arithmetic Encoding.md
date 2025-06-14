@@ -248,4 +248,6 @@ int32_t parseTwosComplement(String binary) {
 
 ---
 評分標準：
-diagram畫法：17
+diagram畫法：
+- 有完成15以上，分成15~20
+- 
