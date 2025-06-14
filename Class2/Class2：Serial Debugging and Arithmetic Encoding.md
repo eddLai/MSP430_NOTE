@@ -248,3 +248,4 @@ int32_t parseTwosComplement(String binary) {
 
 ---
 評分標準：
+diagram畫法：17
