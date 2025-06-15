@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,8 +200,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "78aa1ec0051e89ec",
+  "active": "608c50523e7808d0",
   "lastOpenFiles": [
+    "Class2/pinout.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
@@ -235,7 +236,6 @@
     "Excalidraw/block diagrams.md",
     "FET driver upload issue.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
-    "Class2/pinout.md",
     "Class2/Class2 UART driver.md",
     "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md"
