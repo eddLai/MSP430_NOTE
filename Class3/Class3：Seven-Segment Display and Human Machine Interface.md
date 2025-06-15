@@ -263,6 +263,7 @@ void main()
 | 7      | A+B+C         |     |
 | 8      | A+B+C+D+E+F+G |     |
 | 9      | A+B+C+G+F     | v   |
+![[Pasted image 20250615095248.png]]
 
 ---
 
