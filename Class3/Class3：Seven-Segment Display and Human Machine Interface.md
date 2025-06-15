@@ -283,3 +283,6 @@ void main()
 ![[7 segment pinout with Arduino.png|500]]
 
 表格一樣佔50%
+10
+20
+20
