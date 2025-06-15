@@ -259,10 +259,10 @@ void main()
 | 3      | A+B+C+D+G     |     |
 | 4      | B+C+F+G       |     |
 | 5      | A+F+G+C+D     |     |
-| 6      | F+G+C+D+E     |     |
+| 6      | F+G+C+D+E     | v   |
 | 7      | A+B+C         |     |
 | 8      | A+B+C+D+E+F+G |     |
-| 9      | A+B+C+G+F     |     |
+| 9      | A+B+C+G+F     | v   |
 
 ---
 
