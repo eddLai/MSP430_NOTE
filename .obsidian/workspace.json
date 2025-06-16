@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -186,7 +185,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ccfe24985f1fb686",
+  "active": "67291265d6a386b9",
   "lastOpenFiles": [
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
     "Overview.md",
