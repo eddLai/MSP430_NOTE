@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class3：Seven-Segment Display and Human Machine Interface"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Class3.5：Functionalization and API, write your own library.md",
     "Overview.md",
+    "Class1/Class1：An Introduction of Embbeded systems.md",
+    "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Lec HW/class3 HW/sevensegment_gui.py",
@@ -192,7 +193,6 @@
     "Lec HW/class3 HW/MSP430_class3_HW.pdf",
     "Lec HW/class2 HW/MSP430_Jumper_setup.jpg",
     "Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430.md",
-    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class 5：The Role of Data Structures RealWorld, DMA.md",
     "Class ：Electronics LAB 0 OPAMP.md",
