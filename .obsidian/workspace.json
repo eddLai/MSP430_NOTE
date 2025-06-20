@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3.5：Functionalization and API, write your own library.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class3.5：Functionalization and API, write your own library"
+              "title": "Overview"
             }
           }
         ]
@@ -172,8 +172,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Overview.md",
     "Class3.5：Functionalization and API, write your own library.md",
+    "Overview.md",
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Lec HW/class3 HW/sevensegment_gui.py",
