@@ -178,17 +178,16 @@ void main()
 **Important:** Without a resistor, the display can be damaged. Each person gets **one display only.**
 
 1. Use Energia: Count from 0 to 9 and verify accuracy with a stopwatch.
-2. Use CCS: Perform the same task.(**Bonus:** Add countdown using a button.
-)
+2. Use CCS: Perform the same task.
+3. **Bonus:** Add countdown using a button.
 
 ![[7 segment display with resistor.png|300]] 
 
 ---
-
 # Related Resources
-* [Arduino Note: 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)
-* [Tutorial: 7-Segment Display with MSP430 TI Launchpad](https://www.qutaojiao.com/18851.html)
-* [Energia Sidekick Tutorial](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
+-  [Arduino Note: 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)
+-  [Tutorial: 7-Segment Display with MSP430 TI Launchpad](https://www.qutaojiao.com/18851.html)
+-  [Energia Sidekick Tutorial](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
 
 ---
 

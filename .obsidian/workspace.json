@@ -39,11 +39,11 @@
         "currentTab": 1
       },
       {
-        "id": "e8baaaefc712741d",
+        "id": "3d58742b17a44d95",
         "type": "tabs",
         "children": [
           {
-            "id": "eec56e9318e87b47",
+            "id": "e213ef73af44c5f0",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -202,7 +202,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "088fdfa5663322ef",
+  "active": "e213ef73af44c5f0",
   "lastOpenFiles": [
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "temp.md",
