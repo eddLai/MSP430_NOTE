@@ -35,7 +35,8 @@
               "title": "temp"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3d58742b17a44d95",
@@ -201,10 +202,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "088fdfa5663322ef",
   "lastOpenFiles": [
-    "temp.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "temp.md",
     "Overview.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/7 segment pinout with Arduino.png",
