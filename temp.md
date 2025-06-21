@@ -173,10 +173,8 @@ void main()
 
 ---
 # Related Resources
--  [Arduino Note: 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)
--  [Tutorial: 7-Segment Display with MSP430 TI Launchpad](https://www.qutaojiao.com/18851.html)
+[Arduino Note: 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)[Tutorial: 7-Segment Display with MSP430 TI Launchpad](https://www.qutaojiao.com/18851.html)
 -  [Energia Sidekick Tutorial](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
-
 
 ---
 # Task
