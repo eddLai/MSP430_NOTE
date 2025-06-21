@@ -178,10 +178,10 @@ void main()
 **Important:** Without a resistor, the display can be damaged. Each person gets **one display only.**
 
 1. Use Energia: Count from 0 to 9 and verify accuracy with a stopwatch.
-2. Use CCS: Perform the same task.
+2. Use CCS: Perform the same task.(**Bonus:** Add countdown using a button.
+)
 
-   * **Bonus:** Add countdown using a button.
-1. ![[7 segment display with resistor.png|300]]
+![[7 segment display with resistor.png|300]] 
 
 ---
 
