@@ -137,12 +137,12 @@ digitalWrite(pinMapping[i], LOW);
 
 ## Register Details
 
-!\[PxIN Register.png]
+![[PxIN Register.png]]
 
 ---
 
 Pin 7 is HIGH: set BIT7
-!\[PxOUT Register.png]
+![[PxOUT Register.png]]
 
 ---
 
