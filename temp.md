@@ -38,6 +38,7 @@ eddlai.be10@nycu.edu.tw
 </grid>
 
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
+
 ---
 
 0900\~0930: Review and demonstrate the last question from the previous homework.
@@ -50,30 +51,30 @@ Bring TTL module to the front.
 Connect the 5V line and identify pin positions.
 Fill in the connected pin mapping:
 
-|     | dis |     |   |     | MSP |     |
-| --- | --- | --- | - | --- | --- | --- |
-| --- | A   | --- |   | --- |     | --- |
-| F   |     | B   |   |     |     |     |
-| --- | G   | --- | → | --- |     | --- |
-| E   |     | C   |   |     |     |     |
-| --- | D   | --- |   | --- |     | --- |
+|     | dis |     |     |     | MSP |     |
+| --- | --- | --- | --- | --- | --- | --- |
+| --- | A   | --- |     | --- |     | --- |
+| F   |     | B   |     |     |     |     |
+| --- | G   | --- | →   | --- |     | --- |
+| E   |     | C   |     |     |     |     |
+| --- | D   | --- |     | --- |     | --- |
 
 ---
 
 Fill in A+B, etc.
 
-| Number | Segment Combination |   |
-| ------ | ------------------- | - |
-| 0      |                     |   |
-| 1      |                     |   |
-| 2      |                     |   |
-| 3      |                     |   |
-| 4      |                     |   |
-| 5      |                     |   |
-| 6      |                     |   |
-| 7      |                     |   |
-| 8      |                     |   |
-| 9      |                     |   |
+| Number | Segment Combination |     |
+| ------ | ------------------- | --- |
+| 0      |                     |     |
+| 1      |                     |     |
+| 2      |                     |     |
+| 3      |                     |     |
+| 4      |                     |     |
+| 5      |                     |     |
+| 6      |                     |     |
+| 7      |                     |     |
+| 8      |                     |     |
+| 9      |                     |     |
 
 ---
 
