@@ -37,6 +37,22 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e8baaaefc712741d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eec56e9318e87b47",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,8 +204,8 @@
   },
   "active": "088fdfa5663322ef",
   "lastOpenFiles": [
-    "temp.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "temp.md",
     "Overview.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/7 segment pinout with Arduino.png",
