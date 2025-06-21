@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "10524fe8caa64078",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "13b8459b3d1ed6ca",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -187,11 +171,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "13b8459b3d1ed6ca",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Class3/7 segment pinout with Arduino.png",
     "Overview.md",
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "Class3/7 segment pinout with Arduino.png",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
@@ -201,7 +186,6 @@
     "Pasted image 20250615094436.png",
     "Pasted image 20250615094425.png",
     "Class2/pinout.md",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Lec HW/~$P430_class1.docx",
     "Lec HW/MSP430_class2_HW.mp4",
     "Lec HW/MSP430_class2_HW.pdf",
@@ -219,7 +203,6 @@
     "SAC DAC mode.png",
     "MSP430 SAC.png",
     "pointer performance.png",
-    "Stack pointer.png",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "FET driver upload issue.md",
