@@ -94,7 +94,7 @@ Fill in 1 for ON, 0 for OFF:
 
 ---
 
-!\[7 segments display pinout.png]
+![[7 segments display pinout.png]]
 Common cathode design reduces current consumption due to per-pin current limits.
 
 ---
@@ -172,7 +172,13 @@ void main()
 ```
 
 ---
+# Related Resources
+-  [Arduino Note: 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)
+-  [Tutorial: 7-Segment Display with MSP430 TI Launchpad](https://www.qutaojiao.com/18851.html)
+-  [Energia Sidekick Tutorial](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
 
+
+---
 # Task
 
 **Important:** Without a resistor, the display can be damaged. Each person gets **one display only.**
@@ -182,13 +188,6 @@ void main()
 3. **Bonus:** Add countdown using a button.
 
 ![[7 segment display with resistor.png|300]] 
-
----
-# Related Resources
--  [Arduino Note: 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)
--  [Tutorial: 7-Segment Display with MSP430 TI Launchpad](https://www.qutaojiao.com/18851.html)
--  [Energia Sidekick Tutorial](https://energia.nu/guide/tutorials/other/sidekick/sidekick_sevensegmentdisplay/)
-
 ---
 
 ```C++
