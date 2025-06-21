@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "10524fe8caa64078",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13b8459b3d1ed6ca",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -170,13 +187,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "13b8459b3d1ed6ca",
   "lastOpenFiles": [
+    "Class3/7 segment pinout with Arduino.png",
     "Overview.md",
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Lec HW/class3 HW/sevensegment_gui.py",
     "Lec HW/class3 HW/新增 文字文件.txt",
     "Pasted image 20250615095248.png",
