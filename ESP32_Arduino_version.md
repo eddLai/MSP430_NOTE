@@ -2,4 +2,5 @@
 [[Class3：Seven-Segment Display and Human Machine Interface]]
 [[Class2：Serial Debugging and Arithmetic Encoding]]
 [[Class 6：I2C Protocol & Light Sensor Module Applications]]
-[[Class 7：High-Speed SPI Data Transfer – MicroSD Large File Handling & Ethernet,  Performance limit in Energia]]
+[[Class 7：High-Speed SPI Data Transfer – MicroSD Large File Handling]]
+[[Class 7：High-Speed SPI Data Transfer – Ethernet,  Performance limit in Energia]]
