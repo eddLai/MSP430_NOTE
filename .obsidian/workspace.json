@@ -190,6 +190,7 @@
   "lastOpenFiles": [
     "Overview.md",
     "ESP32_Arduino_version.md",
+    "Class1/Class1 lec slide english-version.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "temp.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
@@ -225,7 +226,6 @@
     "FET driver upload issue.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "Class2/Class2 UART driver.md",
-    "Class1/Class1 lec slide english-version.md",
     "Class1/LED blinkin.md"
   ]
 }
