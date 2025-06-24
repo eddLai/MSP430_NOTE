@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class3：7 segment display pin wiring practice, difference of coding in Energia and CCS
+Class3：SPI Protocol – Ethernet_ESP32
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
@@ -113,4 +113,4 @@ void loop() {
 ---
 >小技巧：務必選好一篇文章就想辦法仔細的復刻，想辦法
 1. 說明兩個Ethernet and EthernetLarge的差別
-2. 
+2. 比較不同的protocol
