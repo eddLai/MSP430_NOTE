@@ -111,4 +111,5 @@ void loop() {
 ```
 
 ---
-1. 說明兩個
+>小技巧：務必選好一篇文章就想想辦法
+1. 說明兩個Ethernet and EthernetLarge的差別
