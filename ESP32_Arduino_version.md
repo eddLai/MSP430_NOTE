@@ -3,5 +3,5 @@
 - [[Class2：Serial Debugging and Arithmetic Encoding]]
 - [[Class 6：I2C Protocol & Light Sensor Module Applications_ESP32]]
 - [[Class 7：SPI Protocol – MicroSD Large File Handling_ESP32]]
-- [[Class 7：SPI Protocol – Ethernet,  Performance limit in Energia_ESP32]]
+- [[Class 7：SPI Protocol – Ethernet_ESP32]]
 - [[Class 9：ADC and DSP tool_ESP32]]
