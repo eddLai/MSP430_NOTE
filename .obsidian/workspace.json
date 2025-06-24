@@ -35,8 +35,7 @@
               "title": "ESP32_Arduino_version"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,10 +185,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fe0bba5d8dcd9745",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Class 7：SPI Protocol – Ethernet,  Performance limit in Energia_ESP32.md",
     "ESP32_Arduino_version.md",
+    "Class 7：SPI Protocol – Ethernet,  Performance limit in Energia_ESP32.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
     "Overview.md",
