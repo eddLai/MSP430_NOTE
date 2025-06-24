@@ -40,5 +40,7 @@ eddlai.be10@nycu.edu.tw
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-
 https://mischianti.org/esp32-ethernet-w5500-with-plain-http-and-ssl-https/
+
+---
+https://magicjackting.pixnet.net/blog/post/164725144
