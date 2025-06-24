@@ -113,3 +113,4 @@ void loop() {
 ---
 >小技巧：務必選好一篇文章就想辦法仔細的復刻，想辦法
 1. 說明兩個Ethernet and EthernetLarge的差別
+2. 
