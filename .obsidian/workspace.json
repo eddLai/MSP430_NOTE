@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESP32_Arduino_version.md",
+                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESP32_Arduino_version"
+              "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,19 +186,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "fe0bba5d8dcd9745",
   "lastOpenFiles": [
     "ESP32_Arduino_version.md",
-    "Class 9：ADC and DSP tool_ESP32.md",
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Overview.md",
+    "Class1/Class1 lec slide english-version.md",
+    "Class 9：ADC and DSP tool_ESP32.md",
     "Class 7：SPI Protocol – Ethernet,  Performance limit in Energia_ESP32.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
     "Class3.5：Functionalization and API, write your own library.md",
-    "Class1/Class1 lec slide english-version.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "temp.md",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/7 segment pinout with Arduino.png",
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
