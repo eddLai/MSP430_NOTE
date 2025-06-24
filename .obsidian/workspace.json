@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class1/Class1 lec slide english-version.md",
+                "file": "ESP32_Arduino_version.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class1 lec slide english-version"
+              "title": "ESP32_Arduino_version"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,17 +185,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fe0bba5d8dcd9745",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "ESP32_Arduino_version.md",
+    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
+    "Class1/Class1 lec slide english-version.md",
     "Class 7：SPI Protocol – Ethernet_ESP32.md",
     "Overview.md",
     "Class 9：ADC and DSP tool_ESP32.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
-    "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
-    "Class1/Class1 lec slide english-version.md",
     "Class3.5：Functionalization and API, write your own library.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "temp.md",
