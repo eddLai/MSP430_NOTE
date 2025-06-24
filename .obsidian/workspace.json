@@ -35,7 +35,8 @@
               "title": "ESP32_Arduino_version"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +186,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "fe0bba5d8dcd9745",
   "lastOpenFiles": [
+    "Overview.md",
     "ESP32_Arduino_version.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1 lec slide english-version.md",
     "Class 7：SPI Protocol – Ethernet_ESP32.md",
-    "Overview.md",
     "Class 9：ADC and DSP tool_ESP32.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
