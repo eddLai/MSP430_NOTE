@@ -3,6 +3,7 @@
 ## 大綱
 [2025MSP430完成狀況 - Google 試算表](https://docs.google.com/spreadsheets/d/1Q5lRjRBiwN_YJWAx8VdnXJqRml5ew77iE20tfGScxh0/edit?gid=0#gid=0)
 
+
 >是為了讓課堂學到的東西，真的可以用到生活或者研究中。
 現在有AI幫忙寫code，怎麼brick-by-brick已經沒有那麼重要，重要的是你拿到一個好像可以用的東西，那他今天不能用了，你要怎麼debug。
 
