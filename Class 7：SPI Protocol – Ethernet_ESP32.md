@@ -27,7 +27,7 @@ bg: "[[NTKLab_white bg.png]]"
 	}
 </style>
 <grid drag="100 10" drop="0 40">
-Class3：SPI Protocol – Ethernet_ESP32
+Class7：SPI Protocol – Ethernet_ESP32
 <!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
 </grid>
 
