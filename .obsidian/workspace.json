@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class3.5：Functionalization and API, write your own library.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class3.5：Functionalization and API, write your own library"
+              "title": "Overview"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "ESP32_Arduino_version"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,9 +186,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "fe0bba5d8dcd9745",
   "lastOpenFiles": [
     "Overview.md",
+    "Class3.5：Functionalization and API, write your own library.md",
     "ESP32_Arduino_version.md",
     "Class1/Class1 lec slide english-version.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
@@ -195,7 +197,6 @@
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/7 segment pinout with Arduino.png",
-    "Class3.5：Functionalization and API, write your own library.md",
     "Lec HW/class3.5 HW/MSP430_class_swig (1).zip",
     "Lec HW/class3 HW/sevensegment_gui.py",
     "Lec HW/class3 HW/新增 文字文件.txt",
