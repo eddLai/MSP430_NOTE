@@ -46,7 +46,7 @@ https://mischianti.org/esp32-ethernet-w5500-with-plain-http-and-ssl-https/
 https://magicjackting.pixnet.net/blog/post/164725144
 
 ---
-```
+```C
 #include <SPI.h>
 #include "EthernetLarge.h"
 
@@ -109,3 +109,6 @@ void loop() {
   // 可擴充為 ping, HTTP request, TCP server 等功能
 }
 ```
+
+---
+1. 說明兩個
