@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 36.32707774798928,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -13,12 +14,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class2：Serial Debugging and Arithmetic Encoding"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5118216d04825801",
+        "type": "tabs",
+        "dimension": 63.67292225201072,
+        "children": [
+          {
+            "id": "9feed50036b1af7c",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -171,7 +189,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9feed50036b1af7c",
   "lastOpenFiles": [
     "Overview.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
