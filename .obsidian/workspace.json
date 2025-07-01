@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 36.32707774798928,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,29 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class2：Serial Debugging and Arithmetic Encoding"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5118216d04825801",
-        "type": "tabs",
-        "dimension": 63.67292225201072,
-        "children": [
-          {
-            "id": "9feed50036b1af7c",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -189,15 +171,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9feed50036b1af7c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Overview.md",
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
     "ESP32_Arduino_version.md",
     "Class 9：ADC and DSP tool_ESP32.md",
     "Class 7：SPI Protocol – Ethernet_ESP32.md",
     "Class1/Class1 lec slide english-version.md",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
     "Class3.5：Functionalization and API, write your own library.md",
