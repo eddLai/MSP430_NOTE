@@ -10,4 +10,4 @@
 #define BH1750_MTREG_MAX 254
 ```
 Why is BH1750_DEFAULT_MTREG 69?
-please read 
+please read [[BH1750FVI.pdf]]
