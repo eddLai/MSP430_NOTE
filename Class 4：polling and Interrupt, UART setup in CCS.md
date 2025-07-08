@@ -54,6 +54,27 @@ eddlai.be10@nycu.edu.tw
 [PIC Interrupts vs. Polling - Interrupt Theory | PyroElectro - News, Projects & Tutorials](http://www.pyroelectro.com/tutorials/pic_interrupts_vs_polling/theory.html)
 
 ---
+```C
+const byte ledPin = 13;
+const byte interruptPin = 2;  // input pin that the interruption will be attached to
+volatile byte state = LOW;  // variable that will be updated in the ISR
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(interruptPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(interruptPin), blink, CHANGE);
+}
+
+void loop() {
+  digitalWrite(ledPin, state);
+}
+
+void blink() {
+  state = !state;
+}
+```
+
+---
 Interrupt觸發條件：
 - Change value of internal variable (count)
 - Read a data value (sensor, receive)
