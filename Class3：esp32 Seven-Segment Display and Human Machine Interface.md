@@ -137,11 +137,11 @@ Input/output direction
 # Task
 Note: Not adding a resistor may damage the display. ==Only one per person==
 Use Arduino: Complete counting from 0 to 9, and check the accuracy with a stopwatch
- ![[7 segment display with resistor.png|300]]
-    
 
 ---
+![[7 segment display with resistor.png|300]]
 
+---
 # Related
 - [Arduino Notes 07. 7-Segment Display - HackMD](https://hackmd.io/@hschen41/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8)    
 - [MSP430 and 7-Segment Display with MSP-EXP430G2 TI Launchpad – Qutaojiao](https://www.qutaojiao.com/18851.html)
