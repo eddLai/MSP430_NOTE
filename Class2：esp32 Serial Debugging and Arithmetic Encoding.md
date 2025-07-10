@@ -100,12 +100,10 @@ Why only specific pins support specific functions?
 Homework: Polished diagram + Bug Log
 
 ---
-
 - PC Serial Code
 - UART TTL Module to PC
-- MSP430 Serial Code
-- MSP430 Arithmetic Code
-    
+- ESP32 Serial Code
+- ESP32 Arithmetic Code
 
 ---
 
@@ -114,15 +112,10 @@ Homework: Polished diagram + Bug Log
 ---
 
 # Hint
-
 - Refer to example code in the IDE
-    
 - Bit-width of complement
-    
 - RX, TX are inverted
-    
 - Baudrate must match
-    
 - Welcome to the UART Test Tool  
     Enter UART Port (e.g., COM3 / /dev/ttyUSB0): COM14 (note)
     
@@ -130,9 +123,7 @@ Homework: Polished diagram + Bug Log
 ---
 
 # USB
-
-- MSP Application UART1: for flashing
-    
+- MSP Application UART1: for flashing    
 - MSP Debug Interface  
     ![[Debug interface.png|500]]
     
