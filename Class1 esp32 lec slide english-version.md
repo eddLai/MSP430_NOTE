@@ -38,11 +38,6 @@ eddlai.be10@nycu.edu.tw
 </grid>
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
----
-
-一桌4~5人，
-wifi: Asus2.4G\
-密碼nycu87557573
 
 ---
 # Why Embedded system ?

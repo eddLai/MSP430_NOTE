@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -54,12 +53,11 @@
         "currentTab": 2
       },
       {
-        "id": "b79fa454085e2532",
+        "id": "ee6212e55dc397d8",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "72338c8ab3f42a78",
+            "id": "18d296512d8751e8",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -218,7 +216,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8da491b73eccbea6",
+  "active": "18d296512d8751e8",
   "lastOpenFiles": [
     "temp.md",
     "Class1 esp32 lec slide english-version.md",
