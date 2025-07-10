@@ -135,14 +135,7 @@ Operations: Build, Upload, Monitor, Clean.
 
 ---
 ### Today's Tasks
-<!-- element style="font-size: 70px;text-align: left;"-->
-
-%% 拿板子填編號 %%
-1. Set up ~~PlatformIO~~(bonus) or energia, ==**learn to read the official document**==
-2. Complete the Arduino framework's **==[[LED blinkin]]==** project.
-3. Download the CCS development environment.
-4. Finish **==[[LED blinking.c]]==**.
-<i class="fas fa-circle-notch fa-spin fa-2x"></i>
+blink the led
 
 ---
 Attachments1:
