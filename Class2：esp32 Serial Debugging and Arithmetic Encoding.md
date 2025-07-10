@@ -122,14 +122,6 @@ Homework: Polished diagram + Bug Log
 
 ---
 
-# USB
-- MSP Application UART1: for flashing    
-- MSP Debug Interface  
-    ![[Debug interface.png|500]]
-    
-
----
-
 Initial starter code:
 
 ```C++
@@ -237,15 +229,10 @@ int32_t parseTwosComplement(String binary) {
 ---
 
 # Grading Criteria:
-
 Diagram drawing:
-
 - 20%: Complete, 15~20 pts
-    
 - 20%: ...
-    
 - 10%: Submit = 7~10 pts
-    
 - 50%: Full/partial depending on check
     
 
