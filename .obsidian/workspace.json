@@ -21,6 +21,16 @@
               "icon": "lucide-file",
               "title": "Class1：An Introduction of Embbeded systems"
             }
+          },
+          {
+            "id": "3470453b0de08e55",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       },
@@ -96,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -189,13 +198,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7cf91a060ce6dbea",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "BH1750FVI.pdf",
-    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
     "ESP32_Arduino_version.md",
