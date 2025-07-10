@@ -173,11 +173,6 @@ Operations: Build, Upload, Monitor, Clean
 
 
 ---
-
-Attachments:
-
----
-
 Attachments1:  
 LED blinking in Arduino
 
