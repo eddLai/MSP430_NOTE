@@ -122,10 +122,27 @@ executable file inside
 
 - `.ini` file: A PlatformIO project configuration file, specifying the IDE compilation method.
 ```
-[env:lpmsp430g2231]
-platform = timsp430
-board = lpmsp430g2231
+[env:esp32-c3-devkitm-1]
+platform_packages = 
+	toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
+platform = espressif32
+board = esp32-c3-devkitm-1
 framework = arduino
+monitor_speed = 9600
+build_flags = 
+	-D PIO_FRAMEWORK_ARDUINO_ENABLE_CDC
+	-D USBCON
+	-DARDUINO_USB_CDC_ON_BOOT=1
+	-DARDUINO_USB_MODE=1
+lib_deps = 
+	SPI
+
+[env:esp32doit-devkit-v1]
+platform = espressif32
+board = esp32doit-devkit-v1
+monitor_speed = 115200
+framework = arduino
+lib_deps = 
 ```
 - `src`: Contains the source code, such as `main.cpp`.
 - `.pio`: System-generated files, storing temporary files created during compilation and upload processes.
