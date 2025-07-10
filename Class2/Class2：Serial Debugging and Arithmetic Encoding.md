@@ -43,6 +43,14 @@ eddlai.be10@nycu.edu.tw
 # Goal
 debug $\rightarrow$人機互動介面(User interface)\
 Serial通訊 $\rightarrow$ Transmit and Receive\
+Mac的Energia替代(如果想要vscode的也可以學):
+[platform-timsp430/examples/arduino-blink at master · platformio/platform-timsp430](https://github.com/platformio/platform-timsp430/tree/master/examples/arduino-blink)
+`pio run -e lpmsp430g2553 --target upload`\
+`pio device monitor -p COM13 --baud 4800`
+%% 可以拿來偷訊號，如果有條傳輸線，剪斷接上 %%
+
+---
+![[platformIO setup.png]]
 
 ---
 ![[platformIO monitor.png]]
@@ -63,13 +71,10 @@ Serial通訊 $\rightarrow$ Transmit and Receive\
 # Pinout
 <split no-margin>
 ![[UART module.png|400]]
-![[esp32 pinout.png]]
+![[pinout MSP430G2ET.png|500]]
 </split>
 
-
----
-![[ESP32 C3 super mini pinout.jpeg]]
-
+[MSP430G2553 LaunchPad™ Development Kit](https://www.ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939)
 
 ---
 解釋：什麼是GPIO\
@@ -231,11 +236,20 @@ int32_t parseTwosComplement(String binary) {
 ```
 
 ---
+[MSP430 Nothing on Serial Monitor using Energia - MSP low-power microcontroller forum - MSP low-power microcontrollers - TI E2E support forums](https://e2e.ti.com/support/microcontrollers/msp-low-power-microcontrollers-group/msp430/f/msp-low-power-microcontroller-forum/382391/msp430-nothing-on-serial-monitor-using-energia)
+
+---
+今天教的架構比較困難，許多同學都遇到了無法使用Serial.println()出自己想要的東西，這是因為需要同時使用Hardware UART and Software UART，因此我們一步一步來，先使用Hardware UART就好，請所有人確保下週二時能做到影片中的輸入編碼解碼，而架構圖中的依然是我們幾個禮拜後的目標，
+
+---
+[[MSP430_class2_HW.pdf]]
+[[MSP430_class2_HW.mp4]]
+[[MSP430_Jumper_setup.jpg]]
+
+---
 評分標準：
 diagram畫法：
 - 20% 有完成15以上，分成15~20
 - 20% 
 - 10% 有完成就有 7~10
 - 50% 有無完成看檢查
-
----
