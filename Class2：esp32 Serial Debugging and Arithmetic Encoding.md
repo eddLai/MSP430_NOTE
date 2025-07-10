@@ -135,7 +135,7 @@ String receivedString = "";
 
 void setup() {
     Serial.begin(BAUD_RATE);
-    Serial.println("MSP430 UART RX/TX Test Start (? baud)");
+    Serial.println("UART RX/TX Test Start (? baud)");
 }
 
 void loop() {
