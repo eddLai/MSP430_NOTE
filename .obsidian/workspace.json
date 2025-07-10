@@ -68,12 +68,12 @@
         "currentTab": 3
       },
       {
-        "id": "7d4d73e9353d2a81",
+        "id": "b79fa454085e2532",
         "type": "tabs",
         "dimension": 50,
         "children": [
           {
-            "id": "079df4eb42ab2d67",
+            "id": "72338c8ab3f42a78",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -232,7 +232,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "bf5ce038a7d0be36",
+  "active": "72338c8ab3f42a78",
   "lastOpenFiles": [
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "ESP32_Arduino_version.md",
