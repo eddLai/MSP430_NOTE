@@ -100,19 +100,6 @@ digitalWrite(pinMapping[i], LOW);
 ```
 
 ---
-# CCS
-[MSP430F2xx, MSP430G2xx Family](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1741352433148#page=49.09)
-```C++
-#include <msp430.h>
-#define a BIT1
-#define b BIT2
-#define c BIT3
-#define d BIT4
-#define e BIT5
-#define f BIT6
-#define g BIT7
-```
-
 
 | Register  |     |     |     |     |     |     |     |
 | --------- | --- | --- | --- | --- | --- | --- | --- |
@@ -134,14 +121,11 @@ digitalWrite(pinMapping[i], LOW);
 輸出輸入Direction
 ![[PxDIR Register.png]]
 
-
-
 ---
 # Task
 注意沒有加電阻會導致顯示器被破壞，==一人只有一個==
 1. 用Energia: 完成0~9的計時，並用碼表檢查其準確性
-2. 用CCS:完成一樣的任務%%加分題：按下按鈕倒數計時%%
-3. ![[7 segment display with resistor.png|300]]
+2. ![[7 segment display with resistor.png|300]]
 
 ---
 # Related
