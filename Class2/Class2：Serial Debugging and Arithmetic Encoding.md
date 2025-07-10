@@ -63,7 +63,7 @@ Serial通訊 $\rightarrow$ Transmit and Receive\
 # Pinout
 <split no-margin>
 ![[UART module.png|400]]
-![[pinout MSP430G2ET.png|500]]
+![[esp32 pinout.png]]
 </split>
 
 [MSP430G2553 LaunchPad™ Development Kit](https://www.ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939)

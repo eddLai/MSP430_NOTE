@@ -53,11 +53,11 @@
         "currentTab": 2
       },
       {
-        "id": "ee6212e55dc397d8",
+        "id": "cd00c0563a897462",
         "type": "tabs",
         "children": [
           {
-            "id": "18d296512d8751e8",
+            "id": "a4ad4096f020c842",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -218,6 +218,7 @@
   },
   "active": "a4ffed01a678e4a3",
   "lastOpenFiles": [
+    "esp32 pinout.png",
     "pinout (copy).png",
     "ESP32 C3 super mini pinout.jpeg",
     "ESP32_Arduino_version.md",
@@ -257,7 +258,6 @@
     "common OPAMP.png",
     "SAC OP mode.png",
     "SAC DAC mode.png",
-    "MSP430 SAC.png",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "FET driver upload issue.md",
