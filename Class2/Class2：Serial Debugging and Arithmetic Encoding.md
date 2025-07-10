@@ -66,7 +66,10 @@ Serial通訊 $\rightarrow$ Transmit and Receive\
 ![[esp32 pinout.png]]
 </split>
 
-[MSP430G2553 LaunchPad™ Development Kit](https://www.ti.com/lit/ug/slau772a/slau772a.pdf?ts=1740642273939)
+
+---
+![[ESP32 C3 super mini pinout.jpeg]]
+
 
 ---
 解釋：什麼是GPIO\
