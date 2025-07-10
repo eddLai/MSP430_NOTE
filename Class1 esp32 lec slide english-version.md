@@ -122,9 +122,8 @@ OR運算后 = 0000 0011
 例如: 使用ISR讓UART發送不需要放在主循環中
 將發送和接收邏輯被封裝在ISR中，這是驅動程序的一部分，但它是由硬件中斷驅動的，不是由主循環驅動的。
 <!-- element style="font-size: 25px;text-align: left;"-->
-- [【MSP430教學-第十一課】UART串列通訊(六) – TX Interrupt + RX Interrupt 練習 – MSP430系列分享與教學 (wordpress.com)](https://msp430teaching.wordpress.com/2018/08/31/%E3%80%90msp430%E6%95%99%E5%AD%B8-%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AA%B2%E3%80%91uart%E4%B8%B2%E5%88%97%E9%80%9A%E8%A8%8A%E5%85%AD-tx-interrupt-rx-interrupt-%E7%B7%B4%E7%BF%92/)
-- [MSP430 Fundamentals Workshop (ti.com)](https://software-dl.ti.com/ccs/esd/training/workshop/ccsv9/ccs_msp430_fundamentals_workshop.html#requirements)
 <!-- element style="text-align: left;"-->
+
 ---
 ## Arduino Framework
 在Embbed C上加入一個抽象層使得容易上手。
