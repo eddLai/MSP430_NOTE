@@ -1,64 +1,84 @@
 ---
 bg: "[[NTKLab_white bg.png]]"
 ---
+
 <style>
     .reveal {
-        font-family: 'Times New Roman', 'Standard Kai', serif;
-        font-size: 40px;
-        text-align: left; /* Correction applied */
+        font-family: 'Times New Roman', '標楷體';
+        font-size: 30px;
+        text-align: left;
+        color: black;
+        background-size: cover;
+        background-position: center;
     }
-    .with-border {
-        border: 1px solid red;
-    }
+	.reveal h1,
+	.reveal h2,
+	.reveal h3,
+	.reveal h4,
+	.reveal h5,
+	.reveal h6 {
+	  font-family: 'Times New Roman', '標楷體';
+	  color: black;
+	  %%text-transform: lowercase%%;
+	  text-transform: capitalize;
+	}
+	.with-border{
+		border: 1px solid red;
+	}
 </style>
----
-<!-- element class="fragment fade-up" -->
-::: block <!-- element style="background-color: black; font-family: Time New Roman; font-size: 80px;" -->
-Class 1: An Introduction to Embedded Systems
-:::
+<grid drag="100 10" drop="0 40">
+Class1：An Introduction of Embbeded systems
+<!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
+</grid>
+
+<grid drag="50 10" drop="40 70">
+TA: 賴宏達\
+eddlai.be10@nycu.edu.tw
+<!-- element style="background-color: black;font-size: 40px;align: right; text-align: right;color: white"-->
+</grid>
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
 ---
-## Why Embedded Systems?
-%% 21:03 賴宏達 上課是啟發興趣而不是教你所有細節
-21:03 賴宏達 所以答案你們要自己找網路
-21:04 賴宏達 我也只比你們大一兩屆
-21:04 賴宏達 20歲
-21:04 賴宏達 所以你們可以輕而易舉的超越我 %%
-%% 等下很刺激，如果順利應該一下就解決，但是很常遇到硬體問題，跟電腦不相容 %%
-<div style="font-family: 'Standard Kai'; text-align: left;">
-What can embedded platforms do?<br>
-Examples: (==Remember to prepare the final project==)<br>
+
+一桌4~5人，
+wifi: Asus2.4G\
+密碼nycu87557573
+
+---
+# Why Embedded system ?
+<div style="font-family:標楷體; text-align: left;">
+嵌入式平台可以做什麼?<br>
+舉例：(==記得準備期末專題==)<br>
 </div>
 
-- [Laser Scanning Microscope from a Blu-ray Player](https://www.youtube.com/watch?v=xfuWbnMYOos)
-+ [RL Robot Dog](https://www.youtube.com/watch?v=bnKOeMoibLg)
-+ [Drone Camera](https://youtu.be/0ql20JKrscQ?si=gVeQsk3uIRJ7cHQK)
-+ [Remote Control](https://youtube.com/shorts/XpFgRPBc53Y?si=R1Bd89zEwpVDFSdN) + [Remote-Control Car](https://youtube.com/shorts/NbVywWpCxbY?si=TxnPLvtMHPK0F273)
+- [Laser Scanning Microscope from Blu-ray Player](https://www.youtube.com/watch?v=xfuWbnMYOos)
++ [RL Robot dog](https://www.youtube.com/watch?v=bnKOeMoibLg)
++ [Drone攝影機](https://youtu.be/0ql20JKrscQ?si=gVeQsk3uIRJ7cHQK)
++ [遙控器](https://youtube.com/shorts/XpFgRPBc53Y?si=R1Bd89zEwpVDFSdN)+[遙控車](https://youtube.com/shorts/NbVywWpCxbY?si=TxnPLvtMHPK0F273)
 + [FPV Camera](https://youtube.com/shorts/Ls8sYQf2LmA?si=BQWC_4mvnUI6BOg4)
 
-%% + Surgical Slide Table
-+ Robotic Arm
-+ Autonomous Vehicle
-+ Zip Line %%
-(Many projects above are open source) %% Explanation of open source %%
+%% + 滑台手術機
++ 機器手臂
++ 自走車
++ 溜索 %%
+(很多專案都是開源的，解釋opensource)
 <!-- element class="with-border" -->
 
 ---
-### Why MSP430?
-%% Suitable for medical devices %%
-- Ultra-low power consumption
-- Reducing the impact of EMI %% Electromagnetic interference %%
-- Extending battery life
-- Permanent safety fuse %% Protection from electrical faults %%
-- Bootloader with 256-bit password protection
-- Built-in RTC for time tracking and sleep wake-up
-<!-- element style="font-family: 'Standard Kai'; font-size: 40px;"-->
+# Why MSP430?
+%% 適合醫材 %%
+真正的工業級應用(舉例：其ADC vs ESP32)
+- 超低功耗
+- 降低EMI的影響%% 電磁干擾 %%
+- 延長電池壽命
+- 永久安全容絲%% 免受電器故障影響 %%
+- 引導程序的256位密碼保護
+- 內建RTC用於時間追蹤以及睡眠喚醒
 
 <grid drag="80 20" drop="bottom" bg="gray">
 「MSP430 在 3V 系统中以 1MIPS 工作状态下只消耗电流约 250μA，而且它可以从 0.8μA 的 待机状态下在 1μs（F2xx 系列）内唤醒进入全速运行模式。」
 [利用超低功耗单片机 MSP430 作为系统伴随芯片 (ti.com)](https://www.ti.com/cn/lit/an/zhca117/zhca117.pdf?ts=1710052319647&ref_url=https%253A%252F%252Fwww.google.com%252F)
-<!-- element style="font-family: 標楷體; font-size: 25px; align: left; text-align: left;" -->
+<!-- element style="font-size: 25px;align: left; text-align: left;"-->
 </grid>
 
 ---
@@ -67,95 +87,93 @@ Examples: (==Remember to prepare the final project==)<br>
 </split>
 
 ---
-## Development Environment: Ti Code Composer Studio (CCS)
-Refer to：==**[[下載及安裝TI MSP 430 CCS程式的步驟.pdf|Link]]**==
+## 開發環境：Ti CCS
+參考：[[下載及安裝TI MSP 430 CCS程式的步驟.pdf]]
 ![[CSS IDE.png]]
-The CSS environment compiler helps ensure minimal power consumption, one of its benefits.
+CSS環境編譯器會幫忙確保最低功耗，好處之一。
 
 ---
-## What's Embedded C?
-Standard C language is designed for computers with high computational power, meaning those with operating systems, such as Mac, Windows, Linux. However, using it on a microcontroller requires various optimizations.
-Special syntax includes:
+# Whtat's Embedded C
+標準C語言是寫給高運算能力的電腦用的，也就是說有操作系統，例如：Mac, Window, Linux
+但如果要在單晶片上使用就需要各種優化。
+一些特殊的語法，例如：
 
-- Declaration of `volatile`: to prevent optimization of variables
-- [[ISR code]] (#InternalLinks): `__interrupt`
+- volatile宣告：避免變量被優化
+- [[ISR code]]：`__interrupted`
 
 ---
-## Register Operations
-```C[1-2|3|4|5-6|8]
-To set the pin register to output state, the least significant bit needs to be 1.
-Any operation |= with 0x01 results in the least significant bit being 1.
+## 寄存器運算
+```yaml
+設定腳位寄存器為輸出狀態，需要使最低位為1
+任何|=與0x01的結果都是最低位1
 P1DIR    = 0000 0010
 0x01     = 0000 0001
 -------------------
-Result of OR operation = 0000 0011
+OR運算后 = 0000 0011
 
-Conversely, ^= with 0x01 calculates an output result that is inverted.
+則^=與0x01計算輸出結果是反向的
 ```
-Advanced library syntax like DriverLib provides: `GPIO_setOutputHighOnPin()`
+高級庫語法如DriverLib提供：`GPIO_setOutputHighOnPin()`
 
 ---
-## Interrupt Service Routines (ISR)
-Besides event notification, ISRs are used for system operation optimization (multitasking, priority handling).
-<!-- element style="font-size: 40px; text-align: left;" -->
-For example, using ISR allows UART transmission without needing to be placed in the main loop. The logic for sending and receiving is encapsulated within
+## 中斷服務例程（ISR）
+除了事件通知，也是用作系統運作的優化(多工、優先級處理)
+
+例如: 使用ISR讓UART發送不需要放在主循環中
+將發送和接收邏輯被封裝在ISR中，這是驅動程序的一部分，但它是由硬件中斷驅動的，不是由主循環驅動的。
 <!-- element style="font-size: 25px;text-align: left;"-->
 - [【MSP430教學-第十一課】UART串列通訊(六) – TX Interrupt + RX Interrupt 練習 – MSP430系列分享與教學 (wordpress.com)](https://msp430teaching.wordpress.com/2018/08/31/%E3%80%90msp430%E6%95%99%E5%AD%B8-%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AA%B2%E3%80%91uart%E4%B8%B2%E5%88%97%E9%80%9A%E8%A8%8A%E5%85%AD-tx-interrupt-rx-interrupt-%E7%B7%B4%E7%BF%92/)
 - [MSP430 Fundamentals Workshop (ti.com)](https://software-dl.ti.com/ccs/esd/training/workshop/ccsv9/ccs_msp430_fundamentals_workshop.html#requirements)
 <!-- element style="text-align: left;"-->
 ---
 ## Arduino Framework
-Adds an abstraction layer on top of Embedded C to facilitate ease of use. The development environment utilizes Visual Studio Code with PlatformIO as the editor, stemming from the collaboration with TI to develop the Energia framework.
-<!-- element style="font-size: 30px;text-align: left;"-->
-1. Find the extension by entering "PlatformIO".
+在Embbed C上加入一個抽象層使得容易上手。
+開發環境：vscode platformIO作為編輯器，源自與Ti合作發展的energia開發架構
+<!-- element style="text-align: left;"-->
+1. 找到Extension輸入platformIO
 ![[PlatformIO setup1.png|300]]
-2. After downloading, create a new project.
+2. 下載完成後，建立專案
 
 ---
-Origin [ENERGIA IDE, configuration, compiler or debugger | TI.com](https://www.ti.com/tool/ENERGIA?utm_source=google&utm_medium=cpc&utm_campaign=epd-null-null-44700045336317950_prodfolderdynamic-cpc-pf-google-tw_int&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gad_source=1&gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fi1f9KjQZuTs-9nKmrvwt_T5PpAgz3sXepCp46o8rye02Rng1G5fYkaAj8XEALw_wcB&gclsrc=aw.ds#downloads)
-
-you can also download .zip and click the 
-
-executable file inside
-<!-- element class="with-border" -->
-
----
-### File Structure
-<!-- element style="font-size: 70px;text-align: left;"-->
-
-- `.ini` file: A PlatformIO project configuration file, specifying the IDE compilation method.
+# 檔案架構
+- .ini檔案：PlatformIO項目配置檔案，提供IDE編譯方式
 ```
-[env:esp32-c3-devkitm-1]
-platform_packages = 
-	toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
-platform = espressif32
-board = esp32-c3-devkitm-1
+[env:lpmsp430g2231]
+platform = timsp430
+board = lpmsp430g2231
 framework = arduino
-monitor_speed = 9600
-build_flags = 
-	-D PIO_FRAMEWORK_ARDUINO_ENABLE_CDC
-	-D USBCON
-	-DARDUINO_USB_CDC_ON_BOOT=1
-	-DARDUINO_USB_MODE=1
-lib_deps = 
-	SPI
-
-[env:esp32doit-devkit-v1]
-platform = espressif32
-board = esp32doit-devkit-v1
-monitor_speed = 115200
-framework = arduino
-lib_deps = 
 ```
-- `src`: Contains the source code, such as `main.cpp`.
-- `.pio`: System-generated files, storing temporary files created during compilation and upload processes.
-- `.lib`: Stores third-party libraries, including a README file.
+- src: source code，存放main.cpp
+- .pio：系統產生文件，存放編譯和上傳過程中生成的臨時文件
+- .lib：儲存第三方庫，其中有README
 
-Operations: Build, Upload, Monitor, Clean.
+操作：Build、Upload、Monitor、Clean
 
 ---
-### Today's Tasks
-blink the led
+# 本日任務
+
+1. 設定Energia
+2. 完成Arduino framework的[[LED blinkin]]
+3. 下載Code Composer Studio開發環境
+4. 完成[[LED blinking.c]]
+5. 提供debug log：遇到的問題+解決方法圖(做完的可以先走，但是要報告一下這個)
+>wifi: Asus2.4G\
+passward: nycu87557573\
+多使用chatgpt，但是嵌入式的code需要自己找出特化的定義
+\
+<i class="fas fa-circle-notch fa-spin fa-2x"></i>
+建議各位以後的課程要先預習否則會做不完\
+覺得太簡單的可以私下找我，可以提高大家的難度
+
+網速不夠快的來前面插乙太
+
+---
+附件：
+- A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF / MSP-FET / eZ-FET)
+- [MSP-EXP430G2ET Quick Start Guide](https://www.ti.com/lit/pdf/swmu005)
+- [MSP430G2553 LaunchPad™ Development Kit (MSP-EXP430G2ET) User's Guide (Rev. A)](https://www.ti.com/lit/pdf/slau772)
+- [MSP430g2553 datasheet](https://www.ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1740213125627)
+- [MSP430G2553 User Guide](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1740236247753&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSP430G2553)
 
 ---
 Attachments1:
