@@ -218,6 +218,8 @@
   },
   "active": "a4ffed01a678e4a3",
   "lastOpenFiles": [
+    "pinout (copy).png",
+    "ESP32 C3 super mini pinout.jpeg",
     "ESP32_Arduino_version.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
@@ -256,7 +258,6 @@
     "SAC OP mode.png",
     "SAC DAC mode.png",
     "MSP430 SAC.png",
-    "pointer performance.png",
     "USCI overview.md",
     "Excalidraw/block diagrams.md",
     "FET driver upload issue.md",
