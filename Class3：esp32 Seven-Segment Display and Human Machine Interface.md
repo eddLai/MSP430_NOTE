@@ -90,7 +90,7 @@ eddlai.be10@nycu.edu.tw
 共陰極是為了減少電流消耗(每個腳位是有電流上限的)
 
 ---
-# Energia
+# Arduino
 ## Hint
 ```C++
 byte num[10][7] = ??
