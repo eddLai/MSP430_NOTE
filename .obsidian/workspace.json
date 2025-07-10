@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class2：Serial Debugging and Arithmetic Encoding"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Class2：esp32 Serial Debugging and Arithmetic Encoding"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "0508977e2b94ede7",
@@ -215,12 +214,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "39a0b1ee6c95d17c",
+  "active": "923aef234d11b4a7",
   "lastOpenFiles": [
-    "Class2：esp32 Serial Debugging and Arithmetic Encoding.md",
-    "Lec_list_ESP32_Arduino_version.md",
-    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Overview.md",
+    "Lec_list_ESP32_Arduino_version.md",
+    "Class2：esp32 Serial Debugging and Arithmetic Encoding.md",
+    "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
     "Class1 esp32 lec slide english-version.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
