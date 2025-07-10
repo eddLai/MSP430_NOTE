@@ -38,10 +38,7 @@ eddlai.be10@nycu.edu.tw
 </grid>
 <!-- slide bg="[[MSP430 HD pic.png]]" -->
 
-
 ---
----
-
 # Why Embedded System?
 
 - [Laser Scanning Microscope from Blu-ray Player](https://www.youtube.com/watch?v=xfuWbnMYOos)
@@ -54,7 +51,6 @@ eddlai.be10@nycu.edu.tw
 %% + Slide Rail Surgical Robo
 - Robotic Arm
 - Autonomous Vehicle
-    
 - Zipline %%  
     (Many projects are open source, explain what open source means)
     
@@ -67,8 +63,7 @@ Standard C language is designed for high-performance computing platforms, meanin
 But when used on microcontrollers, various optimizations are needed.  
 Some special syntax examples include:
 
-- `volatile` declaration: prevents variable optimization
-    
+- `volatile` declaration: prevents variable optimization    
 - [[ISR code]]: `__interrupted`
     
 
