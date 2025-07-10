@@ -64,27 +64,6 @@ wifi: Asus2.4G\
 (很多專案都是開源的，解釋opensource)
 <!-- element class="with-border" -->
 
----
-# Why MSP430?
-%% 適合醫材 %%
-真正的工業級應用(舉例：其ADC vs ESP32)
-- 超低功耗
-- 降低EMI的影響%% 電磁干擾 %%
-- 延長電池壽命
-- 永久安全容絲%% 免受電器故障影響 %%
-- 引導程序的256位密碼保護
-- 內建RTC用於時間追蹤以及睡眠喚醒
-
-<grid drag="80 20" drop="bottom" bg="gray">
-「MSP430 在 3V 系统中以 1MIPS 工作状态下只消耗电流约 250μA，而且它可以从 0.8μA 的 待机状态下在 1μs（F2xx 系列）内唤醒进入全速运行模式。」
-[利用超低功耗单片机 MSP430 作为系统伴随芯片 (ti.com)](https://www.ti.com/cn/lit/an/zhca117/zhca117.pdf?ts=1710052319647&ref_url=https%253A%252F%252Fwww.google.com%252F)
-<!-- element style="font-size: 25px;align: left; text-align: left;"-->
-</grid>
-
----
-<split wrap="2">
-![[記憶體規格.png|300]]![[時脈對電供圖.jpg|600]]
-</split>
 
 ---
 ## 開發環境：Ti CCS
@@ -123,7 +102,25 @@ OR運算后 = 0000 0011
 將發送和接收邏輯被封裝在ISR中，這是驅動程序的一部分，但它是由硬件中斷驅動的，不是由主循環驅動的。
 https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/
 <!-- element style="font-size: 25px;text-align: left;"-->
+```
+const byte ledPin = 13;
+const byte interruptPin = 2;  // input pin that the interruption will be attached to
+volatile byte state = LOW;  // variable that will be updated in the ISR
 
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(interruptPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(interruptPin), blink, CHANGE);
+}
+
+void loop() {
+  digitalWrite(ledPin, state);
+}
+
+void blink() {
+  state = !state;
+}
+```
 <!-- element style="text-align: left;"-->
 
 ---
