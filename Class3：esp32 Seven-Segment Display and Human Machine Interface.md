@@ -134,8 +134,8 @@ Input/output direction
 ![[PxDIR Register.png]]
 
 ---
-# Task
-Note: Not adding a resistor may damage the display. ==Only one per person==
+## Task
+Note: Not adding a resistor may damage the display. 
 Use Arduino: Complete counting from 0 to 9, and check the accuracy with a stopwatch
 
 ---
