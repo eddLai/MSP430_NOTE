@@ -210,25 +210,3 @@ void loop() {
   // 加分題：每次等1, 2, ... ~10秒，累積時間越來越長
 }
 ```
-
----
-Attachments 2:
-LED blinking in CSS
-```C
-#include <msp430.h>				
-
-void main(void)
-{
-	WDTCTL = ;		// stop watchdog timer，
-	//watchdog用於確認系統響應正常，密碼or控制位
-	P1DIR = ;		// configure P1.0 as output
-
-	;		// 分配一個變量，記得volatile to prevent optimization
-
-	while(1)
-	{
-			// toggle P1.0
-			// delay 使用迴圈
-	}
-}
-```
