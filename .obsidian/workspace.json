@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 27.046979865771814,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -13,12 +14,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class1：An Introduction of Embbeded systems"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d0b983d26d383919",
+        "type": "tabs",
+        "dimension": 72.95302013422818,
+        "children": [
+          {
+            "id": "7cf91a060ce6dbea",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -78,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -170,10 +189,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "7cf91a060ce6dbea",
   "lastOpenFiles": [
-    "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Overview.md",
+    "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",
     "BH1750FVI.pdf",
     "Class1/Class1：An Introduction of Embbeded systems.md",
