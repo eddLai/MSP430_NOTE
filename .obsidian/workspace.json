@@ -26,13 +26,18 @@
             "id": "3470453b0de08e55",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ESP32_Arduino_version.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ESP32_Arduino_version"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d0b983d26d383919",
@@ -106,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -198,7 +204,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3470453b0de08e55",
   "lastOpenFiles": [
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Overview.md",
