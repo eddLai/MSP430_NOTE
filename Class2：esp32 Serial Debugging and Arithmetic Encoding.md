@@ -69,6 +69,10 @@ Depending on difficulty and solution status:
 ---
 
 # Pinout
+<split no-margin>
+![[UART module.png|400]]
+![[esp32 pinout.png|500]]
+</split>
 
 ---
 
@@ -98,11 +102,8 @@ Homework: Polished diagram + Bug Log
 ---
 
 - PC Serial Code
-    
 - UART TTL Module to PC
-    
 - MSP430 Serial Code
-    
 - MSP430 Arithmetic Code
     
 
