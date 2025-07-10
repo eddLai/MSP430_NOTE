@@ -135,10 +135,7 @@ Input/output direction
 
 ---
 ## Task
-Note: Not adding a resistor may damage the display. 
-Use Arduino: Complete counting from 0 to 9, and check the accuracy with a stopwatch
 
----
 ![[7 segment display with resistor.png|300]]
 
 ---
