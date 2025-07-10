@@ -174,6 +174,8 @@ Operations: Build, Upload, Monitor, Clean
 
 ---
 Attachments1:  
+https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf
+
 LED blinking in Arduino
 
 ```Arduino
