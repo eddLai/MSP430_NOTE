@@ -1,3 +1,6 @@
+---
+bg: "[[NTKLab_white bg.png]]"
+---
 <style>
     .reveal {
         font-family: 'Times New Roman', 'Standard Kai', serif;
