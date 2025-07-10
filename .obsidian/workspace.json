@@ -53,11 +53,11 @@
         "currentTab": 2
       },
       {
-        "id": "f1cf56cd37cacabd",
+        "id": "30920463a1226214",
         "type": "tabs",
         "children": [
           {
-            "id": "2af27fb58300ccaa",
+            "id": "afcacc3ed9b930d4",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -218,6 +218,8 @@
   },
   "active": "a1eeea9d20db4968",
   "lastOpenFiles": [
+    "Class1/Class1 lec slide english-version.md",
+    "Class1 esp32 lec slide english-version.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
@@ -247,9 +249,7 @@
     "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/menu/CONTRIBUTING.md",
     "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/menu/README.md",
     "ESP32_Arduino_version.md",
-    "Class1 esp32 lec slide english-version.md",
     "temp.md",
-    "Class1/Class1 lec slide english-version.md",
     "Overview.md",
     "Class 4：polling and Interrupt, UART setup in CCS.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications.md",

@@ -61,12 +61,6 @@ eddlai.be10@nycu.edu.tw
 
 
 ---
-## 開發環境：Ti CCS
-參考：[[下載及安裝TI MSP 430 CCS程式的步驟.pdf]]
-![[CSS IDE.png]]
-CSS環境編譯器會幫忙確保最低功耗，好處之一。
-
----
 # Whtat's Embedded C
 標準C語言是寫給高運算能力的電腦用的，也就是說有操作系統，例如：Mac, Window, Linux
 但如果要在單晶片上使用就需要各種優化。
