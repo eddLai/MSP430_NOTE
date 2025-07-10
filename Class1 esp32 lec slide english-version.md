@@ -137,10 +137,25 @@ OR運算后 = 0000 0011
 ---
 # 檔案架構
 - .ini檔案：PlatformIO項目配置檔案，提供IDE編譯方式
-```
-[env:lpmsp430g2231]
-platform = timsp430
-board = lpmsp430g2231
+
+```C
+[env:esp32-c3-devkitm-1]
+platform_packages = 
+	toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
+platform = espressif32
+board = esp32-c3-devkitm-1
+framework = arduino
+monitor_speed = 9600
+build_flags = 
+	-D PIO_FRAMEWORK_ARDUINO_ENABLE_CDC
+	-D USBCON
+	-DARDUINO_USB_CDC_ON_BOOT=1
+	-DARDUINO_USB_MODE=1
+
+[env:esp32doit-devkit-v1]
+platform = espressif32
+board = esp32doit-devkit-v1
+monitor_speed = 115200
 framework = arduino
 ```
 - src: source code，存放main.cpp
