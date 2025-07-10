@@ -51,6 +51,22 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "0e3bfb33a017fe70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bf38db5e8d71735",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +215,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "bb44938927b6ee55",
+  "active": "4bf38db5e8d71735",
   "lastOpenFiles": [
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/README.md",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/_style.css",
