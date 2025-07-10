@@ -1,6 +1,6 @@
 - [[Class1 esp32 lec slide english-version]]
-- [[Class3：Seven-Segment Display and Human Machine Interface]]
 - [[Class2：Serial Debugging and Arithmetic Encoding]]
+- [[Class3：Seven-Segment Display and Human Machine Interface]]
 - [[Class 6：I2C Protocol & Light Sensor Module Applications_ESP32]]
 - [[Class 7：SPI Protocol – MicroSD Large File Handling_ESP32]]
 - [[Class 7：SPI Protocol – Ethernet_ESP32]]
