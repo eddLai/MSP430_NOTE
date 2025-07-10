@@ -127,7 +127,7 @@ Initial starter code:
 ```C++
 #include <Arduino.h>
 
-#define BAUD_RATE 4800
+#define BAUD_RATE 9600
 #define RX_PIN P1_1
 #define TX_PIN P1_2
 
@@ -135,7 +135,7 @@ String receivedString = "";
 
 void setup() {
     Serial.begin(BAUD_RATE);
-    Serial.println("MSP430 UART RX/TX Test Start (4800 baud)");
+    Serial.println("MSP430 UART RX/TX Test Start (? baud)");
 }
 
 void loop() {
