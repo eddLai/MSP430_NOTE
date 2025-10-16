@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "8bfbce64924f9f76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7e6eed669965ce9",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +176,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -172,9 +187,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "b7e6eed669965ce9",
   "lastOpenFiles": [
     "Overview.md",
+    "Class1/Class1：An Introduction of Embbeded systems.md",
     "Class3：esp32 Seven-Segment Display and Human Machine Interface.md",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/README.md",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/_style.css",
@@ -208,7 +224,6 @@
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
     "Class1 esp32 lec slide english-version.md",
     "Class1/Class1 lec slide english-version.md",
-    "Class1/Class1：An Introduction of Embbeded systems.md",
     "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/chalkboard/README.md",
     "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/chart/README.md",
     "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/customcontrols/README.md",
