@@ -4,66 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3facf6aa3b7779fa",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "923aef234d11b4a7",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
-            }
-          },
-          {
-            "id": "79dd1b4fa029c5fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lec_list_ESP32_Arduino_version.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lec_list_ESP32_Arduino_version"
-            }
-          },
-          {
-            "id": "bb44938927b6ee55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class3：esp32 Seven-Segment Display and Human Machine Interface.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Class3：esp32 Seven-Segment Display and Human Machine Interface"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "0e3bfb33a017fe70",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4bf38db5e8d71735",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -123,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -204,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -215,8 +172,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4bf38db5e8d71735",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Overview.md",
+    "Class3：esp32 Seven-Segment Display and Human Machine Interface.md",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/README.md",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/_style.css",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/blackboard.png",
@@ -243,9 +202,7 @@
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/menu/CONTRIBUTING.md",
     "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/menu/README.md",
     "Lec_list_ESP32_Arduino_version.md",
-    "Class3：esp32 Seven-Segment Display and Human Machine Interface.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
-    "Overview.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
     "Class2：esp32 Serial Debugging and Arithmetic Encoding.md",
     "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
