@@ -1,7 +1,11 @@
+[[Lec_list_ESP32_Arduino_version]]
+
+---
 [Formosa OJ 使用說明 - HackMD](https://hackmd.io/@truckski/BJMDPT4cb?type=view)
 [CCS Note Content | CCS 教學系列目錄. 入門系列文章 | by Hsueh-Ju Wu 吳學儒 | TI Code Composer Studio | Medium](https://medium.com/ti-tms320f2837xd/ccs-note-content-ccs-%E6%95%99%E5%AD%B8%E7%B3%BB%E5%88%97%E7%9B%AE%E9%8C%84-590100673feb)
 ## 大綱
 [2025MSP430完成狀況 - Google 試算表](https://docs.google.com/spreadsheets/d/1Q5lRjRBiwN_YJWAx8VdnXJqRml5ew77iE20tfGScxh0/edit?gid=0#gid=0)
+[[Lec_list_ESP32_Arduino_version]]
 
 >是為了讓課堂學到的東西，真的可以用到生活或者研究中。
 現在有AI幫忙寫code，怎麼brick-by-brick已經沒有那麼重要，重要的是你拿到一個好像可以用的東西，那他今天不能用了，你要怎麼debug。

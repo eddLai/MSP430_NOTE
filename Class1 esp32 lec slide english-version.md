@@ -1,0 +1,199 @@
+---
+bg: "[[NTKLab_white bg.png]]"
+---
+
+<style>
+    .reveal {
+        font-family: 'Times New Roman', '標楷體';
+        font-size: 30px;
+        text-align: left;
+        color: black;
+        background-size: cover;
+        background-position: center;
+    }
+	.reveal h1,
+	.reveal h2,
+	.reveal h3,
+	.reveal h4,
+	.reveal h5,
+	.reveal h6 {
+	  font-family: 'Times New Roman', '標楷體';
+	  color: black;
+	  %%text-transform: lowercase%%;
+	  text-transform: capitalize;
+	}
+	.with-border{
+		border: 1px solid red;
+	}
+</style>
+<grid drag="100 10" drop="0 40">
+Class1：An Introduction of Embbeded systems
+<!-- element style="background-color: black; font-size: 60px;align: left; text-align: middle;color: white"-->
+</grid>
+
+<grid drag="50 10" drop="40 70">
+TA: 賴宏達\
+eddlai.be10@nycu.edu.tw
+<!-- element style="background-color: black;font-size: 40px;align: right; text-align: right;color: white"-->
+</grid>
+<!-- slide bg="[[MSP430 HD pic.png]]" -->
+
+---
+# Why Embedded System?
+
+- [Laser Scanning Microscope from Blu-ray Player](https://www.youtube.com/watch?v=xfuWbnMYOos)
+- [RL Robot dog](https://www.youtube.com/watch?v=bnKOeMoibLg)
+- [Drone Camera](https://youtu.be/0ql20JKrscQ?si=gVeQsk3uIRJ7cHQK)
+- [Remote Control](https://youtube.com/shorts/XpFgRPBc53Y?si=R1Bd89zEwpVDFSdN)+[Remote Control Car](https://youtube.com/shorts/NbVywWpCxbY?si=TxnPLvtMHPK0F273)
+- [FPV Camera](https://youtube.com/shorts/Ls8sYQf2LmA?si=BQWC_4mvnUI6BOg4)
+    
+
+%% + Slide Rail Surgical Robo
+- Robotic Arm
+- Autonomous Vehicle
+- Zipline %%  
+    (Many projects are open source, explain what open source means)
+    
+
+---
+
+# What's Embedded C
+
+Standard C language is designed for high-performance computing platforms, meaning computers with operating systems such as Mac, Windows, and Linux.  
+But when used on microcontrollers, various optimizations are needed.  
+Some special syntax examples include:
+
+- `volatile` declaration: prevents variable optimization    
+- [[ISR code]]: `__interrupted`
+    
+
+---
+
+## Register Operations
+
+```yaml
+To set pin registers as output mode, the lowest bit must be set to 1
+Any result of |= with 0x01 will make the lowest bit 1
+P1DIR    = 0000 0010
+0x01     = 0000 0001
+-------------------
+OR result = 0000 0011
+
+Then ^= with 0x01 will toggle the lowest bit
+```
+
+Advanced libraries like DriverLib offer: `GPIO_setOutputHighOnPin()`
+
+---
+
+## Interrupt Service Routine (ISR)
+
+Besides event notification, ISR is also used for system optimization (multitasking, priority handling)
+
+Example: Using ISR to transmit UART without placing it in the main loop  
+Send and receive logic is encapsulated within ISR. This is part of the driver layer, but it is hardware-interrupt-driven, not main-loop-driven.  
+[https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/)
+
+```cpp
+const byte ledPin = 13;
+const byte interruptPin = 2;  // input pin that the interruption will be attached to
+volatile byte state = LOW;  // variable that will be updated in the ISR
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(interruptPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(interruptPin), blink, CHANGE);
+}
+
+void loop() {
+  digitalWrite(ledPin, state);
+}
+
+void blink() {
+  state = !state;
+}
+```
+
+---
+
+## Arduino Framework
+
+Adds an abstraction layer over Embedded C to make it easier to use.  
+Development Environment: VSCode + PlatformIO as the editor, based on the Energia framework developed in collaboration with TI
+
+1. Search for "PlatformIO" in Extensions  
+    ![[PlatformIO setup1.png|300]]
+    
+2. After downloading, create a new project
+    
+
+---
+
+# Project File Structure
+
+- `.ini` file: PlatformIO project configuration file, defines IDE build behavior
+    
+
+```C
+[env:esp32-c3-devkitm-1]
+platform_packages =
+	toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
+platform = espressif32
+board = esp32-c3-devkitm-1
+framework = arduino
+monitor_speed = 9600
+build_flags =
+	-D PIO_FRAMEWORK_ARDUINO_ENABLE_CDC
+	-D USBCON
+	-DARDUINO_USB_CDC_ON_BOOT=1
+	-DARDUINO_USB_MODE=1
+
+[env:esp32doit-devkit-v1]
+platform = espressif32
+board = esp32doit-devkit-v1
+monitor_speed = 115200
+framework = arduino
+```
+
+- `src`: source code folder, contains `main.cpp`
+    
+- `.pio`: system-generated folder, contains temporary build/upload files
+    
+- `.lib`: third-party libraries, may contain README
+    
+
+Operations: Build, Upload, Monitor, Clean
+
+---
+
+# Today's Tasks
+
+4. Complete [[LED blinking.c]]    
+5. Submit debug log: problem encountered + solution with screenshots
+
+
+---
+Attachments1:  
+https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf
+
+LED blinking in Arduino
+
+```Arduino
+#include <Arduino.h>
+
+#define LED
+
+// find pins_energia.h for more LED definitions
+  
+// initialization and it runs once when you press reset:
+void setup() {                
+  // initialize the digital pin as an output.
+  pinMode();     
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  // turn the LED on and off depending on voltage level
+  // Bonus: wait for 1, 2, ... ~10 seconds, accumulate longer delays
+}
+```

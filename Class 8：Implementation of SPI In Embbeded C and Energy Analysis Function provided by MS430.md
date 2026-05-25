@@ -11,3 +11,6 @@
 - SCK
 - MISO
 - MOSI
+
+---
+https://www.youtube.com/watch?v=UWPnVPkpN4w

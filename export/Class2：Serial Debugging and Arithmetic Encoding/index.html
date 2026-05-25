@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="Class1/MSP430 HD pic.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<style>
+    .reveal {
+        font-family: 'Times New Roman', '標楷體';
+        font-size: 30px;
+        text-align: left;
+        color: black;
+        background-size: cover;
+        background-position: center;
+    }
+	.reveal h1,
+	.reveal h2,
+	.reveal h3,
+	.reveal h4,
+	.reveal h5,
+	.reveal h6 {
+	  font-family: 'Times New Roman', '標楷體';
+	  color: black;
+	  ;
+	  text-transform: capitalize;
+	}
+	.with-border{
+		border: 1px solid red;
+	}
+</style>
+<div class="" style="position: absolute; left: 0%; top: 40%; height: 10%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+Class2：Serial Debugging and Arithmetic Encoding
+<!-- .element: style="background-color: black; font-size: 60px; align: left; text-align: middle; color: white" -->
+</div>
+
+<div class="" style="position: absolute; left: 40%; top: 70%; height: 10%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+TA: 賴宏達\
+eddlai.be10@nycu.edu.tw
+<!-- .element: style="background-color: black; font-size: 40px; align: right; text-align: right; color: white" -->
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Goal
+debug `$\rightarrow$`人機互動介面(User interface)\
+Serial通訊 `$\rightarrow$` Transmit and Receive\
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="platformIO monitor.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Task
+螢幕上顯示一組數字+透過UART送出隨機變化的一組補碼字串，要寫code進行計算，然後print出一樣的結果\
+依據難度，看大家的解題狀況：
+- Two's complements(可以用現有函式) 1分
+- Two's complements 1分
+- One's Complement 2分
+- IEEE-754 float 3分
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="Class2/Class2 result.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Pinout
+<split no-margin>
+<img src="UART module.png" alt="" style="width: 400px; object-fit: fill">
+
+<img src="esp32 pinout.png" alt="" style="object-fit: scale-down">
+
+</split>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="ESP32 C3 super mini pinout.jpeg" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+解釋：什麼是GPIO\
+什麼只有特定的腳位可以接特定的功能?
+<img src="Class2/MSPG2553.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="nearsight of MSPG2553.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="Class2/Device manager.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Framework Design
+(手繪很醜的架構圖, 一組提一個function block)\
+Homework: 漂亮的圖+Bug Log
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- PC Serial code
+- UART TTL module連接電腦
+- MSP430 Serial code
+- MSP430 Arithmetic code
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="Framework Design hand made.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Hint
+- 參考IDE提供的範例程式(開一次)
+- 補數的bit數量
+- RX, TX相反
+- baudrate一定要對
+-  歡迎使用 UART 測試工具
+請輸入 UART 端口 (如 COM3 / /dev/ttyUSB0): COM14(注意)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# USB
+- MSP Application UART1: 用來燒錄
+- MSP Debug interface
+<img src="Class2/Debug interface.png" alt="" style="width: 500px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+一開始就給
+```C++
+#include <Arduino.h>
+
+#define BAUD_RATE 4800  // UART 波特率
+#define RX_PIN P1_1  // 硬體 UART RX
+#define TX_PIN P1_2  // 硬體 UART TX
+
+String receivedString = "";  // 存儲接收的 UART 數據
+
+void setup() {
+    Serial.begin(BAUD_RATE);
+    Serial.println("MSP430 UART RX/TX 測試開始 (4800 baud)");
+}
+
+void loop() {
+    while (Serial.available()) {  // 如果有 UART 數據
+        char c = Serial.read();  // 讀取單個字元
+
+        if (c == '\n' || c == '\r') {  // 偵測換行符
+            Serial.println(receivedString);
+            receivedString = "";  // 清空字串，準備接收新的數據
+        } else {
+            receivedString += c;  // 累積字元
+        }
+    }
+}
+
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+11:30公布接線圖
+<img src="pinout connection of TTLmodule.png" alt="" style="width: 400px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## complete code
+```C++
+#include <Arduino.h>
+
+#define BAUD_RATE 115200  // UART 波特率
+#define RX_PIN 20  // 設定 UART RX (ESP32-C3)
+#define TX_PIN 21  // 設定 UART TX (ESP32-C3)
+// 使用 ESP32 UART2 (Serial1)
+
+// 全域變數
+String receivedString = "";  // 儲存接收到的字串
+int mode = 8;  // 預設 8-bit 解析模式
+
+int32_t parseTwosComplement(String binary);  // 函數前置宣告
+
+void setup() {
+    Serial.begin(BAUD_RATE);  // USB-UART，用於除錯
+    Serial1.begin(BAUD_RATE, SERIAL_8N1, RX_PIN, TX_PIN);  // UART2
+
+    Serial.println("🔹 ESP32-C3 UART Receiver");
+    Serial.println("請選擇解析模式:");
+    Serial.println("  1. 8-bit 二補數");
+    Serial.println("  2. 16-bit 二補數");
+    Serial.println("  3. 32-bit 二補數");
+    Serial.println("請輸入選項 (1~3):");
+}
+
+void loop() {
+    // 檢查是否有用戶透過 USB 輸入解析模式
+    if (Serial.available()) {
+        char inputChar = Serial.read();
+        if (inputChar >= '1' && inputChar <= '3') {
+            mode = (inputChar == '1') ? 8 : (inputChar == '2') ? 16 : 32;
+            Serial.print("✅ 已選擇 ");
+            Serial.print(mode);
+            Serial.println("-bit 二補數解析模式");
+        }
+    }
+
+    // 檢查是否從 **UART2** (Serial1) 接收到數據
+    while (Serial1.available()) {
+        char c = Serial1.read();
+
+        if (c == '\n' || c == '\r') {  // 偵測到換行，表示一組數據結束
+            if (receivedString.startsWith("TWO:")) {
+                String binaryStr = receivedString.substring(4);
+                int32_t result = parseTwosComplement(binaryStr);
+
+                // 顯示結果
+                Serial.print("🟢 解析結果: ");
+                Serial.println(result);
+                Serial1.print("🟢 解析結果: ");  // 也回傳結果到 UART2
+                Serial1.println(result);
+            }
+            receivedString = "";  // 清空字串，準備接收下一組數據
+        } else {
+            receivedString += c;  // 累積接收的字元
+        }
+    }
+}
+
+// 解析二補數
+int32_t parseTwosComplement(String binary) {
+    int bits = binary.length();  
+    int32_t value = 0;
+
+    // 轉換二進制字串為整數
+    for (int i = 0; i < bits; i++) {
+        value = (value << 1) | (binary[i] - '0');
+    }
+
+    // 處理負數 (如果最高位是 1)
+    if (binary[0] == '1') {  
+        value -= (1 << bits);  
+    }
+
+    return value;
+}
+
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+[MSP430 Nothing on Serial Monitor using Energia - MSP low-power microcontroller forum - MSP low-power microcontrollers - TI E2E support forums](https://e2e.ti.com/support/microcontrollers/msp-low-power-microcontrollers-group/msp430/f/msp-low-power-microcontroller-forum/382391/msp430-nothing-on-serial-monitor-using-energia)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+今天教的架構比較困難，許多同學都遇到了無法使用Serial.println()出自己想要的東西，這是因為需要同時使用Hardware UART and Software UART，因此我們一步一步來，先使用Hardware UART就好，請所有人確保下週二時能做到影片中的輸入編碼解碼，而架構圖中的依然是我們幾個禮拜後的目標，
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+MSP430_class2_HW.pdf
+MSP430_class2_HW.mp4
+Lec HW/class2 HW/MSP430_Jumper_setup.jpg
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-image="NTKLab_white bg.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+評分標準：
+diagram畫法：
+- 20% 有完成15以上，分成15~20
+- 20% 
+- 10% 有完成就有 7~10
+- 50% 有無完成看檢查
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+		  RevealMenu,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+		menu: {
+			loadIcons: false
+		}
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>

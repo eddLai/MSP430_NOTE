@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Class1/Class1：An Introduction of Embbeded systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Class1：An Introduction of Embbeded systems"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1d9748d3100f69d4",
@@ -159,7 +160,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -175,40 +175,49 @@
   "lastOpenFiles": [
     "Overview.md",
     "Class1/Class1：An Introduction of Embbeded systems.md",
-    "Class 4：polling and Interrupt, UART setup in CCS.md",
-    "Class 5：The Role of Data Structures RealWorld, DMA.md",
-    "Class ：Electronics LAB 0 OPAMP.md",
-    "common OPAMP.png",
-    "SAC OP mode.png",
-    "SAC DAC mode.png",
-    "MSP430 SAC.png",
-    "pointer performance.png",
-    "Stack pointer.png",
-    "memory map.png",
-    "ISR location.png",
-    "interrupt example1.png",
-    "polling example1.png",
-    "MSP430F2xx, MSP430G2xx Family.pdf",
+    "Class3：esp32 Seven-Segment Display and Human Machine Interface.md",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/README.md",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/_style.css",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/blackboard.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-black.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-blue.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-green.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-orange.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-purple.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-red.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/boardmarker-yellow.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/chalk-blue.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img/chalk-green.png",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/img",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/plugin (copy).js",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/style.css",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard/plugin.js",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chalkboard",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chart/README.md",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chart/plugin.js",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chart/chart.min.js",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/chart",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/customcontrols/README.md",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/customcontrols/plugin.js",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/menu/CONTRIBUTING.md",
+    "export/Class3：esp32 Seven-Segment Display and Human Machine Interface/plugin/menu/README.md",
+    "Lec_list_ESP32_Arduino_version.md",
     "Class3/Class3：Seven-Segment Display and Human Machine Interface.md",
     "Class2/Class2：Serial Debugging and Arithmetic Encoding.md",
-    "Class 8：Implementation of SPI In Embbeded C and Energy Analysis Function provided by MS430.md",
-    "Class3.5：Functionalization and API, write your own library.md",
-    "MSP430G2553 LaunchPad™ Development Kit.pdf",
-    "MSP datasheet (Rev. J).pdf",
-    "Lec HW/~$P430_class1.docx",
-    "Lec HW/MSP430_class3.5.pdf",
-    "Lec HW/~WRL1653.tmp",
-    "Lec HW/~WRD1638.tmp",
-    "Lec HW/~WRL2348.tmp",
-    "Lec HW/~WRD2344.tmp",
-    "Lec HW/~WRL0995.tmp",
-    "USCI overview.md",
-    "Excalidraw/block diagrams.md",
-    "FET driver upload issue.md",
-    "Class 6：I2C Protocol & Light Sensor Module Applications.md",
-    "Class2/pinout.md",
-    "Class2/Class2 UART driver.md",
+    "Class2：esp32 Serial Debugging and Arithmetic Encoding.md",
+    "Class 6：I2C Protocol & Light Sensor Module Applications_ESP32.md",
+    "Class1 esp32 lec slide english-version.md",
     "Class1/Class1 lec slide english-version.md",
-    "Class1/LED blinkin.md"
+    "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/chalkboard/README.md",
+    "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/chart/README.md",
+    "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/customcontrols/README.md",
+    "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/menu/CONTRIBUTING.md",
+    "export/Class2：Serial Debugging and Arithmetic Encoding/plugin/menu/README.md",
+    "temp.md",
+    "Class 4：polling and Interrupt, UART setup in CCS.md",
+    "Class 6：I2C Protocol & Light Sensor Module Applications.md",
+    "Class 7：SPI Protocol – MicroSD Large File Handling_ESP32.md",
+    "Class 9：ADC and DSP tool_ESP32.md",
+    "Class 7：SPI Protocol – Ethernet_ESP32.md"
   ]
 }
