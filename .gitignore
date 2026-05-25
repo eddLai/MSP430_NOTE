@@ -1,8 +1,10 @@
 # Ignore Obsidian cache files
 .obsidian/cache/*
 
-# Ignore Obsidian workspace files
-*.obsidian/workspace
+# Ignore Obsidian workspace files (local UI state — causes merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace
 
 # Ignore any backup files
 *.bak
